@@ -1,0 +1,62 @@
+---
+layout: post
+title: Úvod
+date: '2020-09-28 18:16:56'
+tags:
+- hash-wordpress
+- hash-import-2023-08-28-13-25
+---
+
+Ve výstavbě  
+ Hej já to chápu, že to tu furt nefunguje, ale já na tom dělám… fakt!Není jednoduché poladit všechny ty krámy na pozadí a proto stránky vypadají, tak jak vypadají….Připoj se na TeamSpeak, ten funguje jak dycky.  
+[  
+ Server ⚠ ]( __GHOST_URL__ /server)
+
+<!-- .container -->  
+<!-- .overlay -->
+
+Blog  
+ …poslední žgrindy co jsem si ublognul 🤤
+
+[![](http://192.168.20.2/wordpress/wp-content/uploads/2020/10/legacy-480x480.jpg)]( __GHOST_URL__ /2020/10/19/jak-prevest-uefi-zpet-na-legasy-bios-na-windows-78-a-10/)
+
+[Jak převést UEFI zpět na Legasy BIOS (Windows 7,8 a 10)]( __GHOST_URL__ /2020/10/19/jak-prevest-uefi-zpet-na-legasy-bios-na-windows-78-a-10/)
+
+19. 10. 2020 [Windows]( __GHOST_URL__ /category/win/)[Číst]( __GHOST_URL__ /2020/10/19/jak-prevest-uefi-zpet-na-legasy-bios-na-windows-78-a-10/)
+
+[![](http://192.168.20.2/wordpress/wp-content/uploads/2020/09/Windows-XP-886x590-1-480x480.png)]( __GHOST_URL__ /2020/09/29/windows-xp-mode/)
+
+[Windows XP mode]( __GHOST_URL__ /2020/09/29/windows-xp-mode/)
+
+29. 9. 2020 [Windows]( __GHOST_URL__ /category/win/)[Číst]( __GHOST_URL__ /2020/09/29/windows-xp-mode/)
+
+[Český stream – koho sledovat na Twitch.tv]( __GHOST_URL__ /?p=503)
+
+28. 9. 2020 [Nezařazené]( __GHOST_URL__ /category/nezarazene/)[Číst]( __GHOST_URL__ /?p=503)
+
+<!-- /row -->
+
+Naše servery  
+ Servery výlučně pro naši friends of friends komunitu jsou ti plně k dispozici.
+
+![](http://192.168.20.2/wordpress/wp-content/uploads/2020/09/steam.jpg)
+
+Herní servery  
+ Tady se setkáme
+
+![](http://192.168.20.2/wordpress/wp-content/uploads/2020/09/TeamSpeak-886x590-1.jpg)
+
+Komunikační servery  
+ Naše doupě
+
+<!-- /row -->
+
+Něco nefunguje?  
+ Pokud jsi zaznamenal výpadek, tak jej můžeš mrknout na stav serverů, jestli není chyba u tebe a pokud ne, tak musíš počkat, protože my už na tom určitě usilovně pracujeme. Kappa  
+[  
+ Server Status 🟢 ](https://status.maxxx.cz/)
+
+<!-- .container -->  
+<!-- .overlay -->
+
+<!--kg-card-end: html-->

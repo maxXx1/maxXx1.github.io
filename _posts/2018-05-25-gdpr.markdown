@@ -1,0 +1,25 @@
+---
+layout: post
+title: GDPR
+date: '2018-05-25 14:32:53'
+tags:
+- hash-wordpress
+- hash-import-2023-08-28-13-25
+---
+
+Dnešním dnem vstupuje v platnost nařízení o ochraně osobních údajů (GDPR), které způsobí, že se nyní v kyberprostoru budete cítit o 106 procent bezpečněji. Z tohoto zařízení pro vás vyplývá následující důležité právní ujednání:
+
+> _„Lorem ipsum maxXx dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.“_
+
+Tato suchá právní formulace by se v hovorové češtině dala shrnout takto:
+
+- Vaše osobní údaje jsou mi u prdele
+- Pokud nechcete, abych nakládal s vašimi osobní údaji, neposílejte mi je
+
+Pokud jste se na tuto stránku dívali déle než 10 sekund, s tímto ujednáním automaticky souhlasíte.
+
+Děkuji vám za pozornost a tady máte za odměnu obrázek lenochoda
+
+<figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="407" height="424" src="http://192.168.20.2/wordpress/wp-content/uploads/2020/10/lenochod.jpg" alt="" class="wp-image-4479" srcset=" __GHOST_URL__ /content/images/wordpress/2020/10/lenochod.jpg 407w, __GHOST_URL__ /content/images/wordpress/2020/10/lenochod-288x300.jpg 288w" sizes="(max-width: 407px) 100vw, 407px"></figure>
+
+<!--kg-card-end: html-->

@@ -1,0 +1,77 @@
+---
+layout: post
+title: Diablo II dostalo patch 1.14d
+date: '2016-03-11 15:52:05'
+tags:
+- battlenet
+- diablo
+- lod
+- hash-wordpress
+- hash-import-2023-08-28-13-25
+---
+
+Diablo II vč. datadisku Lord of Destruction dostává po dlouhých pěti letech nový patch. Ano slyšíte dobře.&nbsp;Poslední patch byl vydán 27. října 2011 a po všech stránkách vypadal jako finální. Já osobně již žádný další neočekával.
+
+Proto mě velmi překvapilo včerejší oznámení patche 1.14a na [Battle.net fóru](http://us.battle.net/en/forum/topic/20742864181), který byl doprovázen zprávou od vývojářů:
+
+> _Na světě je i dnes velká komunita okolo Diablo II. Děkujeme, že hrajete a zabíjíte (démony) s námi. Dnes začala éra, kdy Diablo II může běžet na moderních platformách, ale tímto naše práce nekončí.  
+> Dobrodruhové, nashle v Sanctuary._
+
+Pojďme se tedy mrknout co nám tento patch přináší:
+
+**Changelog:**
+
+- Nový instalační program pro Mac OSX (verze&nbsp;10.10 a 10.11)
+- Vylepšení detekce cheatů a hacků
+- Ke spuštění již není třeba XP mód  
+Opravena kompatibilita pro&nbsp;Windows 7, 8.1, a 10
+- První spuštění herního klienta migruje uložené charaktery, aby se předešlo problémům způsobeným dalšími změnami
+- Další drobné změny a vylepšení
+
+**Známé chyby:**
+
+- Mac 10.9 a starší, nejsou podporovány
+
+Mezi jedenáctou večerní a třetí hodinou ranní proběhne také restart Battle.net serveru s novým patchem.  
+**Žebříček bude i nadále zachován!** Jeho reset bude oznámen s dostatečným předstihem.  
+Nový patch prozatím nemohu nikde nalézt [ke stažení](https://us.battle.net/support/en/article/100638)&nbsp;pravděpodobně se bude stahovat po připojení k battle.net…
+
+### Patch 1.14b
+
+8. dubna byl vypuštěn opravný patch 1.14b. Aktualizace se nahraje automaticky po přípojení k Battle.net nebo jí můžete stáhnout a nainstalovat manuálně.
+
+[Diablo II](http://ftp.blizzard.com/pub/diablo2/patches/PC/D2Patch_114b.exe) nebo [Diablo II LoD](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_114b.exe)
+
+**Changelog:**
+
+- Korektní fungování Glide Wrapper&nbsp;na PC přidáním „-3dfx“ jako parametru spuštění zástupce
+- Opravena chyba v Mercenaries (“An Evil Force”)
+- Opravena chyba která způsobovala pád po&nbsp;“Save & Exit” na Macu
+- Počet snímků za sekundu byl fixně zablokován na maximálních 200 FPS, aby se předešlo přehřívání slabších strojů a nadměrné spotřebě baterie
+- Vytvořeny nové Německé instalátory opravující chyby v pátém aktu
+
+### Patch 1.14c
+
+18. května byl vypuštěn opravný patch 1.14c. Aktualizace se nahraje automaticky po přípojení k Battle.net nebo jí můžete stáhnout a nainstalovat manuálně.
+
+[Diablo II](http://ftp.blizzard.com/pub/diablo2/patches/PC/D2Patch_114c.exe) nebo&nbsp;[Diablo II LoD](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_114c.exe)
+
+**Changelog:**
+
+- Opraveny další 3 bugy související s pádem hry po&nbsp;“Save & Exit” na Macu
+- nGlide will now load on PC
+
+**Známé chyby:**
+
+- Stále se nedaří blokovat spam boty
+
+### Patch 1.14d
+
+7. června byl vypuštěn opravný patch 1.14d. Aktualizace se nahraje automaticky po přípojení k Battle.net nebo jí můžete stáhnout a nainstalovat manuálně.
+
+[Diablo II](http://ftp.blizzard.com/pub/diablo2/patches/PC/D2Patch_114d.exe) nebo&nbsp;[Diablo II LoD](http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_114d.exe)
+
+**Changelog:**
+
+- Přidáno nové mapování chyb (Blizzard Error and System Survey) pro lepší diagnostiku.
+<!--kg-card-end: html-->

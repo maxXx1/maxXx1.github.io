@@ -1,0 +1,41 @@
+---
+layout: post
+title: Jak jsem ke svému noži přišel?
+date: '2016-04-13 10:28:21'
+tags:
+- skin
+- steam
+- trade
+- hash-wordpress
+- hash-import-2023-08-28-13-25
+---
+
+Včerejšek byl opravdu zajímavý den. Jednak bylo hodně, ale opravdu hodně práce a na druhé straně jsem byl přilepený ke svému pracovnímu laptopu, protože si mě neustále někdo přidával na Steamu.
+
+Normálně tyhle invite okamžitě blokuji nebo nechám vyhnít, ale nyní si mě přidávali lidi, kteří vypadali po všech stránkách důvěryhodně (né jako boti) a hlavně mě žádali o přidání do přátel i v komentářích na mém profilu.
+
+**Vsuvka:** _V rámci Steamu lze s některými in-game předměty obchodovat. Tyto předměty mají svojí reálnou cenu a světe div se, nekteré jsou docela drahé!&nbsp;_
+
+Prvním obchodníkem&nbsp;byl nějaký [ukrajinský streamer](http://steamcommunity.com/id/PainKKK)&nbsp;– normálně se představil, zeptal jestli jsem ochoten obchodovat a měl zájem o můj&nbsp;**[SCAR-20 (StatTrak™) | Cyrex (Opotřebený)](http://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20SCAR-20%20%7C%20Cyrex%20%28Field-Tested%29)**. Zde to vše přestávalo dávat smysl. Můj [Steam Inventory Healper](https://chrome.google.com/webstore/detail/steam-inventory-helper/cmeakgjggjdlcpncigglobpjbkabhmjl)&nbsp;hlásil cenu 7€, ale on nabízel klíče v hodnotě cca. 20€. Zeptal jsem se ho tedy čím je můj Cyrex vyjímečný, že si ho na tolik cení. On mi tvrdil, že ho chce pro kontrakt, ve kterém je 10% šance na&nbsp;AK-47 | Fire Serpent. To sice vzhledem k absolutně rozdílným kolekcím nedává smysl, ale možné je všechno. Mrknul jsem na market&nbsp;a zjistil, že cena této zbraně od rána včerejšího dne vystřelila až na 20€. Řekl jsem mu tedy, že počkám co se s cenou bude dít následující den. Obratem mi nabídl [lehce opotřebený&nbsp;AK-47 | Vulcan](http://steamcommunity.com/market/listings/730/AK-47%20%7C%20Vulcan%20%28Minimal%20Wear%29)&nbsp;a rozloučil se.
+
+![offer](http://www.maxxx.cz/wp-content/uploads/2016/04/offer.png)
+
+Dalším obchodníkem byl [němec](http://steamcommunity.com/id/rico_w7), který měl zájem o stejný skin. To už mě opravdu začalo zajímat, tak jsem nakopnul google a začal zjišťovat, co je na tom skinu zvláštního. Mno zvláštností je, že Valve opravilo jeho patern pro opotřebení. Toho jsem si v minulosti všiml, protože můj opotřebený Cyrex měl v době pořízení black scope, obarvení scope v mém opotřebení jsem zaregistroval až relativně nedávno. To ale nemohlo být důvodem skokového nárustu ceny, protože ty zbraně na marketu ho měli také. Opět jsem se s ním rozloučil s tím, že počkám co se s cenou bude dít následující den. Tento člověk byl ale skutečně neodbytný. Ukazoval mi různé grafy skokového nárustu cen skinů na marketu a jejich strmý pád, nechtěl čekat ani minutu. Nakonec už velmi naštvaný mi napsal něco ve smyslu, že zítra ho budu ještě prosit, aby to vzal. Tak jsem mu slušně vysvětlil, že jsem dospělý a že si své peníze umím vydělat tudíž _„I dont fucking care the price of skins“_. Obratem poslal nabídku na **[lehce opotřebený&nbsp;M9 Bajonet&nbsp;(★) | Boreal Forest](http://steamcommunity.com/market/listings/730/%E2%98%85%20M9%20Bayonet%20%7C%20Boreal%20Forest%20%28Minimal%20Wear%29)**&nbsp;za 110€ a kladl mi na srdce abych o této nabídce přemýšlel.
+
+![offer2](http://www.maxxx.cz/wp-content/uploads/2016/04/offer2.png)
+
+Aby bylo jasno, já byl bezradný a nechybělo moc k tomu abych tuto nabídku přijal. Ale záplavu pozvánek do přátel rozčeřil [čech](http://steamcommunity.com/profiles/76561198132504113/). Jak jsem zjistil, že je to čech nebudu pitvat, ale zmíním ho, protože si to dle mého názoru zaslouží a tento příběh by mohl použít jako referenci či důkaz férovosti z jeho strany. Už ani nevím co mi nabídl, ale rozhodně se tato nabídka pohybovala pod hranicí té předešlé. Jako obhajobu svého odmítnutí jsem použil onen výše zmíněný argument s kontraktem na Fire Serpent. Byl jsem velmi rychle vyveden z omylu a bylo mi vysvětleno kde je zakopaný pes. Podotýkám, že **naprosto nezištně!**
+
+![vysvetlení](http://www.maxxx.cz/wp-content/uploads/2016/04/vysvetlení.png)
+
+Jak vidíte, důvodem zvýšené poptávky byla špatně nastavená cena na [Kickback](https://kickback.com/)u, jehož výkupní ceny používá gemblící portál [CSGOWild](http://csgowild.com/). Protáhl jsem tedy svůj Cyrex přes tento portál a ihned se snažil za ty jejich coiny nakoupit cokoliv v odpovídající cenové hladině. To ale nešlo! Po vykoupení předmětu musíte vsadit ve stupidní hazardní hře 30% jeho hodnoty. Tak jsem tedy začal hrát. Protočil jsem asi 60 coinů, ale byl jsem stále zhruba někde na&nbsp;těch 230 coinech, takže můžu říct, že se mi dařilo! Některé předměty nad 200 coinů vůbec koupit nešly a ty zbylé velmi rychle mizely, protože portál byl pod šíleným náporem. Koupil jsem tedy první nůž s hodnotou nad 200 a ten po několika chybných pokusech přišel!
+
+![vysledek](http://www.maxxx.cz/wp-content/uploads/2016/04/vysledek.png)
+
+Musím přiznat, že mám silný odpor k hazardu obecně. Když už nějak utrácet skiny (resp. virtuální měnu), tak si raději [vsadím na oblíbený team](http://www.maxxx.cz/2014/12/30/sazeni-na-zapasy-counter-strike-go/). Chtěl jsem tedy nakoupit i za zbylých cca. 30 coinů a se stránkou se rozloučit. Stránka&nbsp;byla ale pouhých 8 minut (kolem jedné hodiny odpolední) po přijetí mého opotřebeného **[M9 Bojonetu (★) | Crimson Web](http://steamcommunity.com/market/listings/730/%E2%98%85%20M9%20Bayonet%20%7C%20Crimson%20Web%20%28Field-Tested%29)**&nbsp;za cca. 176€ nedostupná a tak to také zůstalo až do pozdních večerních hodin.
+
+Docela to chápu. Tato chybička musela provozovatele stát hodně peněz a musela být neprodleně opravena. Večer jsem (již z domu) k této stránce znovu zasednul a dokoupil ještě opotřebený&nbsp;**[AK-47 | Aquamarine Revenge](http://steamcommunity.com/market/listings/730/AK-47%20%7C%20Aquamarine%20Revenge%20(Field-Tested))**&nbsp;za 18€ a zbrusu nový&nbsp;**[Desert Eagle | Kumicho Dragon](http://steamcommunity.com/market/listings/730/Desert%20Eagle%20%7C%20Kumicho%20Dragon%20(Factory%20New))**&nbsp;z nové kolekce za 13€. U těchto skinů jsem ale již pečlivě dbal na jejich hodnotu a vzhled. Zůstalo mi tam ještě na jednu hru, tak jsem zkusil… a samozřejmě prohrál, jak by taky ne – svoje štěstí jsem si vyčerpal na hodně dlouhou dobu dopředu.
+
+Jako poděkování jsem odeslal i nějaké drobnější skiny neznámému čechovi a touto formou bych mu chtěl ještě jednou poděkovat.
+
+<!--kg-card-end: html-->

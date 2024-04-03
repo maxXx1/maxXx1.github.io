@@ -1,0 +1,65 @@
+---
+layout: post
+title: Loading 2014... please wait...
+tags:
+- nezarazene
+- hash-wordpress
+- hash-import-2023-08-28-13-25
+---
+
+Rok 2013 byl rokem jako každým jiným, ale vždy je potřeba se ohlédnout, zhodnotit co se událo a co by se mohlo udát dále. Vše je velmi subjektivní a vyjadřuje to můj momentální pocit. Mnohé věci mě v uplynulém roce úplně minuly a jiným jsem odmítal věnovat pozornost. Pozastavím se pouze nad sedmi věcmi, protože sedmička je přeci šťastné číslo a štěstí do nového roku potřebují všichni. Budu to směřovat více méně na věci, které se točí kolem her a toho jak to vidím já…
+
+<!--more-->
+
+Článek obsahuje minimum informací a maximum mých pocitů, polemiku nad hrami jako takovými necháme na jindy. Tak pokud vás zajímá jak se k událostem minulého roku stavím já, tak pokračujte ve čtení…
+
+## **Monitory na kterých nejenom hrajeme…**
+
+Kdyby můj prehistorický&nbsp;LG W2043S-PF již konečně vypověděl svou službu plnou špatných pozorovacích úhlů a na stará kolena také problikávání.
+
+> Byl by rok 2013 jistě ten kdy bych bez ostychu pořídil nový „zobrazovač“. S výběrem by již nebyl takový problém a hlavně by to neudělalo průvan v peněžence…
+
+Téměř všichni výrobci monitorů do střední ba i nižší třídy již začali obsazovat kvalitnější IPS panely, setkali jsme se také s cenově přijatelnými monitory s velmi malou odezvou, určené především pro hráče a rozlišení 1080p je již prakticky standard… Tyto jevy posunuly monitory do dalšího levelu a pokud jde o mě samotného, více nepotřebuji… Rozlišení 4K a dotykové displaye mě do extáze nepřivádí…
+
+## **Procesory na které zapomínáme…**
+
+Procesor je opomíjená věc. Při kompletování sestavy na něj dbáme, avšak záhy potom na něj zapomínáme. Já ten svůj (od Intelu) kupoval nedávno, tehdy ještě pro architekturu Ivy Bridge. Říkal jsem si: „Proč čekat? Stejně to zas taková inovace nebude, ten Haswell“ Mno a to jsem se velmi spletl. Intel je společnost, která ne nadarmo investuje nepředstavitelné sumy do vývoje. A to jsou schopni nám i dokázat. Pokud někdo tvrdí, že výkon se neposunul směrem nahoru, má v jistém slova-smyslu pravdu, avšak dnes nerozhoduje výkon v počtu GHz nebo počet jader, ale obsažené technologie, minimalizace ztrátových hodnot a i spotřeba. Dokázali, že vybavit počítač s výkonným procesorem (architektury Haswell) grafickou kartou pod 1500 Kč je jako mávat rukou z okénka Ferrari, aby jelo ještě rychleji . Integrované grafiky v CPU se tedy zlepšily i na druhé straně barikády (AMD A-10), takže koupí low-end grafiky k procesoru poslední generace byste si vlastně uškodili.
+
+> Rok 2014 bude rokem kdy low-end grafiky zastoupí ty integrované se vší slávou…
+
+## **Valve a Steambox, který přesouvá bitevní pole do obývacích pokojů…**
+
+Valve ve mně tento rok probudilo velkou utopii se svým Steam boxem. Jak by to bylo krásné, kdyby si vlastní konzoli mohl doma složit dle svých finančních možností každý z nás. Nebyl limitován kompatibilitou uzavřeného hardware, který si přední výrobci konzolí schraňují jako oko v hlavě. Systém přizpůsobený ke hraní by byl zdarma a dostupný všem. Vedle televize by se vlastně nacházel takový malý počítač (což je již možné v dnešní době), který by zajišťoval hraní ekosystému Steamu přímo na něm (v případě výkonného stroje) či pomocí streamingu z herního počítače v rámci domácí sítě (v případě slabšího stroje). Pokud by vás přestalo bavit hraní, mohli byste Steam resp. BigPicture jednoduše minimalizovat a zpod něj by na vás vykoukla klasická linuxová distribuce pro kterou by nebyl problém přehrávat filmy se síťového disku, pořizovat záznam pomocí TV karty atd. atd. Možnosti linuxu jsou téměř neomezené a hlavně v rukou komunity.
+
+> Takže rok 2013 může být rokem kdy jsme řekli sbohem prémiovému předplatnému herních konzolí.
+
+## **Velcí hráči vs. komunita, kteří svádí boj za nás…**
+
+U Intelu bych rád vyzdvihl i jeho ochotu k potřebám komunity. Na konci roku zveřejnil více než 5000 stránkovou dokumentaci k jeho procesorům. Proč to udělal je zjevné. Chce tím podpořit Valve v budování nové konzole postavené na linuxu. Valve také nastartovalo tolik očekávané portování AAA her na linuxové platformy. A s tím související zájem výrobců grafických karet o optimalizaci na této platformě. Komunita kolem her (modifikace, předělávky atd.) již tolikrát ukázala, že když je nadšení pro věc, tak leze dokázat nemožné na počkání a zázraky do dvou dní… Avšak reverzní inženýrství u ovladačů grafických karet je z jiného světa…
+
+> Takže rok 2014 může být rokem linuxu na desktopu i konzolích, když už ten linux máme skoro i v pračce…
+
+## **Microsoft, který bojuje sám prosti sobě…**
+
+Microsoft je téma při kterém se sama od sebe odjišťuje zbraň v kapse. Zdá se mi, že tento gigant mrhá svým vlivem a potenciálem. Dělal všechno možné, ale nic nedotáhl do konce… Vydal systém který konečně posunul Windows někam dál, v něm načal mnoho věcí. Ale záhy potom vydal omluvu verze 8.1, která přidala zbytečné tlačítko kterého jsme si byli nuceni již odvyknout a naznačil, že v příštím roce hodlá přesunout dlaždice na mobily a tablety kam patří. Připadá mi jako by tento mezi krok (před slučováním, které Microsoft plánuje) byla taková reklama na jejich dotykové hračky. V osmých Windowsech leckoho překvapilo, že k hraní her můžete/musíte využít herní profil xbox. Opět hezká reklama na jejich konzoli, ale měl jsem doma i konzoli Xbox i Windows 8 a nestrhlo mě to k hromadnému nakupování her pro konzoli potažmo PC v jejich store. Narozdíl od Steamu, kde zakoupená hra (pokud podporuje) bude fungovat na Windows, Linux i Mac…
+
+> Rok 2014 bude možná rokem kdy Windows nebude hlavní herní platformou…
+
+## **Google, který to celé sleduje opodál a „nechce být zlý“…**
+
+Google v minulém roce házel všem kolem dokola, tak jako ostatní jemu, klacky pod nohy.. Komentáře na Youtube do G+, ale Youtube nepustíme do Windows Mobile, náš tolik populární Android uzavřeme co možná nejvíce, ale podporovat jednotlivé verze nebudeme více než 12 měsíců (jako kdyby nemohli vydat jednu pořádnou verzi) atd. atd. Z pohledu her nebyl Google nikdy moc výrazný avšak jeho android je ke hrám více než dobře uzpůsoben. Je všude, je populární a her je na něm nespočet… Ale konzole postavené na androidu si na sebe musí vydělávat na Kickstarteru, on sám žádné herní zařízení nepřichystal, ekosystém her načal něčím jako „Play Hry“ avšak bez další práce a reklamy (kterou on přeci umí) to proletělo bez povšimnutí a ani nebyl schopný v obchodu s aplikacemi udělat pořádek a hry konečně přesunout do sekce hry. (stále se s hrami potkáváme mezi aplikacemi i když záložka hry tam je).
+
+> Rok 2013 byl rokem kdy si Google hrál na policajty a zloděje, ale nám k haní ničím nepřispěl…
+
+## **Výrobci hardware, kteří vyzbrojí nás i naše nepřátele…**
+
+Ať již vezmeme na paškál Xbox One vs. PlayStation a jejich přechod na x86 architekturu. Nebo nVidia Shield, který naopak ukazuje herní potenciál architektury Tegra. Nebo dokonce Oculus Rift!&nbsp;Ve všech případech&nbsp;vidíme velké skoky kupředu. Staré generace narazily na své technologické stropy a ty nové nevytáhnou všechny esa z rukávu v prvním kvartále. Pokud vám připadalo, že jsem byl např. k Microsoftu velmi zlý, tak musím namítnout, že jejich hardwarové oddělení je v mých očích jakoby úplně jiná firma. Vždyť jejich Microsoft Mouse 2.0 mám doma dodnes a ten ten kuličkový hlodavec připojitelný přes sériový port stále funguje. 🙂 Vlajkové lodi každého výrobce nesou jasné poselství lidem, že kvalitní hardware není tak levný, jak se snaží záplava Čínských firem dokázat. Proto se nejenom při výběru herního vybavení v novém roce držte přísloví „Nejsem tak bohatý abych si mohl kupovat levné věci“.
+
+> Rok 2013 byl rokem výrobků, které budou na dlouhé roky udávat směr a možností hraní na dlouhé roky dopředu.
+
+Jak to vidíte vy? Nadchlo vás něco v minulém roce, nebo by jste si něco moc přáli do roku nového…  
+Zanechte prosím komentář…
+
+&nbsp;
+
+<!--kg-card-end: html-->
