@@ -1,0 +1,73 @@
+---
+layout: post
+title: Propojení dvou PC
+date: '2011-08-08T15:21:00.002+02:00'
+author: maxXx
+tags:
+- hardware
+modified_time: '2024-04-05T09:19:14.035+02:00'
+blogger_id: tag:blogger.com,1999:blog-4028789581122979524.post-7513376577520108131
+blogger_orig_url: https://omgmaxxx.blogspot.com/2011/08/propojeni-dvou-pc.html
+---
+
+V dnešní době je již nepřeberné množství možností jak přenést data ze dvou PC. Pokud se kvantum dat pohybuje v řádech GB je skutečně rychlejší přenášet přes flash disk či kopírovat z HDD na HDD. I když nejlevnější možnost propojení dvou PC je pomocí kříženého LAN kabelu, který doma má téměř každý.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://www.ktknet.cz/appdata/obrazy00/utp-kabel.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://www.ktknet.cz/appdata/obrazy00/utp-kabel.png" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<a name='more'></a><br />
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+Ať už kvůli přesunu dat, či v rámci domácí LAN párty ve dvou můžete využít tuto nejjednodušší možnost propojení dvou PC. Nové síťové karty již nevyžadují křížený kabel. Můžete tedy klidně použít kabel kterým jste připojení k routeru (domácímu internetu).&nbsp;</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+Takže co potřebujeme a jak budeme postupovat?</div>
+<div class="separator" style="clear: both; text-align: left;">
+<b>1.</b> Síťový kabel s konektory RJ-45 (takové ty průhledné kostky, jako u telefonního kabelu, ale o něco větší)</div>
+<div class="separator" style="clear: both; text-align: left;">
+<b>2.</b> Tento kabel připojíme do funkční a správně nainstalované síťové karty (předpokladem je aby síťová karta byla skutečně správně detekována v systému s aktuálním ovladačem)</div>
+<div class="separator" style="clear: both; text-align: left;">
+<b>3.</b> Nyní protože mezi počítači je pouze kabel, nikoliv směřovač (router), musíme na obou PC nastavit TCP/IP protokol.</div>
+<div class="separator" style="clear: both; text-align: left;">
+- Ve Windows: V <b>Ovládací</b>ch <b>Panel</b>ech v nastavení síťové karty (V různých verzích Windows se cesta k tomuto nastavení různí) musíte nastavit obě PC do stejného IP rozsahu.</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<b>Příklad: </b><br />
+<i>PC1: <br />
+IP: 1.1.1.1 <br />
+maska sítě: 255.255.255.0 <br />
+brána: 1.1.1.1 <br />
+<br />
+PC2: <br />
+IP: 1.1.1.2 <br />
+maska sítě: 255.255.255.0 <br />
+brána: 1.1.1.1 </i><br />
+<i><br />
+</i><br />
+<div>
+<b>4.</b> Na prvním či druhém PC si nastavíte jednu sdílenou složku (klik pravým - sdílet složku) pro výměnu dat či pouze otestování komunikace.</div>
+<div>
+<b>5.</b> Z druhého PC se následně přes tuto složku k počítači připojíš. Nejjednodušeji (pokud je nastaven stejná pracovní skupina) tak přes ikonu Šíť či Místa v Síti a počítače ve skupině, kde by se Vám měla daná složka zobrazit.</div>
+<div>
+<b>nebo</b></div>
+<div>
+Univerzální způsob: Otevřít tento počítač a do řádky Adresa zadáte adresu toho druhého PC (kterou jste před tím nastavili) ve tvaru  \\1.1.1.1 (nebo \\1.1.1.2).</div>
+<div>
+<b>6.</b> Poté co se zobrazí ona sdílená složka můžete vesele začít kopírovat či jinak komunikovat.</div>
+<div>
+<br /></div>
+<div>
+Pro každý případ bych však doporučil vypnout firewall, komunikujete pouze mezi dvěma stroji, takže se nemusíte bát nějakého viru či jiného smetí.</div>
+<div>
+<br /></div>
+<div>
+<b>Alternativa:</b></div>
+<div>
+Jiná možnost je například pořídit USB 2.0 kabel (rychlost až 480 Mbps) a komunikovat přes tento port, ale to jsem ještě netestoval.&nbsp;V současné době stojí např. u&nbsp;<a href="http://www.alza.cz/premiumcord-easy-transfer-link-pro-spojeni-dvou-pocitacu-usb-2-0-d251641.htm#popis">alza.cz</a>&nbsp;něco kolem 250 korun.</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://i.alz.cz/ImgW.ashx?fd=f3&amp;cd=FV207i" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://i.alz.cz/ImgW.ashx?fd=f3&amp;cd=FV207i" /></a></div>
+<div>
+<br /></div>

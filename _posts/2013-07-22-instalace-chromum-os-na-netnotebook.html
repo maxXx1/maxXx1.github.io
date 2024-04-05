@@ -1,0 +1,109 @@
+---
+layout: post
+title: Instalace Chromium OS na net/notebook
+date: '2013-07-22T11:07:00.014+02:00'
+author: maxXx
+tags:
+- Chrome OS
+- software
+modified_time: '2024-04-05T09:20:36.413+02:00'
+thumbnail: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfGCQZRH2QufFQMms3ZWviZjDW770IXu3plEgtw0A6gqF3dScL39GYxxDuuqqymwp3HBT92fyMfTmht7-PnV5zB0YfbaWcSUeQhF63KWTHFiz8tVNE1zKBbhbuuomI9tio46xC2JIzx3B3/s72-c/2013-02-28+10.53.51.jpg
+blogger_id: tag:blogger.com,1999:blog-4028789581122979524.post-4108825513602059414
+blogger_orig_url: https://omgmaxxx.blogspot.com/2013/07/instalace-chromum-os-na-netnotebook.html
+---
+
+<h2>
+Co je to Chromium OS...</h2>
+Chromium OS je volně šířená varianta komerčního Chrome OS od společnosti Google, který koncem roku 2009 uvolnil zdrojové kódy plánovaného Chrome OS pod svobodnou licencí. Prostředí Chromium dominuje webový prohlížeč a vše důležité odehrává v něm avšak prostředí je dle mého názoru další desktopová distribuce GNU/Linuxu, která z se z pohledu použitých prostředků nápadně podobá Debianu. Je postaven na souborovém systému ext3/ext4, jsou využity klasické unixové démony (např. cron) a grafická knihovna Xlib. Rychlý start zajišťuje <a href="http://upstart.ubuntu.com/" target="_blank">upstart</a>.<br />
+<b></b><br />
+<h2>
+Způsob používání...</h2>
+<table cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: left; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfGCQZRH2QufFQMms3ZWviZjDW770IXu3plEgtw0A6gqF3dScL39GYxxDuuqqymwp3HBT92fyMfTmht7-PnV5zB0YfbaWcSUeQhF63KWTHFiz8tVNE1zKBbhbuuomI9tio46xC2JIzx3B3/s1600/2013-02-28+10.53.51.jpg" style="margin-left: auto; margin-right: auto;"><img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfGCQZRH2QufFQMms3ZWviZjDW770IXu3plEgtw0A6gqF3dScL39GYxxDuuqqymwp3HBT92fyMfTmht7-PnV5zB0YfbaWcSUeQhF63KWTHFiz8tVNE1zKBbhbuuomI9tio46xC2JIzx3B3/s16000/2013-02-28+10.53.51.jpg" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Nabídka všech aplikací</td></tr>
+</tbody></table>
+Jak jsem již výše poznamenal, vše se v systému točí kolem webového prohlížeče a jeho (google) online služeb jako jsou vzdálený disk GoogleDrive (i když ukládat soubory lokálně je povoleno), GoogleDocuments (na této distribuci nenajdete žádný offline kancelářský balík typu LibreOffice), Gmail, Keep, Google Kalendář atd.<br />
+Pro získání nových aplikací a funkcí využíváte "Obchod Chrome", který obsahuje i aplikace spustitelné lokálně (offline) jako je např. Offline Gmail, poznámkový blok či kalkulačka...<br />
+Systém zvládne jednoduché úkony jako je například změnit hlasitost či jas display nebo připojit USB flash/externí disk a přehrát audio/video (na některém HW bývají problémy). Pro používání systému se ale striktně vyžaduje přihlášení pomocí google accuont (gmail login).<br />
+Verze Chrome OS je dodávána pouze s tzv. Chromebooky na které je optimalizována a nabízí větší kótu pro využití google drive, až 100GB...<br />
+<br />
+<h2>
+Minimální hardwarové požadavky...</h2>
+Minimální požadavky na a Váš hardware nejsou úplně striktně vymezeny. Někde jsem se dočetl, že leze systém spustit na 600Mhz procesoru s 256MB paměti RAM. Já však instaloval na netbooku <a href="http://acer.katalognotebooku.cz/notebook/acer-aspire-one-aoa110-ab" target="_blank">Acer Aspire ONE ZG5</a> verzi s <b>16GB SSD</b> diskem na ZIF rozhraní, procesorem <b>Intel Atom</b> první generace (bez HT) na <b>1.6Ghz</b> a <b>512MB operační paměti</b>. Který mi už díky bohu neříká pane.<br />
+<b><br /></b>
+<br />
+<h2>
+<b>Jak nainstalovat Chromium OS na harddisk...</b></h2>
+<br />
+<ul>
+<li>Nejprve je důležité stáhnout Chormium jako takové.Nejlépe ze stránek&nbsp;<a href="http://chromeos.hexxeh.net/" target="_blank">ChromeOS.hexxeh.net</a>. (Vanilla build)</li>
+</ul>
+Poté vytvořit USB bootovatelné médium se systémem Chromium. Popíšu postup pro Windows, avšak na stránce je popsán i postup pro Lunux a Mac OSX...<br />
+<ol>
+<li>Použijte WinRAR či <a href="http://www.7-zip.org/" target="_blank">7ZIP</a>&nbsp;k rozbalení .img souboru, který jste stáhli v předchozím kroku.</li>
+<li>Dále použijte např. <a href="https://launchpad.net/win32-image-writer/" target="_blank">Windows Image Writer</a>&nbsp;k vytvoření bootovatelného flashdisku (doporučuje se minimálně 4GB flash disk).&nbsp;</li>
+<li>Vyberte .img soubor a zapište ho na daný flash disk, kliknutím na "Write"</li>
+<li>Nyní máte vytvořen bootovatelný USB disk ze kterého můžete systém zavést (bez instalace) či nainstalovat na libovolné zařízení.</li>
+<li>Do počítače na který chcete systém instalovat (či jen vyzkoušet) vložte flash disk a restartujte ho.</li>
+<li>Pomocí funkční klávesy vyvolejte nabídku výběru zařízení ze kterého se má bootovat (např. na ASUS Eee se jedná o klávesu Escape) či v BIOSu (nejčastěji pomocí klávesy "Del") v záložce BOOT přenastavte pořadí zařízení ze kterých se má bootovat tak aby USB Drive/Key bylo na prvním místě.</li>
+<li>Po naběhnutí Chromium OS se přihlaste pomocí svého Google Accontu.</li>
+<li>V prostředí OS stiskněte kombinaci kláves Ctrl + Alt +&nbsp;F2 pro přechod do textového módu</li>
+<li>Zde se přihlaste pomocí loginu <span style="font-family: Courier New, Courier, monospace;">"<span style="color: #3d85c6;">chronos</span>"</span> a hesla <span style="font-family: Courier New, Courier, monospace;">"<span style="color: #3d85c6;">facepunch</span>"</span></li>
+<li><span style="font-family: inherit;">Dále napište příkaz </span><span style="font-family: Courier New, Courier, monospace;">"<span style="color: #3d85c6;">crosh</span>" </span><span style="font-family: inherit;">a podvrďte enterem.</span></li>
+<li><span style="font-family: inherit;">Nyní napište příkaz </span><span style="font-family: Courier New, Courier, monospace;">"<span style="color: #3d85c6;">install</span>"</span><span style="font-family: inherit;"> a potvrďte.</span></li>
+<li><span style="font-family: inherit;">Instalace se Vás už jen dotáže, jestli skutečně může začít s instalací a jestli jste srozuměn s tím, že přijdete o svá data na disku, pokud ano, potvrďte klávesou </span><span style="font-family: Courier New, Courier, monospace;">"<span style="color: #3d85c6;">y</span>"</span><span style="font-family: inherit;">.&nbsp;</span></li>
+<li><span style="font-family: inherit;">Možná budete znovu požádáni o zadání hesla ("facepunch")</span></li>
+<li><span style="font-family: inherit;">Po dokončení instalace vyjměte USB disk a restartujte počítač.</span></li>
+</ol>
+<div>
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNKBz7h7sKPsk_jum58YcdyqERM-Y6DqWiu-QemLqrYeX8Zb-dgVCs4gvMQN9WX1eIEY6w7a7hb5AMwZCIr1LGPWzbPMfu9wzDEo9oRE7DZCupfANBZZ8p9KrvRRXtxPxWB3dnGNTZNTax/s1600/Picture-of-Google-Chrome-OS-Netbook.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNKBz7h7sKPsk_jum58YcdyqERM-Y6DqWiu-QemLqrYeX8Zb-dgVCs4gvMQN9WX1eIEY6w7a7hb5AMwZCIr1LGPWzbPMfu9wzDEo9oRE7DZCupfANBZZ8p9KrvRRXtxPxWB3dnGNTZNTax/s16000/Picture-of-Google-Chrome-OS-Netbook.jpg" style="cursor: move;" /></a>A nyní můžete začít používat váš instantní spouštěč internetu s názvem Chromium OS. Existuje také speciálně upravená verze tohoto systému pro netbooky Dell, konkrétně modely Mini 9 a 10v, která se dá stáhnout na <a href="http://linux.dell.com/files/cto/" target="_blank">stránkách Dell</a>&nbsp;a mírně se liší v postupu instalace a UI.</div>
+<div>
+<br /></div>
+<div>
+<b>Na závěr pár obrázků...</b></div>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><br />
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgU-eZxXbDRpfZ_AjOdE1baM6DmdU1hhYrWncNPC-NqWUz6p2SWi-Qtug9X4wxwv2jUSqPT3rjdnkWpU4F_ye0t0I3UpLVBN9BG_NothC7SgGqOEAexualCoEMack33-kCOc8onKPdu67GU/s1600/2013-02-27+20.32.55.jpg" style="margin-left: auto; margin-right: auto; text-align: left;"><img border="0" height="240" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgU-eZxXbDRpfZ_AjOdE1baM6DmdU1hhYrWncNPC-NqWUz6p2SWi-Qtug9X4wxwv2jUSqPT3rjdnkWpU4F_ye0t0I3UpLVBN9BG_NothC7SgGqOEAexualCoEMack33-kCOc8onKPdu67GU/w320-h240/2013-02-27+20.32.55.jpg" width="320" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Nabídka funkcí a nastavení</td></tr>
+</tbody></table>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5ZEb7Om36-15vmJ4lXufiMVt6u5oeg6rkZHledLorWU2cFQFyE4IvIoRYe33cWaJur7tTKsSRemBKfhypW3WRE36Hd9DXQQxYojfWfmHg0I8LYJ1gpkUZqWZfLuHivgFBcOBJ2pTg2tCy/s1600/2013-02-27+20.34.08.jpg"><img border="0" height="240" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5ZEb7Om36-15vmJ4lXufiMVt6u5oeg6rkZHledLorWU2cFQFyE4IvIoRYe33cWaJur7tTKsSRemBKfhypW3WRE36Hd9DXQQxYojfWfmHg0I8LYJ1gpkUZqWZfLuHivgFBcOBJ2pTg2tCy/w320-h240/2013-02-27+20.34.08.jpg" width="320" /></a>&nbsp;<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNzZaBjWueU7iiE4V4m76SvoK1jI0xDQCqUg19tkYOXPqzeiM7MyJ1RLE_v_CpxYPDaJB-NPy6sz-68dc7FV6mdRDJx1CaqTaALM_CS-HB5-2LaWYUX9gtmoNzuW_KzTOjF0KRJ1XWgB13/s1600/2013-02-28+10.29.56.jpg"><img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNzZaBjWueU7iiE4V4m76SvoK1jI0xDQCqUg19tkYOXPqzeiM7MyJ1RLE_v_CpxYPDaJB-NPy6sz-68dc7FV6mdRDJx1CaqTaALM_CS-HB5-2LaWYUX9gtmoNzuW_KzTOjF0KRJ1XWgB13/s16000/2013-02-28+10.29.56.jpg" /></a></div>
+<h2 style="clear: both; text-align: left;">
+Aktualizace:&nbsp;Acer Aspire One D250</h2>
+<div>
+Dostal se mi do ruky větší bráška <b>ZG5 </b>jde konkrétně o netbook s označením D250 o proti výše zmíněnému modelu disponuje větším&nbsp;<b>10" WSVGA LCD LED</b> displayem a klasickým SATA HDD (s módem AHCI). Tento notebook jsem doplnil o <b>2GB DRR2 RAM </b>(Kingston)<b>&nbsp;</b>avšak dále vše naznačuje tomu, že CPU, VGA a nejspíše i chipset jsou stejné.</div>
+<div>
+<br /></div>
+<div>
+Tento notebook se dělal samozřejmě ve více variantách. Mě se naštěstí dostala do ruky varianta se wifi kartou od výrobce <b>Atheros</b>, která dle <a href="https://sites.google.com/a/chromium.org/dev/chromium-os/getting-dev-hardware/dev-hardware-list" target="_blank">oficiálního kompatibility listu</a>&nbsp;funguje korektně na Chromium OS, varianta s kartou od výrobce Broadcom není podporována.</div>
+<div>
+<br /></div>
+<div>
+Spuštění systému a instalace proběhla naprosto identicky jako v případě ZG5 (dle návodu výše). Systém byl opět velmi svižný a vypadal o něco lépe což dokazuje, že vývoj jde zlehka ku předu.&nbsp;</div>
+<div>
+Jediná věc, která se mi moc nezamlouvala bylo ovládání touchpadu, který reagoval velmi pomalu a při prudším pohybu dost agresivně akceleroval. Jinak mohu s klidným svědomím uznat, že i tento netbook je s Chromium OS použitelný!</div>
+<div>
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVdvS_wE-iiA_JoWT3K-VwxtUpM9C0bhZXxoY-2U-P9N29BwOOmscUpAmJEG4Zw8QD6XGTH0qH_nOOVRjQNFQ70zN88SZtwnJZ_mPyAiVUVtPHFQJs97IKGFHGS4Zryb_0RVLHAth6VmtB/s1600/20140304_205943_Android.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="150" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVdvS_wE-iiA_JoWT3K-VwxtUpM9C0bhZXxoY-2U-P9N29BwOOmscUpAmJEG4Zw8QD6XGTH0qH_nOOVRjQNFQ70zN88SZtwnJZ_mPyAiVUVtPHFQJs97IKGFHGS4Zryb_0RVLHAth6VmtB/w200-h150/20140304_205943_Android.jpg" width="200" /></a><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJCEGmh5kEPevFFHWCGW0p8mi-Gk5BULpn86D6FYh-w0XDhyphenhyphenf37EFuUXAJ34re71JWwDe3bc6hz0tJ4r3Idj3yEo_8S4kgnjV46WOYs-1UbA6NFPnowbJaSjNCajhwkk-akTgMBQi90qP6/s1600/20140304_210011_Android.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="150" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJCEGmh5kEPevFFHWCGW0p8mi-Gk5BULpn86D6FYh-w0XDhyphenhyphenf37EFuUXAJ34re71JWwDe3bc6hz0tJ4r3Idj3yEo_8S4kgnjV46WOYs-1UbA6NFPnowbJaSjNCajhwkk-akTgMBQi90qP6/w200-h150/20140304_210011_Android.jpg" width="200" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlm_oXiR7sY-GAuJV9gQiJwccd4hew-Znr68GFOZOnCXOCboRfERmh7R1auqEgyCrLvwLRxhJWk4MGjFdY6KxWo8AFeOiPg3eC2pKQtVnhVekqxXPLRq2tHN9p5SCVQTGDmWPRC8y4tP0O/s1600/20140304_210030_Android.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="150" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlm_oXiR7sY-GAuJV9gQiJwccd4hew-Znr68GFOZOnCXOCboRfERmh7R1auqEgyCrLvwLRxhJWk4MGjFdY6KxWo8AFeOiPg3eC2pKQtVnhVekqxXPLRq2tHN9p5SCVQTGDmWPRC8y4tP0O/w200-h150/20140304_210030_Android.jpg" width="200" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<h2 style="clear: both; text-align: left;">
+Dual boot s Chromium OS</h2>
+<div>
+V komentářích se objevil dotaz (za což velmi děkuji - je vidět, že to nepíšu sám pro sebe) na téma dual boot. Ten v případě ZG5 a jeho 16GB SSD nebyl absolutně realizovatelný. V případě D250 jsem si to na 350GB prostoru již mohl dovolit. Zatím se mi teda jako nejjednodušší řešení jeví.</div>
+<div>
+<ol>
+<li>Nainstalovat Chromium OS (protože instalace je těžce konfigurovatelná)</li>
+<li>Poté pomocí např. <a href="http://gparted.org/" target="_blank">Gparted</a>&nbsp;zredukovat místo pro Chromium OS</li>
+<li>Na nepřiděleném místě vytvořit nový oddíl</li>
+<li>Na prázdný oddíl nainstalovat další systém</li>
+<li>Zavaděč bych řešil např. pomocí <a href="http://cs.wikipedia.org/wiki/GRUB" target="_blank">GRUB</a>u, který s Chromium OS bezproblémově funguje.&nbsp;</li>
+</ol>
+</div>
+<div>
+<br /></div>

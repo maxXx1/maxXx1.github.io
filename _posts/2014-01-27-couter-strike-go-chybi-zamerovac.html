@@ -1,0 +1,51 @@
+---
+layout: post
+title: 'Counter Strike: GO chybí zaměřovač!'
+date: '2014-01-27T22:57:00.003+01:00'
+author: maxXx
+tags:
+- 'Couter Strike: GO'
+- hry
+modified_time: '2015-06-25T18:53:52.151+02:00'
+thumbnail: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDZQPYDSyYOBssZiFW2NL2jdt9STxfh56-sPCeKlawJMhf-b0VUuNiKtpHlbWjwtK6DJYJAy_zZ9ZeYzekLAUDgmAHZWhwK3gNtexSEbTejM-6y-t_7w6oh1VYy1DdbpXVt72w6hQ7Y9jn/s72-c/2014-02-08_00001.jpg
+blogger_id: tag:blogger.com,1999:blog-4028789581122979524.post-5930640822302135722
+blogger_orig_url: https://omgmaxxx.blogspot.com/2014/01/couter-strike-go-chybi-zamerovac.html
+---
+
+Je pravda, že této hře by prospěl mód ala Call of Duty, tedy bez zaměřovače, ale co když se to náhodou opravdu stane? Nedávno se mi podařilo zapnout Counter Strike: Global Offensive s tím, že jsem ve hře neviděl zaměřovač ani popisy spoluhráčů. Ze začátku jsem si to vysvětloval jako mód serveru. Sice trochu úchylný, protože tak se přeci hrát nedá, ale možné to je. Poté co jsem si uvědomil, že ostatní střílejí o dost přesněji než já jsem začal pátrat.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDZQPYDSyYOBssZiFW2NL2jdt9STxfh56-sPCeKlawJMhf-b0VUuNiKtpHlbWjwtK6DJYJAy_zZ9ZeYzekLAUDgmAHZWhwK3gNtexSEbTejM-6y-t_7w6oh1VYy1DdbpXVt72w6hQ7Y9jn/s1600/2014-02-08_00001.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDZQPYDSyYOBssZiFW2NL2jdt9STxfh56-sPCeKlawJMhf-b0VUuNiKtpHlbWjwtK6DJYJAy_zZ9ZeYzekLAUDgmAHZWhwK3gNtexSEbTejM-6y-t_7w6oh1VYy1DdbpXVt72w6hQ7Y9jn/s1600/2014-02-08_00001.jpg" height="360" width="640" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Bohužel jsem nezachytil hru s chybějícím zaměřovačem a HUD</td></tr>
+</tbody></table>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+Ano, vy už možná víte. Chybějící zaměřovač je chyba ve hře. Je způsobena neúplným načtením souboru "config.cfg", který má za úkol si pamatovat vaše nastavení hry. Resp. jeho část která udává nastavení zaměřovače, který jde směnit (typ) přebarvit, zvětšit i zmenšit. K tomu slouží tyto parametry.<br />
+<blockquote class="tr_bq">
+crosshair "1"<br />
+cl_crosshairscale "1200"<br />
+cl_crosshairalpha "255"<br />
+cl_crosshairusealpha "0"<br />
+cl_scalecrosshair "1"</blockquote>
+Protože nepomohlo ani prosté restartování hry/steamu, tak jsem přistoupil k řešení nejdrastičtějšímu.<br />
+<br />
+<ol>
+<li>Klik na hru druhým tlačítkem - zvolit "Vlastnosti"</li>
+<li>Záložka "Místní soubory" a "Procházet místní soubory"</li>
+<li>Najít soubor "config.cfg" v umístění "...\csgo\cfg"</li>
+<li>A smazat ho!</li>
+</ol>
+<div>
+<br /></div>
+<div>
+Po spuštění hry se vytvoří nový a i když nastavení konfigurace hra zapomene, tak zaměřovač je zpět.</div>
+<div>
+Tato chyba se bez zásahu do konfiguračního soboru (například laděním detailů a samotného zaměřovače) stává velmi zřídka, ale stává se. Pokud už jsme tedy u zaměřovačů a vy jste si právě smazali ten váš vyladěný (šlak aby mě trefil), tak si zpravte chuť na <a href="http://www.reddit.com/r/GlobalOffensive/comments/1ugdm1/post_your_crosshair_configs_with_screenshots/" target="_blank">redditu</a>, kde najdete nepřeberné množství různých nastavení zaměřovače. Nebo vyzkoušejte tento jednoduchý <a href="http://www.krisskarbo.com/csgocrosshair/#alpha=200/color=5/color_b=50/color_r=50/color_g=250/dot=0/gap=0/size=5/style=2/usealpha=1/thickness=0.5/outline=0/outline_draw=0" target="_blank">konfigurátor</a>. Pokud máte nějaké opravdu zajímavé nastavení zaměřovače, tak ho neváhejte zanechat zde v komentáři.&nbsp;</div>
+<div>
+<br /></div>
+<div>
+Děkuji! :)&nbsp;</div>
