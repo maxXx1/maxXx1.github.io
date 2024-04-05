@@ -14,7 +14,7 @@ timezone: Europe/Prague
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: maxXx.cz # the main title
+title: maxXx # the main title
 
 tagline: Sysadmin knowlage base # it will display as the sub-title
 
@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://maxXx1.github.io"
+url: ""
 
 github:
   username: maxXx1 # change to your github username
