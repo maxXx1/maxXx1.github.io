@@ -14,7 +14,7 @@ timezone: Europe/Prague
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: maxXx # the main title
+title: maxXx.cz # the main title
 
 tagline: Sysadmin knowlage base # it will display as the sub-title
 
