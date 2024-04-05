@@ -4,7 +4,7 @@ date: "2011-08-10"
 category: Hry
 tags: 
   - "Commandos"
-coverImage: "commandos-head.jpg"
+coverImage: ""
 ---
 
 Jediný způsob jak nainstalovat Commandos a jeho datadisk Beyond The Call of Duty na 64bitové verzi Windows 7 a dle všeho to platí i pro 64bitovou Vistu je ten který tedy popíšu. Je velmi důležité aby jste dodržely naprosto přesně všechny kroky mého návodu. Vyřešil jsem i problém s ukládáním a načítáním uložených her. Musí se to dělat tímto způsobem, protože 64bitové systémy nespustí ani instalátor (setup.exe), protože není kompatibilní s 64bitovými systémy.
