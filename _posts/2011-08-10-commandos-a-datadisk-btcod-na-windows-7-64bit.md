@@ -1,10 +1,9 @@
 ---
 title: "Commandos a datadisk BTCOD na Windows 7 (64bit)"
 date: "2011-08-10"
+category: Hry
 tags: 
-  - "commandos"
-  - "game"
-  - "windows"
+  - "Commandos"
 coverImage: "commandos-head.jpg"
 ---
 
@@ -22,7 +21,7 @@ _"C:Program Files (x86)Eidos InteractivePyroCommandos"_ 
 
 pro puvodni hru (Beyond The Enemy Lines)
 
-[![](images/commandos-slozka.jpg)](http://old.maxxx.cz/wp-content/uploads/2011/08/commandos-slozka.jpg)
+[![](images/commandos-slozka.jpg)](https://old.maxxx.cz/wp-content/uploads/2011/08/commandos-slozka.jpg)
 
 2\. Do vytvořené složky hry nebo datadisku zkopírujte soubory hry z CD.
 
@@ -79,7 +78,7 @@ V této chvíli už by vám měli obě dvě hry jít spustit, pokud se tak nedě
 
 5\. Poté klikněte na Soubor - Uložit jako a soubor pojmenujte "Pyro.reg" a uložte si ho třeba na plochu.
 
-[![](images/commandos-registry-1024x522.jpg)](http://old.maxxx.cz/wp-content/uploads/2011/08/commandos-registry.jpg)
+[![](images/commandos-registry-1024x522.jpg)](https://old.maxxx.cz/wp-content/uploads/2011/08/commandos-registry.jpg)
 
 6\. Spusťte "Pyro.reg". Vyskočí na Vás upozornění, že se chystáte udělat zápis do registru a že to může mít následky. To potvrdíte a poté by se Vám měla objevit oznámení o tom, že tato úprava byla provedena.
 
@@ -97,7 +96,7 @@ Pokud máte ve hře **problémy s ukládáním a načítáním hry**, tak postup
 .DEVELOP 1
 ```
 
-[![](images/commandos-uprava-cfg-1024x557.jpg)](http://old.maxxx.cz/wp-content/uploads/2011/08/commandos-uprava-cfg.jpg)
+[![](images/commandos-uprava-cfg-1024x557.jpg)](https://old.maxxx.cz/wp-content/uploads/2011/08/commandos-uprava-cfg.jpg)
 
 **Poznámka:** Pokud bude s přepisováním souboru "comandos.cfg" problém, tak stačí ve vlastnostech složky zakázat možnost "Pouze ke čtení".
 
@@ -107,4 +106,4 @@ Pokud máte ve hře **problémy s ukládáním a načítáním hry**, tak postup
 
 **Alternativa:**
 
-Pokud uvažujete o koupi této hry, tak zvažte digitální distribuci. Nejenom proto, že originální krabicová verze bude dnes již jen těžko k sehnání, ale digitální distribuce nabízí upravené verze her s podporou novějších operačních systémů a výrazné slevy. Pokud nakupujete v ekosystému Steam, tak je možno zakoupit celou [kolekci](http://store.steampowered.com/sub/4156/?snr=1_7_7_151_150_1), nebo je možnost zakoupit tzv. [Ammo Pack na GoG.com](http://www.gog.com/game/commandos_ammo_pack), kdy stáhnete instalční soubor bez [DRM](http://cs.wikipedia.org/wiki/Digital_rights_management) s hrou a datadiskem bez nutnosti instalovat herní klient (jako je Steam).
+Pokud uvažujete o koupi této hry, tak zvažte digitální distribuci. Nejenom proto, že originální krabicová verze bude dnes již jen těžko k sehnání, ale digitální distribuce nabízí upravené verze her s podporou novějších operačních systémů a výrazné slevy. Pokud nakupujete v ekosystému Steam, tak je možno zakoupit celou [kolekci](https://store.steampowered.com/sub/4156/?snr=1_7_7_151_150_1), nebo je možnost zakoupit tzv. [Ammo Pack na GoG.com](http://www.gog.com/game/commandos_ammo_pack), kdy stáhnete instalční soubor bez [DRM](https://cs.wikipedia.org/wiki/Digital_rights_management) s hrou a datadiskem bez nutnosti instalovat herní klient (jako je Steam).
