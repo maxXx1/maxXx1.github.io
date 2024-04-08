@@ -14,7 +14,7 @@ Jediný způsob jak nainstalovat Commandos a jeho datadisk Beyond The Call of Du
 pro datadisk (Beyond The Call of Duty) nebo \
 `C:\Program Files (x86)\Eidos Interactive\Pyro\Commandos`{: .filepath}
 pro puvodni hru (Beyond The Enemy Lines) \
-![Folder](/assets/img/2011-08-10-Commandos-a-datadisk-btcod-na-windows-7-64bit/commandos slozka.jpg)
+![Folder](/img/2011-08-10-Commandos-a-datadisk-btcod-na-windows-7-64bit/commandos slozka.jpg)
 
  - Do vytvořené složky hry nebo datadisku zkopírujte soubory hry z CD.
 **Pro Beyond The Call of Duty (datadisk):**
