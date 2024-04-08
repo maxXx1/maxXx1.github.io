@@ -18,10 +18,10 @@ pro puvodni hru (Beyond The Enemy Lines) \
 
  - Do vytvořené složky hry nebo datadisku zkopírujte soubory hry z CD.
 **Pro Beyond The Call of Duty (datadisk):**
-Zkopírujte soubory, které najdete je ve složce `comman\_mp` na disku CD do složky
+Zkopírujte soubory, které najdete je ve složce `comman_mp` na disku CD do složky
 `C:\Program Files (x86)\Eidos Interactive\Pyro\Commandos\Beyond the Call of Duty`{: .filepath}, kterou jste vytvořily v prvním kroku._
 
-**Jsou to tyto soubory:** (uvnitř složky `comman\_mp`{: .filepath})
+**Jsou to tyto soubory:** (uvnitř složky `comman_mp`{: .filepath})
 
 | Název | Formát |
 | :--- | ---: |
@@ -59,7 +59,7 @@ Zkopírujte soubory, které najdete je ve složce `COMMANDOS`{: .filepath} na di
 > Složku `video`{: .filepath} kopírovat nemusíte (např. z důvodu úspory místa), ale pokud tak neučiníte, budete potřebovat při spuštění mít vložené CD v mechanice.
 {: .prompt-tip }
 
--  Nastavte kompatibilitu spouštěcích souborů a to v datadisku u souboru `coman\_mp.exe`{: .filepath} a u základní hry u souboru `Comandos.exe`{: .filepath} na __Windows 98 / Windows Me__. \
+-  Nastavte kompatibilitu spouštěcích souborů a to v datadisku u souboru `coman_mp.exe`{: .filepath} a u základní hry u souboru `Comandos.exe`{: .filepath} na __Windows 98 / Windows Me__.\
     - To uděláte tak, že na soubor ve složce s hrou kliknete druhým tlačítkem pak Vlastnosti - záložka Kompatibilita - a tam vyberete "Tento program spustit v režimu kompatibility pro:" Windows 98 / Windows Me. 
     - V této chvíli už by vám měli obě dvě hry jít spustit, pokud se tak neděje, bude třeba udělat ještě manuálně **zápis do registrů** 
 
