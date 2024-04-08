@@ -4,9 +4,7 @@ date: "2011-08-10"
 category: Hry
 tags: 
   - "Commandos"
-Image: 
-  path: /assets/img/2011-08-10-Commandos-a-datadisk-btcod-na-windows-7-64bit/commandos.jpg
-  alt: commandos
+
 ---
 
 Jediný způsob jak nainstalovat Commandos a jeho datadisk Beyond The Call of Duty na 64bitové verzi Windows 7 a dle všeho to platí i pro 64bitovou Vistu je ten který tedy popíšu. Je velmi důležité aby jste dodržely naprosto přesně všechny kroky mého návodu. Vyřešil jsem i problém s ukládáním a načítáním uložených her. Musí se to dělat tímto způsobem, protože 64bitové systémy nespustí ani instalátor `setup.exe`{: .filepath}, protože není kompatibilní s 64bitovými systémy.
@@ -90,7 +88,7 @@ Windows Registry Editor Version 5.00
 
 -  Poté klikněte na Soubor - Uložit jako a soubor pojmenujte `Pyro.reg`{: .filepath} a uložte si ho třeba na plochu.
 
-![Registry](/assets/img/2011-08-10-Commandos-a-datadisk-btcod-na-windows-7-64bit/commandos-registry.jpg)
+![Registry](/img/2011-08-10-Commandos-a-datadisk-btcod-na-windows-7-64bit/commandos-registry.jpg)
 
 -  Spusťte `Pyro.reg`{: .filepath}. Vyskočí na Vás upozornění, že se chystáte udělat zápis do registru a že to může mít následky. To potvrdíte a poté by se Vám měla objevit oznámení o tom, že tato úprava byla provedena.
 -  Nyní by jste pro jistotu měli mít disk CD v mechanice (buďto ve fyzické nebo pouze na mountovaný obraz disku) a bezproblémově začít hrát.
@@ -107,14 +105,14 @@ Pokud máte ve hře **problémy s ukládáním a načítáním hry**, tak postup
 ```
 {: file='C:\Program Files (x86)\Eidos Interactive\Pyro\Commandos\OUTPUT\comando.cfg'}
 
-![Edit](/assets/img/2011-08-10-Commandos-a-datadisk-btcod-na-windows-7-64bit/commandos-uprava%20cfg.jpg)
+![Edit](/img/2011-08-10-Commandos-a-datadisk-btcod-na-windows-7-64bit/commandos-uprava%20cfg.jpg)
 
 > Pokud bude s přepisováním souboru `comandos.cfg`{: .filepath} problém, tak stačí ve vlastnostech složky zakázat možnost __Pouze ke čtení__.
 {: .prompt-tip }
 
 - soubor uložte a spusťte hru. Vše by mělo být v pořádku a Vy můžete začít hrát a vesele ukládat svůj herní postup.
 
-![Save](/assets/img/2011-08-10-Commandos-a-datadisk-btcod-na-windows-7-64bit/commandos-druhamise.jpg)
+![Save](/img/2011-08-10-Commandos-a-datadisk-btcod-na-windows-7-64bit/commandos-druhamise.jpg)
 
 **Alternativa:**
 

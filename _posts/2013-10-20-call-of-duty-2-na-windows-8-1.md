@@ -4,7 +4,7 @@ date: "2013-10-20"
 category: Hry
 tags: 
   - "COD2"
-coverImage: "waffen_ss_by_crowhitewolf-d3agp3e-1024x656-1.png"
+  
 ---
 
 _"Jak zprovoznit Call of Duty 2 na Windows 8 ?"_ Pokusil jsem dnes po nedávném upgrade Windows 8 na Windows 8.1 v mém případě verze Pro s Media Centrem nainstalovat Call of Duty 2 a zahrát si multiplayer. Avšak čekalo mě nemilé překvapení. Zprovoznění této hry na novějším operačním systému, než je ten pro který byla tato hra vydána (tj. Windows XP) byl vždy velký problém. Pamatuji si tak jsem přijel na turnaj do PGCC a od počítače k počítači létal vyděšený technik který nemohl COD2 korektně spustit na počítačích s Windows Vista. Je pravda, že na Windows Vista stejně jako na později vydaném Windows 7 stačilo hru spouštět s vyšším oprávněním (resp. oprávněním správce) a v režimu kompatibility pro Windows XP SP2 či SP3. Já se ale pokusil tuto hru na Windows 8 (později na všech bezplatných updatech tohoto systému) prvně spustit bez zásahu...
@@ -21,7 +21,7 @@ Stačí pouze **spustit instalaci ručně**. Tedy jít do "Tento počítač" a n
 
 Toto šlo na Windows 7 řešit pouze režimem kompatibility z **Windows XP (Service Pack 2)** a spuštěním **programu v režimu správce**. čehož docílíme kliknutím na ikonu zástupce na ploše druhým tlačítkem, dále Vlastnosti -> Kompatibilita
 
-![kompatibilita](/assets/img/2013-10-20-call-of-duty-2-na-windows-8-1/kompatibilita.png)
+![kompatibilita](/img/2013-10-20-call-of-duty-2-na-windows-8-1/kompatibilita.png)
 
 ### Problém s ovladačem zvukových karet Realtek HD Audio
 
@@ -34,7 +34,7 @@ Na Windows 8 je však ještě problém s ovladačem zvukových karet Realtek HD 
 5. Mělo by se tam objevit zařízení "**Směšovač stereo**"
 6. Na něj kliknete druhým tlačítkem a dáte "**povolit**"
 
-![zvuk](/assets/img/2013-10-20-call-of-duty-2-na-windows-8-1/zvuk.png)
+![zvuk](/img/2013-10-20-call-of-duty-2-na-windows-8-1/zvuk.png)
 
 ### Steam verze
 
@@ -60,7 +60,7 @@ Nyní se vám bude stávat, že ve hře bude vidět systémový kurzor myši a t
 4. Kliknete na něj druhým tlačítkem a vyberete možnost "**Nastavit prioritu**" - "**Vysoká**"
 5. Poté nezapomeňte vypnout správce úloh a vraťte se do hry...
 
-![priorita](/assets/img/2013-10-20-call-of-duty-2-na-windows-8-1/priorita.png "Task Manager")
+![priorita](/img/2013-10-20-call-of-duty-2-na-windows-8-1/priorita.png "Task Manager")
 
 > Toto nastavení bohužel musíte provádět po každém spuštění hry znovu (systém si ho nepamatuje)!
 {: .prompt-warning }
