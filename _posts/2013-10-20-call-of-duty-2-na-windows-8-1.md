@@ -9,7 +9,9 @@ image:
   alt: Call of Duty2  
 ---
 
-_"Jak zprovoznit Call of Duty 2 na Windows 8 ?"_ Pokusil jsem dnes po nedávném upgrade Windows 8 na Windows 8.1 v mém případě verze Pro s Media Centrem nainstalovat Call of Duty 2 a zahrát si multiplayer. Avšak čekalo mě nemilé překvapení. Zprovoznění této hry na novějším operačním systému, než je ten pro který byla tato hra vydána (tj. Windows XP) byl vždy velký problém. Pamatuji si tak jsem přijel na turnaj do PGCC a od počítače k počítači létal vyděšený technik který nemohl COD2 korektně spustit na počítačích s Windows Vista. Je pravda, že na Windows Vista stejně jako na později vydaném Windows 7 stačilo hru spouštět s vyšším oprávněním (resp. oprávněním správce) a v režimu kompatibility pro Windows XP SP2 či SP3. Já se ale pokusil tuto hru na Windows 8 (později na všech bezplatných updatech tohoto systému) prvně spustit bez zásahu...
+> "Jak zprovoznit Call of Duty 2 na Windows 8?" 
+
+Pokusil jsem dnes po nedávném upgrade Windows 8 na Windows 8.1 v mém případě verze Pro s Media Centrem nainstalovat Call of Duty 2 a zahrát si multiplayer. Avšak čekalo mě nemilé překvapení. Zprovoznění této hry na novějším operačním systému, než je ten pro který byla tato hra vydána (tj. Windows XP) byl vždy velký problém. Pamatuji si tak jsem přijel na turnaj do PGCC a od počítače k počítači létal vyděšený technik který nemohl COD2 korektně spustit na počítačích s Windows Vista. Je pravda, že na Windows Vista stejně jako na později vydaném Windows 7 stačilo hru spouštět s vyšším oprávněním (resp. oprávněním správce) a v režimu kompatibility pro Windows XP SP2 či SP3. Já se ale pokusil tuto hru na Windows 8 (později na všech bezplatných updatech tohoto systému) prvně spustit bez zásahu...
 
 ### Při vložení DVD do mechaniky se instalace (AutoPlay) vůbec nespustí a vrátí pouze chybu:
 
@@ -42,11 +44,14 @@ Na Windows 8 je však ještě problém s ovladačem zvukových karet Realtek HD 
 
 Pokud máte hru zakoupenu přes steam (Tato verze se od verze na DVD téměř v ničem neliší). **Tak musíte provést vše co je již výše popsáno!**  Nýbrž je tu ještě jeden problém. Při spuštění hry se zobrazí chybové hlášení:
 
+![Steam](/img/2013-10-20-call-of-duty-2-na-windows-8-1/find-steam.png)
+
 > "Application Error: Failed to find Steam"
 
-Tento problém má dvě možné řešení. Prvním řešením je: Stačí jít do složky ve které je nainstalován Steam, ta se nachází v `C:\Program Files (x86)\Steam`{: .filepath} a **překopírovat** z ní soubor `Steam.dll`{: .filepath} do složky s hrou, která se nachází v `C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 2`{: .filepath} - Toto řešení zprovozní hru bez Steam overlay (Alt+tab nefunkční).
+Tento problém má dvě možné řešení. 
+1. Prvním řešením je: Stačí jít do složky ve které je nainstalován Steam, ta se nachází v `C:\Program Files (x86)\Steam`{: .filepath} a **překopírovat** z ní soubor `Steam.dll`{: .filepath} do složky s hrou, která se nachází v `C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 2`{: .filepath} - Toto řešení zprovozní hru bez Steam overlay (Alt+tab nefunkční).
 
-Druhým řešením je: Přejí do složky kde se nachází soubor Steam.exe (`C:\Program Files (x86)\Steam`{: .filepath}) a nastavit mu parametr "Spustit program jako správce" ve vlastnostech, záložka kompatibilita. - Toto řešení zprovozní hru včetně Steam overlay a všech jeho funkcí.
+2. Druhým řešením je: Přejí do složky kde se nachází soubor Steam.exe (`C:\Program Files (x86)\Steam`{: .filepath}) a nastavit mu parametr __"Spustit program jako správce"__ ve vlastnostech, záložka kompatibilita. - Toto řešení zprovozní hru včetně Steam overlay a všech jeho funkcí.
 
 ### Pokud hrajete na notebooku se dvěma GPU
 
