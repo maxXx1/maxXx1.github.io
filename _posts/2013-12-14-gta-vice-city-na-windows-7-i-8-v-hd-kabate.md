@@ -6,7 +6,7 @@ tags:
 category: Hry
 image: 
   path: /img/2013-12-14-gta-vice-city-na-windows-7-i-8-v-hd-kabate/gta-dvd_foto.jpg
-  alt: GTA Vice City 
+  alt: GTA Vice City DVD
 ---
 
 "Nostalgie je vlezlá svině!" Kdo by nechtěl znovu prožít příběh italského elegána Tommyho Vercettiho ve městě Vice City z poloviny 80. let... Tato hra pro mě byla vždy nejoblíbenějším dílem série. Nejenom proto, že to bylo první GTA kterému jsem naprosto propadl, ale také tím jaký má styl a v jaké době se odehrává. Hra je sice úžasně stylizovaná, ale na dnešní dobu již velmi technologicky zastaralá. Nastavení dohlednosti, brightness a rozlišení (které sice v defaultu podporuje i 1080p, ale neodpovídá poměru stran dnešních FullHD monitorů) je nedostatečné. Proto Vám poradím, jak původní Vice City upravit pomocí módů tak, aby bylo oku lahodící.
@@ -21,7 +21,7 @@ Začneme tedy tím, že nainstalujeme vaší 2 CD nebo DVD verzi hry. Hra sice u
 
 ### Verze hry
 
-Hra z mé [DVD verze](http://www.cenega.cz/kolekceklasiky/hry/gtavicecity.html) od Cenegy šla spustit i bez režimu kompatibility, abych pravdu řekl u DVD verze hry ani tento režim nastavit nelze. U 2CD verze spouštějte v režimu pro Windows XP (SP2) a nastavte, aby se soubor spouštěl s oprávněním správce. Nastavíte to po kliknutí na spouštěcí soubor či jeho zástupce na ploše druhým tlačítkem ve vlastnostech - záložka "Kompatibilita". A spuštěním hry si ověřte, že je vaše hra nastavena správně. 
+Hra z mé [DVD verze](https://www.cenega.cz/kolekceklasiky/hry/gtavicecity.html) od Cenegy šla spustit i bez režimu kompatibility, abych pravdu řekl u DVD verze hry ani tento režim nastavit nelze. U 2CD verze spouštějte v režimu pro Windows XP (SP2) a nastavte, aby se soubor spouštěl s oprávněním správce. Nastavíte to po kliknutí na spouštěcí soubor či jeho zástupce na ploše druhým tlačítkem ve vlastnostech - záložka "Kompatibilita". A spuštěním hry si ověřte, že je vaše hra nastavena správně. 
 
 ![Kompatibilita](/img/2013-12-14-gta-vice-city-na-windows-7-i-8-v-hd-kabate/komaptibilita.png)
 
@@ -141,4 +141,4 @@ Pokud budeme velcí puntičkáři, tak si jistě všimneme toho, že i ikona ji�
 
 Pokud jste článek dočetli až sem, tak vás potěším, protože chystám pokračování... Nebo pouze doplním informace do tohoto článku. Jedná se o to, že všechno testování jsem prováděl na DVD verzi hry od Cenegy, která není na internetu ke stažení a mnoho lidí ji nevlastní. Chtěl bych tedy doporučit koupi této krabicové DVD verze hry, protože je skutečně bezproblémová, vč. české lokalizace. Budu se však do článku snažit doplnit i zkušenosti s digitální distribucí hry (Steam). Kdybyste měli jakýkoliv dotaz či připomínku, zanechte ji prosím zde v komentáři. Děkuji za pozornost...
 
-Článek byl inspirován [tímto](http://hosting.cecak.cz/forum-modifikace/viewtopic.php?p=922 "forum") fórum postem....
+Článek byl inspirován [tímto](https://hosting.cecak.cz/forum-modifikace/viewtopic.php?p=922 "forum") fórum postem....
