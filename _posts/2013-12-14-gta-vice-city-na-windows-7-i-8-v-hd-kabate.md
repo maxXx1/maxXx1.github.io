@@ -119,7 +119,7 @@ Tento efekt, který upravuje barevné spektrum a rozmazávání. Byl použit u P
 
 ### Skiny
 
-Uvádím jen tak pro úplnost. Každý si může vytvořit svůj vlastní pomocí šablony uložené ve složce "skins" která se nachází ve složce s hrou. Nebo do této složky nahrát jakýkoliv skin z internetu. Možná je trochu zajímavostí, že po dlouhých letech se na [oficiálních stránkách](https://www.rockstargames.com/vicecity/pc/index.htm) v sekci download objevil skin označený jako "Exclusive Tommy Vercetti".
+Uvádím jen tak pro úplnost. Každý si může vytvořit svůj vlastní pomocí šablony uložené ve složce `skins`{: .filepath} která se nachází ve složce s hrou. Nebo do této složky nahrát jakýkoliv skin z internetu. Možná je trochu zajímavostí, že po dlouhých letech se na [oficiálních stránkách](https://www.rockstargames.com/vicecity/pc/index.htm) v sekci download objevil skin označený jako "Exclusive Tommy Vercetti".
 Určitě bych doporučil [AI retexturu](https://www.moddb.com/mods/ai-enhanced-textures-for-vice-city/downloads/ai-enhanced-tommy-vercetti-skin) originálního skinu v HD texturách.
 
 ### Lokalizace

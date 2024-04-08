@@ -5,6 +5,8 @@ icon: fab fa-teamspeak
 order: 1
 ---
 
+![TeamSpeak](/img/page/ts.jpg)
+
 ## Komunita
 
 Náš TS server je striktně určen pro friends-of-friends komunitu. Pokud u nás někoho znáš, tak neváhej požádat některého ze stálých správců o svůj vlastní komunikační kanál.
