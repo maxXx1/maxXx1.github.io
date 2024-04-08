@@ -4,7 +4,9 @@ date: "2013-10-20"
 category: Hry
 tags: 
   - "COD2"
-  
+image:
+  path: /img/2013-10-20-call-of-duty-2-na-windows-8-1/cod2.jpg
+  alt: Call of Duty2  
 ---
 
 _"Jak zprovoznit Call of Duty 2 na Windows 8 ?"_ Pokusil jsem dnes po nedávném upgrade Windows 8 na Windows 8.1 v mém případě verze Pro s Media Centrem nainstalovat Call of Duty 2 a zahrát si multiplayer. Avšak čekalo mě nemilé překvapení. Zprovoznění této hry na novějším operačním systému, než je ten pro který byla tato hra vydána (tj. Windows XP) byl vždy velký problém. Pamatuji si tak jsem přijel na turnaj do PGCC a od počítače k počítači létal vyděšený technik který nemohl COD2 korektně spustit na počítačích s Windows Vista. Je pravda, že na Windows Vista stejně jako na později vydaném Windows 7 stačilo hru spouštět s vyšším oprávněním (resp. oprávněním správce) a v režimu kompatibility pro Windows XP SP2 či SP3. Já se ale pokusil tuto hru na Windows 8 (později na všech bezplatných updatech tohoto systému) prvně spustit bez zásahu...

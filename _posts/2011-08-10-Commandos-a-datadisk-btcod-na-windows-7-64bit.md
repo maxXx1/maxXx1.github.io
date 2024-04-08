@@ -4,7 +4,9 @@ date: "2011-08-10"
 category: Hry
 tags: 
   - "Commandos"
-
+image: 
+  path: /img/2011-08-10-Commandos-a-datadisk-btcod-na-windows-7-64bit/commandos.jpg
+  alt: Commandos GOG
 ---
 
 Jediný způsob jak nainstalovat Commandos a jeho datadisk Beyond The Call of Duty na 64bitové verzi Windows 7 a dle všeho to platí i pro 64bitovou Vistu je ten který tedy popíšu. Je velmi důležité aby jste dodržely naprosto přesně všechny kroky mého návodu. Vyřešil jsem i problém s ukládáním a načítáním uložených her. Musí se to dělat tímto způsobem, protože 64bitové systémy nespustí ani instalátor `setup.exe`{: .filepath}, protože není kompatibilní s 64bitovými systémy.
@@ -19,7 +21,7 @@ pro puvodni hru (Beyond The Enemy Lines) \
  - Do vytvořené složky hry nebo datadisku zkopírujte soubory hry z CD.
 **Pro Beyond The Call of Duty (datadisk):**
 Zkopírujte soubory, které najdete je ve složce `comman_mp` na disku CD do složky
-`C:\Program Files (x86)\Eidos Interactive\Pyro\Commandos\Beyond the Call of Duty`{: .filepath}, kterou jste vytvořily v prvním kroku._
+`C:\Program Files (x86)\Eidos Interactive\Pyro\Commandos\Beyond the Call of Duty`{: .filepath}, kterou jste vytvořily v prvním kroku.
 
 **Jsou to tyto soubory:** (uvnitř složky `comman_mp`{: .filepath})
 
