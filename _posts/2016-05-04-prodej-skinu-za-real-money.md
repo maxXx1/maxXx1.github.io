@@ -2,16 +2,21 @@
 title: "Prodej skinů za real money"
 date: "2016-05-04"
 tags: 
-  - "game"
-  - "skin"
-  - "steam"
-  - "trade"
-coverImage: "20160503175434_1-1024x576-1.jpg"
+  - "Counter-Strike"
+category: Hry
+image:
+  path: /img/2016-05-04-prodej-skinu-za-real-money/20160503175434_1.jpg
+  alt: Karambit (★) | Ultraviolet
 ---
 
-Mnoho lidí se mě ptalo, jaké jsou možnosti prodeje skinů za reálné peníze nebo chcete-li vytažení peněz mimo Steam.  Pokusím se vám popsat mé osobní zkušenosti s prodejem skinu střední hodnoty. Nechtěl jsem průzkum dělat se skinem nižší hodnoty, protože by se to mohlo záporně projevit na ochotě obchodníků (to vyzkouším v budoucnu). Jako způsob úhrady jsem si zvolil **bankovní účet** a internetovou peněženku **PayPal** pro případ, že bankovní účet nevlastníte. V mém případě byl prodávaný předmět **[Karambit (★) | Ultraviolet](http://steamcommunity.com/market/listings/730/%E2%98%85%20Karambit%20%7C%20Ultraviolet%20%28Field-Tested%29)** s floatem 0.33, tedy **opotřebený**, jehož cena byla po dobu obchodování na hranici **200€ na komunitním trhu** ([90 klíčů](http://csgo.steamanalyst.com/id/60822691)).
+Mnoho lidí se mě ptalo, jaké jsou možnosti prodeje skinů za reálné peníze nebo chcete-li vytažení peněz mimo Steam.
+Pokusím se vám popsat mé osobní zkušenosti s prodejem skinu střední hodnoty. Nechtěl jsem průzkum dělat se skinem nižší hodnoty, protože by se to mohlo záporně projevit na ochotě obchodníků (to vyzkouším v budoucnu). 
+Jako způsob úhrady jsem si zvolil **bankovní účet** a internetovou peněženku **PayPal** pro případ, že bankovní účet nevlastníte. 
+V mém případě byl prodávaný předmět **[Karambit (★) | Ultraviolet](https://steamcommunity.com/market/listings/730/%E2%98%85%20Karambit%20%7C%20Ultraviolet%20%28Field-Tested%29)** s floatem 0.33, tedy **opotřebený**, jehož cena byla po dobu obchodování na hranici **200€ na komunitním trhu** ([90 klíčů](https://csgo.steamanalyst.com/id/60822691)).
 
-Záměrně jsem tento prodej nerealizoval se svým [M9 Bojonetem (★) | Crimson Web](http://steamcommunity.com/market/listings/730/%E2%98%85%20M9%20Bayonet%20%7C%20Crimson%20Web%20%28Field-Tested%29), který znáte [z minulého příspěvku](http://old.maxxx.cz/2016/04/13/jak-jsem-ke-svemu-nozi-prisel/), protože ten měl float nejhorší možný (FT) a zajímalo mě, jestli některý z obchodníků float zohlední v ceně.
+Záměrně jsem tento prodej nerealizoval se svým [M9 Bojonetem (★) | Crimson Web](http://steamcommunity.com/market/listings/730/%E2%98%85%20M9%20Bayonet%20%7C%20Crimson%20Web%20%28Field-Tested%29), 
+který znáte [z minulého příspěvku](http://old.maxxx.cz/2016/04/13/jak-jsem-ke-svemu-nozi-prisel/), 
+protože ten měl float nejhorší možný (FT) a zajímalo mě, jestli některý z obchodníků float zohlední v ceně.
 
 Chtěl jsem vyzkoušet někoho z místních prostředníků, protože snad kolem všech panují nějaké ty fámy, drby a různé polo-pravdy. Některé jednání mě mile překvapilo a působilo profesionálně, jinde jsem byl velmi zklamaný a kdybych zohlednil vše co se mi nelíbilo, tak bych u některých obchodníků nedal na prodej ani použité ponožky.
 
@@ -77,7 +82,7 @@ Toto je pro mě naprosto neznámý shop. FB stránka byla 19. března převzat
 - Reakční doba do hodiny.
 - **Dobrá cenová nabídka za přímý výkup!**
 - Dodatečné dotazy zodpovězeny.
-- Reputace [v diskuzi](http://steamcommunity.com/groups/CSGOREPorts/discussions/5/412446292760482067/), kde nemůže mazat ani upravovat příspěvky.
+- Reputace [v diskuzi](https://steamcommunity.com/groups/CSGOREPorts/discussions/5/412446292760482067/), kde nemůže mazat ani upravovat příspěvky.
 
 # \-
 
@@ -87,11 +92,11 @@ Toto je pro mě naprosto neznámý shop. FB stránka byla 19. března převzat
 
 ### [CS:GO skin shop by Escariet](https://www.facebook.com/escarietcsgo/)
 
-![](images/escariet.png)
+![Escariet](/img/2016-05-04-prodej-skinu-za-real-money/escariet.png)
 
 ### [CS:GO - Shop CZ/SK](https://www.facebook.com/csgoshopczsk)
 
-Deklarují výkup za fixních 60%, ale stránka je neaktivní a [vlastníka](http://steamcommunity.com/id/ZeddyQ) se mi nepodařilo nikterak kontaktovat. Zvláštní je, že na [oficiálním webu](http://zeddy.cz/vse-ohledne-csgo/prodej-skinu-csgo-shop/) vlastníka Facebookové stránky je deklarováno již pouze 50% a výkup probíhá **formou komise**.
+Deklarují výkup za fixních 60%, ale stránka je neaktivní a [vlastníka](https://steamcommunity.com/id/ZeddyQ) se mi nepodařilo nikterak kontaktovat. Zvláštní je, že na [oficiálním webu](https://zeddy.cz/vse-ohledne-csgo/prodej-skinu-csgo-shop/) vlastníka Facebookové stránky je deklarováno již pouze 50% a výkup probíhá **formou komise**.
 
 Zde ale žádná komunikace neproběhla.
 
@@ -103,7 +108,7 @@ Tento výkup mi byl doporučen, avšak moc jsem se toho nedozvěděl. První den
 
 # +
 
-- **[Kubrahead1](http://steamcommunity.com/profiles/76561198072652590) má velmi vysoké renomé.**
+- **[Kubrahead1](https://steamcommunity.com/profiles/76561198072652590) má velmi vysoké renomé.**
 - Fixních 55% z aktuální market ceny.
 - Možnost komise i přímého výkupu! (záleží na domluvě)
 
@@ -113,7 +118,7 @@ Tento výkup mi byl doporučen, avšak moc jsem se toho nedozvěděl. První den
 
 ### [CZECH E-SPORT.eu](https://www.facebook.com/czechesporteu/)
 
-Tato stránka mi také byla zprostředkována na doporučení. Na oficiální Facebooku sice mají zmínku o prodeji skinů, ale podmínky nikde. Web nabízí služby spíše SEO marketingu (což jak všichni v roce 2016 ví, je pasé), služby grafického rázu a eshop s herním textilem. Web se první den jevil jako nedostupný, ale to nemohu zařadit do záporů (také mám placený hosting na Endoře :D ). Za touto organizací (pokud to tak mohu nazvat) stojí hráč [nEcrologic](http://steamcommunity.com/id/necrologictomas/) na jehož profilu se můžete dočíst o bezproblémovém odkupu a prodeji skinů.
+Tato stránka mi také byla zprostředkována na doporučení. Na oficiální Facebooku sice mají zmínku o prodeji skinů, ale podmínky nikde. Web nabízí služby spíše SEO marketingu (což jak všichni v roce 2016 ví, je pasé), služby grafického rázu a eshop s herním textilem. Web se první den jevil jako nedostupný, ale to nemohu zařadit do záporů (také mám placený hosting na Endoře :D ). Za touto organizací (pokud to tak mohu nazvat) stojí hráč [nEcrologic](https://steamcommunity.com/id/necrologictomas/) na jehož profilu se můžete dočíst o bezproblémovém odkupu a prodeji skinů.
 
 Zde mi bylo sděleno jaká bude prodejní cena a jaká je marže pro zprostředkovatele. To hodnotím velmi kladně!
 
@@ -156,14 +161,17 @@ Jednotlivec o kterém se někdo zmínil v rámci české komunity. Nemá témě�
 
 ### [CSGO - CZ SK komunita](https://www.facebook.com/groups/csgoczsk/)
 
-Pro klid v duši jsem vystavil i klasický inzerát na jedné z největších CZ/SK skupin, avšak zde je prodej **naprosto bez šance**. V lepším případě se vám ozvou pouze lidé typu "maminka to nezaplatí", v horším případě lidé kteří neumí číst a po zopakování jasně stanovených podmínek (v popisu inzerátu) mají ve slovní zásobě pouze slovo "scamm".
+Pro klid v duši jsem vystavil i klasický inzerát na jedné z největších CZ/SK skupin, avšak zde je prodej **naprosto bez šance**. 
+V lepším případě se vám ozvou pouze lidé typu "maminka to nezaplatí", v horším případě lidé kteří neumí číst a po zopakování jasně stanovených podmínek (v popisu inzerátu) mají ve slovní zásobě pouze slovo "scamm".
 
-Lidé v této skupině jednoduše nechápou, že pravidlem je: "peníze jdou první." (ať už prodáváte cokoliv) Protože pokud obdržím platbu na účet a předmět nepošlu - dotyčný může vznést u banky protest, že mi přišly na účet peníze, které mi nepatří. _(protože má číslo účtu, které je založeno na konkrétní jméno na základě platných dokladů)_ Pokud však pošlu předmět a dotyčný nepošle nic - tak si můžu jít stěžovat tak maximálně k babičce (protože bude pravděpodobně jediná, kterou bude zajímat, že mi neznámá osoba neposlala peníze za imaginární předmět a jediné co o té osobě vím je, že má nick "H4X0R007" a na fejsbůku jméno "Tonda Maminčin").
+Lidé v této skupině jednoduše nechápou, že pravidlem je: "peníze jdou první." (ať už prodáváte cokoliv) 
+Protože pokud obdržím platbu na účet a předmět nepošlu - dotyčný může vznést u banky protest, že mi přišly na účet peníze, které mi nepatří. 
+_(protože má číslo účtu, které je založeno na konkrétní jméno na základě platných dokladů)_ 
+Pokud však pošlu předmět a dotyčný nepošle nic - tak si můžu jít stěžovat tak maximálně k babičce (protože bude pravděpodobně jediná, kterou bude zajímat, že mi neznámá osoba neposlala peníze za imaginární předmět a jediné co o té osobě vím je, že má nick "H4X0R007" a na fejsbůku jméno "Tonda Maminčin").
 
 Samozřejmě jsem se nebránil ani "midlemanům" (jimž věnuji některý z dalších článků), ale on ten "midleman" nesmí být nějaký další "Tonda"...
 
-![](images/prodej.png)
-
+![FB-Offer](/img/2016-05-04-prodej-skinu-za-real-money/prodej.png)
 _P.S. Omlouvám se všem kteří se jmenují Antonín, neberete to osobně :D_
 
 ### Srovnání se zahraniční konkurencí
@@ -187,7 +195,7 @@ Další možností je využít mezinárodní tržiště:
 
 Pokud bych zde nastavil nejnižší cenu za kterou se nůž prodává, tak bych jej na 100% **prodal v řádu hodin**, protože můj float je lepší než nože stejného typu nabízené za tuto cenu. Cena by se konkrétně pohybovala od 167$ po 161$ s pevně stanovenou **marží 10%** pro market.
 
-![](images/opskinskara.png)
+![OPSkins](/img/2016-05-04-prodej-skinu-za-real-money/opskinskara.png)
 
 **Nabídka: 3312 Kč** (dle aktuální kurzu 23 korun/dolar)
 
@@ -195,9 +203,10 @@ Pokud bych zde nastavil nejnižší cenu za kterou se nůž prodává, tak bych 
 
 ### [BitSkins](https://bitskins.com/)
 
-Druhým nejznámějším marketem je BitSkins. Zde se nachází méně skinů, takže není nutné tolik tlačit na cenu. Průměrná cena prodaných ★ Karambit | Ultraviolet byla 183$ a nejnižší momentálně prodávaný stál 171$. Nejlevnější měl horší float než ten můj, ale za předpokladu, že bych chtěl prodávat rychle vezmu cenu 170$. **Marže BitSkins je pouze 5%.**
+Druhým nejznámějším marketem je BitSkins. Zde se nachází méně skinů, takže není nutné tolik tlačit na cenu. Průměrná cena prodaných ★ Karambit | Ultraviolet byla 183$ a nejnižší momentálně prodávaný stál 171$. 
+Nejlevnější měl horší float než ten můj, ale za předpokladu, že bych chtěl prodávat rychle vezmu cenu 170$. **Marže BitSkins je pouze 5%.**
 
-![](images/bitskins.png)
+![BitSkins](/img/2016-05-04-prodej-skinu-za-real-money/bitskins.png)
 
 **Nabídka: 3700 Kč** (dle aktuální kurzu 23 korun/dolar)
 
@@ -207,7 +216,7 @@ Ceny u marketů berte pouze jako startovní nástřel! Samozřejmě, že pokud s
 
 ~Celý proces trval přesně 3 dny. (začátek psaní článku - výběr obchodníka - peníze na účtě)
 
-[![](images/detail-platby.png)](http://old.maxxx.cz/wp-content/uploads/2016/05/detail-platby.png)
+![](/img/2016-05-04-prodej-skinu-za-real-money/detail-platby.png)
 
 Kolem druhé hodiny odpolední jsem odeslal předmět skrze tradeoffer a i přes drobné komplikace jsem cca za 30 minut měl peníze na svém účtu.
 
@@ -220,5 +229,3 @@ Obchodník odeslal i potvrzení o zaplacení což snad (u stejných bank kde je 
 - Méně známí obchodníci by měli dávat více na obdiv své reference.
 - Float nezajímal nikoho z dotázaných (což je dobře pokud váš předmět nevypadá dobře).
 - Je z čeho vybírat, takže pokud se vám obchodníkovo jednání nelíbí, nestresujte se a prodejte u někoho jiného.
-
-Doufám že se vám tento článek líbil a pokud máte nějaké podnětné připomínky, zanechte je prosím zde pod článkem. Děkuji!
