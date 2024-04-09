@@ -1,16 +1,16 @@
 ---
 title: "Instalace OpenWRT na TP-Link TL-WR841ND"
 date: "2014-09-18"
+category: Síť
 tags: 
-  - "open-wrt"
-  - "sit"
-  - "tp-link"
-coverImage: "openwrt-logo.jpg"
+  - "Open-wrt"
+  - "TP-Link"
+image: 
 ---
 
-V poslední době se zase objevuje více a více [zavirovaných routerů](http://blog.trendmicro.com/trendlabs-security-intelligence/mobile-devices-used-to-execute-dns-malware-against-home-routers/). Nyní se teda nejedná o technický problém, jako tomu bylo v případě chyby [rom-0](https://www.maxxx.cz/2014/06/13/zranitelnost-rom-0-na-vlastni-kuzi/), ale pouze o selhání lidského faktoru (výchozí nebo žádné heslo pro vstup do administrace). V rámci řešení bezpečnostních problémů u zákazníků (aktualizace FW, kontrola přístupových údajů a správnosti DNS) se vyřazovali starší kusy routerů.
+V poslední době se zase objevuje více a více [zavirovaných routerů](https://blog.trendmicro.com/trendlabs-security-intelligence/mobile-devices-used-to-execute-dns-malware-against-home-routers/). Nyní se teda nejedná o technický problém, jako tomu bylo v případě chyby `rom-0`, ale pouze o selhání lidského faktoru (výchozí nebo žádné heslo pro vstup do administrace). V rámci řešení bezpečnostních problémů u zákazníků (aktualizace FW, kontrola přístupových údajů a správnosti DNS) se vyřazovali starší kusy routerů.
 
-Dostal se mi do ruky dlouhodobě velmi populární router [TP-Link TL-WR841N](http://cz.tp-link.com/download/TL-WR841N_V5.html)D ve verzi v5, která se začala prodávat někdy v roce 2010 a během stejného roku byla nahrazena HW revizí v6. Problém tohoto routeru (důvod vyřazení) je, že tato hw revize je ze strany výrobce nepodporována (viz. odkaz výše).
+Dostal se mi do ruky dlouhodobě velmi populární router [TP-Link TL-WR841N](https://cz.tp-link.com/download/TL-WR841N_V5.html)D ve verzi v5, která se začala prodávat někdy v roce 2010 a během stejného roku byla nahrazena HW revizí v6. Problém tohoto routeru (důvod vyřazení) je, že tato hw revize je ze strany výrobce nepodporována (viz. odkaz výše).
 
 [![fw-update](images/fw-update.png)](https://www.maxxx.cz/wp-content/uploads/2016/10/fw-update.png)
 
