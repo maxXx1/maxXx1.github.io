@@ -15,7 +15,7 @@ Jako způsob úhrady jsem si zvolil **bankovní účet** a internetovou peněže
 V mém případě byl prodávaný předmět **[Karambit (★) | Ultraviolet](https://steamcommunity.com/market/listings/730/%E2%98%85%20Karambit%20%7C%20Ultraviolet%20%28Field-Tested%29)** s floatem 0.33, tedy **opotřebený**, jehož cena byla po dobu obchodování na hranici **200€ na komunitním trhu** ([90 klíčů](https://csgo.steamanalyst.com/id/60822691)).
 
 Záměrně jsem tento prodej nerealizoval se svým [M9 Bojonetem (★) | Crimson Web](https://steamcommunity.com/market/listings/730/%E2%98%85%20M9%20Bayonet%20%7C%20Crimson%20Web%20%28Field-Tested%29), 
-který znáte [z minulého příspěvku](/post/2016-04-13-jak-jsem-ke-svemu-nozi-prisel), 
+který znáte [z minulého příspěvku](/_posts/2016-04-13-jak-jsem-ke-svemu-nozi-prisel.md), 
 protože ten měl float nejhorší možný (FT) a zajímalo mě, jestli některý z obchodníků float zohlední v ceně.
 
 Chtěl jsem vyzkoušet někoho z místních prostředníků, protože snad kolem všech panují nějaké ty fámy, drby a různé polo-pravdy. Některé jednání mě mile překvapilo a působilo profesionálně, jinde jsem byl velmi zklamaný a kdybych zohlednil vše co se mi nelíbilo, tak bych u některých obchodníků nedal na prodej ani použité ponožky.
