@@ -130,7 +130,7 @@ U příkazu se vždy zobrazí nápověda pro jeho případné parametry.
 | `/pb_plist` | seznam hráčů podle PunkBusteru | |
 | `/pb_kick 1` | vyhození hráče č. 1 dle seznamu "plist" | je nutné mít oprávnění | 
 
-#### Nastavení zobrazení 
+#### Nastavení rozhraní 
 
 | cvar | funkce | parametr |
 | :-- | :---- | :------ |
@@ -202,6 +202,241 @@ U příkazu se vždy zobrazí nápověda pro jeho případné parametry.
 | `cg_voiceSpriteTime` | doba zobrazení ikonky voice chatu | |
 | `cg_weaponCycleDelay` | zpoždění ke kolečku myši | udává počet řádků |
 | `cg_youInKillCamSize` | | ? | 
+
+#### Grafické nastavení
+
+| cvar | funkce | parametr |
+| :-- | :---- | :------ |
+| `r_aaAlpha` | druh anti-aliasingu | |
+| `r_aaSamples` | úroveň anti-aliasingu | |
+| `r_anisotropy` | úroveň anizotropního filtrování | |
+| `r_aspectRatio` | poměr stran obrazu | |
+| `r_autopriority` | nízká priorita procesu na pozadí | |
+| `r_depthPrepassModels` | | ? |
+| `r_displayRefresh` | obnovovací frekvence monitoru | |
+| `r_distortion` | zpětná vazba po výbuchu | ? |
+| `r_dlightLimit` | maximální počet dynamických světel | |
+| `r_drawSun` | zobrazení slunce | |
+| `r_fullscreen` | režim celé obrazovky | |
+| `r_gamma` | nastavení jasu | |
+| `r_glow` | nastavení odlesků | jen Dx9 |
+| `r_ignorehwgamma` | ignorovat hardwarové nastavení gammy | |
+| `r_inGameVideo` | zobrazovat videa ve hře | |
+| `r_lodScale` | rychlost obnovování efektů | |
+| `r_mode` | rozlišení monitoru | |
+| `r_monitor` | identifikace monitoru v případě | více než 1 |
+| `r_overbrightBits` | světlost mapy | |
+| `r_picmip` | kvalita textur | hodnota > kvalita |
+| `r_picmip_bump` | kvalita bump textur | hodnota > kvalita! |
+| `r_picmip_manual` | manuální nastavení kvality textur | `0` = `picmip` se neprojeví |
+| `r_picmip_spec` | kvalita minimap textur | hodnota > kvalita |
+| `r_polygonOffsetBias` | množství textur | `16` = žádné |
+| `r_polygonOffsetScale` | množství textur | `4` = žádné |
+| `r_portalBevels` | helps cull geometry by portals that are acute when projected onto screen | ? |
+| `r_railCoreWidth` | | ? |
+| `r_rendererPreference` | verze DirectX | `7` / `9` |
+| `r_swapInterval` | synchronizace FSB s frekvencí monitoru | |
+| `r_textureMode` | druh filtru textur | |
+| `r_zFeather` | metoda generování realistického kouře a efektů počasí | |
+| `sc_enable` | dynamické stíny | jen Dx 9 |
+
+#### Nastavení HUD
+
+| cvar | funkce | parametr |
+| :-- | :---- | :------ |
+| `hud_deathQuoteFadeTime` | čas {vlevo dole} | obdoba `con_minicontime` |
+| `hud_enable` | zobrazení HUD (dolní část) | |
+| `hud_fade_ammodisplay` | zobrazení nábojů | |
+| `hud_fade_compass` | zobrazení kompasu | |
+| `hud_fade_healthbar` | health bar | server-side |
+| `hud_fade_offhand` | počet granátů | |
+| `hud_fade_stance` | čas zobrazení postoje | |
+| `hud_fadeout_speed` | sprint bar | server-side |
+| `hud_flash_period_offhand` | | ? |
+| `hud_flash_time_offhand` | | ? |
+| `hud_health_pulserate_critical` | | ? |
+| `hud_health_pulserate_injured` | | ? |
+| `hud_health_startpulse_critical` | | ?
+| `hud_health_startpulse_injured` | | ? |
+
+#### Nastavení myši
+
+| cvar | funkce | parametr |
+| :-- | :---- | :------ |
+| `input_viewSensitivity` | | ? |
+| `cl_mouseAccel` | akcelerace | |
+| `in_mouse` | input mouse | |
+| `m_filter` | zvýšení přesnosti ukazatele | |
+| `m_forward` | ryhlost nahoru/dolu při invertovaném pohybu | |
+| `m_pitch` | rychlost nahoru/dolu při normalnim pohybu | |
+| `m_side` | rychlost do stran při invertovaném pohybu | |
+| `m_yaw` | rychlost do stran při normalním pohybu | |
+| `sensitivity` | citlivost | {hodnota} |
+
+#### Nastavení zvuku
+
+| cvar | funkce | parametr |
+| :-- | :---- | :------ |
+| `mss_3d_provider` | codec 3D zvuku | např. EAX |
+| `mss_khz` | nastavení frekvence | |
+| `snd_bits` | datový tok | ? |
+| `snd_errorOnMissing` | | ? |
+| `snd_khz` | | ? |
+| `snd_slaveFadeTime` | | ? |
+| `snd_stereo` | | ? |
+| `snd_touchStreamFilesOnLoad` | | ? |
+| `snd_volume` | hlasitost | ? |
+
+#### Síťové nastavení
+
+| cvar | funkce | parametr |
+| :-- | :---- | :------ |
+| `cl_allowDownload` | automatické stahování map | |
+| `cl_anonymous` | | ? |
+| `cl_freelook` | zapne freelook | |
+| `cl_maxpackets` | maximální počet packetů client / server | |
+| `cl_maxPing` | maximální akceptovatelný ping | ? |
+| `cl_packetdup` | duplikování packetů | |
+| `cl_punkbuster` | povolení/zakázání anti-cheatu | PunkBuster |
+| `cl_voice` | povolení/zakázání voice chatu | |
+| `cl_wwwDownload` | povoleni stahování z FTP | |
+| `snaps` | frekvence „gameworld updates“ od serveru | hodnota `sv_fps` (server) |
+| `rate` | frekvence přenesených dat client / server | |
+
+#### Pokročilé síťové nastavení
+
+| cvar | funkce | parametr |
+| :-- | :---- | :------ |
+| `net_noipx` | zapnuti/vypnuti protokolu IPX | |
+| `net_noudp` | zapnuti/vypnuti protokolu UDP | |
+| `net_socksEnabled` | zapnutí/vypnutí požití socks | |
+| `net_socksPassword` | nastavení hesla pro socks | |
+| `net_socksPort` | port pro socks | |
+| `net_socksServer` | socks server | |
+| `net_socksUsername` | přihlašovací jméno pro socks | |
+
+#### Nastavení lokalizace
+
+| cvar | funkce | parametr |
+| :-- | :---- | :------ |
+| `loc_forceEnglish` | vynucení ENG (pokud je nativní verze jiná) | |
+| `loc_language` | výběr jazyka | `0` ENG/nativní `1` FR `2` DE `3` IT `4` SP |
+
+>Pro Steam verzi je nadřazené nastavení lokalizace ve Steam klientu!
+{: .prompt-info }
+
+#### Nastavení konzole
+
+| cvar | funkce | parametr |
+| :-- | :---- | :------ |
+| `con_inputBoxColor` | barva konzole | |
+| `con_inputHintBoxColor` | barva nápovědy | |
+| `con_minicon` | zobrazení informací {vlevo dole} | |
+| `con_miniconlines` | počet řádků infa {vlevo dole} | |
+| `con_minicontime` | čas zobrazení infa {vlevo dole} | |
+| `con_outputBarColor` | barva posuvníku v rozšířeném zobrazení | |
+| `con_outputSliderColor` | barva písma v rozšířeném zobrazení | |
+| `con_outputWindowColor` | barva pozadí rozšířeného zobrazení | |
+| `con_restricted` | aktivace všech příkazů | `0` |
+
+#### Ostatní nastavení 
+
+| cvar | funkce | parametr |
+| :-- | :---- | :------ |
+| `name` | jméno hráče (nick) | |
+| `cl_yawspeed` | rychlost pohybu při zaměřování na klávesnici | horizontálně |
+| `cl_pitchspeed` | rychlost pohybu při zaměřování na klávesnici | vertikálně|
+| `g_allowvote` | povolení hlasování | |
+| `g_useGear` | | ? |
+| `com_hunkMegs` | rezervace paměti RAM | v MB |
+| `com_introPlayed` | povoleni přehrávaní intra | |
+| `com_maxfps` | uzamkne počet snímků za sekundu (FPS) | |
+| `com_recommendedSet` |  doporučené nastavení | |
+
+> Rezervovatelná paměť pro ukládání informací, udávaná v MB pomocí příkazu `com_hunkMegs` 
+se doporučuje nastavit na 1/3 až 1/2 celkové paměti RAM, což by mělo výrazně zvýšit rychlost načítání map.
+{: .prompt-tip }
+
+#### Singleplayer
+
+| cvar | funkce | parametr |
+| :-- | :---- | :------ |
+| `ai_corpseCount` | počet mrtvol (počítačem řízených nepřátel) | |
+| `fx_sort` | vypnutí určitých efektů hry | 1 |
+
+> V multiplayeru musí být `fx_sort` nastaveno na hodnotu `1`, jinak je to bráno jako cheat.
+{: .prompt-warning }
+
+#### Nastavení na straně serveru
+
+| cvar | funkce | parametr |
+| :-- | :---- | :------ |
+| sv_framerate_smoothing | vynucení plynulého framerate | 1 |
+| sv_allowDownload | povolit stahování | |
+| sv_floodProtect | | ? |
+| sv_hostname | nastavení jména serveru | |
+| sv_maxclients | maximální počet klientů | |
+| sv_maxPing | maximální akceptovatelná odezva | |
+| sv_maxRate | maximální přenosová rychlost | |
+| sv_minPing | minimální akceptovatelná odezva | |
+| sv_punkbuster | zapnutí/vypnutí anti-cheat ochrany | |
+| sv_reconnectlimit | | ? |
+| sv_voice | povolení voice chatu | |
+| sv_wwwBaseURL | URL adresa serveru | |
+| sv_wwwDlDisconnected | | ? |
+| sv_wwwDownload | adresa FTP serveru | | 
+
+#### Informace o hardware
+
+| cvar | funkce | parametr |
+| :-- | :---- | :------ |
+| `sys_configSum` | | ? |
+| `sys_cpuGHz` | frekvence procesoru | v GHz |
+| `sys_gpu` | typ grafické karty | "název" |
+| `sys_sysMB` | množství operační paměti | v MB |
+
+#### Nastavení UI
+
+| cvar | funkce | parametr |
+| :-- | :---- | :------ |
+| `ui_bigFont` | | |
+| `ui_browserFriendlyfire` | | |
+| `ui_browserKillcam` | | |
+| `ui_browserMod` | | |
+| `ui_browserShowDedicated` | | |
+| `ui_browserShowEmpty` | | |
+| `ui_browserShowFull` | | |
+| `ui_browserShowNoPassword` | | |
+| `ui_browserShowPassword` | | |
+| `ui_browserShowPunkBuster` | | |
+| `ui_browserShowPure` | | |
+| `ui_currentMap` | | |
+| `ui_currentNetMap` | | |
+| `ui_dedicated` | | |
+| `ui_extraBigFont` | | |
+| `ui_gametype` | | |
+| `ui_joinGametype` | | |
+| `ui_netGametype` | | |
+| `ui_netGametypeName` | | |
+| `ui_netSource` | | |
+| `ui_serverStatusTimeOut` | | |
+| `ui_smallFont` | | |
+
+#### Nastavení videa
+
+| cvar | funkce | parametr |
+| :-- | :---- | :------ |
+| `vid_xpos` | | |
+| `vid_ypos` | | |
+
+#### Nastavení mikrofonu
+
+| cvar | funkce | parametr |
+| :-- | :---- | :------ |
+| `winvoice_mic_mute` | | |
+| `winvoice_mic_reclevel` | | |
+| `winvoice_mic_scaler` | | |
+| `winvoice_save_voice` | | |
 
 ### Scripty
 
