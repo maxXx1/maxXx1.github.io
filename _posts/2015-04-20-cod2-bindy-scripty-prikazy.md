@@ -3,6 +3,7 @@ title: "COD2 - Bindy, scripty, příkazy"
 date: "2015-04-20"
 tags: 
   - "COD2"
+category: Hry
 image: 
   path: "/img/2015-04-20-cod2-bindy-scripty-prikazy/screenshot_2015-04-08.jpg"
   alt: COD2 Console
@@ -128,6 +129,79 @@ U příkazu se vždy zobrazí nápověda pro jeho případné parametry.
 | `/demo název` | přehraje záznam | musí být ve složce "demos" |
 | `/pb_plist` | seznam hráčů podle PunkBusteru | |
 | `/pb_kick 1` | vyhození hráče č. 1 dle seznamu "plist" | je nutné mít oprávnění | 
+
+#### Nastavení zobrazení 
+
+| cvar | funkce | parametr |
+| :-- | :---- | :------ |
+| `cg_blood` | zapnutí/vypnutí krve | |
+| `cg_brass` | zapnutí/vypnutí munice | |
+| `cg_centerPrintY` | umístění zpráv v prostřed obazovky | osa Y |
+| `cg_chatHeight` | zobrazovaný počet řádků chatu | `0` = vypnuto |
+| `cg_chatTime` | doba zobrazení zpráv chatu | |
+| `cg_connectionIconSize` | velikost ikony připojení | |
+| `cg_crosshairAlpha` | průhlednost zaměřovače | `0,5` = 50% |
+| `cg_crosshairAlphaMin` | minimální průhlednost zaměřovače | |
+| `cg_crosshairDynamic` | nastavení pohyblivého zaměřovače | #zakázáno |
+| `cg_crosshairEnemyColor` | zčervenání zaměřovače na nepříteli | |
+| `cg_cursorHints` | zobrazení/skrytí ikony u interaktivních předmětů | |
+| `cg_descriptiveText` | zobrazení/skrytí počtu zabitých nepřátel | |
+| `cg_drawBreathHint` | zobrazení/skrytí nápovědy *„Press shift to steady“* | |
+| `cg_drawCrosshair` | zobrazení/skrytí zaměřovače | |
+| `cg_drawCrosshairNames` | zobrazení/skrytí jména spoluhráče nad zaměřovačem | |
+| `cg_drawFPS` | zobrazení/skrytí počítadla FPS | |
+| `cg_drawLagometer` | zobrazení/skrytí diagnostiky sítě | |
+| `cg_drawMantleHint` | zobrazení/skrytí ikony *„Press space to jump“* | |
+| `cg_drawSnapshot ` | zobrazení/skrytí počítadla snapshotů | |
+| `cg_drawTurretCrosshair` | | ? |
+| `cg_gameBoldMessageWidth` | velikost zvýrazněného textu | |
+| `cg_gameMessageWidth` | | ? |
+| `cg_headIconMinScreenRadius` | velikost týmové ikony | `0` = vypnuto |
+| `cg_hintFadeTime` | | ? |
+| `cg_hudChatPosition` | umístění chatu na obrazovce | osa XY |
+| `cg_hudCompassMaxRange` | | ? |
+| `cg_hudCompassMinRadius` | | ? |
+| `cg_hudCompassMinRange` | | ? |
+| `cg_hudCompassSize` | | ? |
+| `cg_hudCompassSoundPingFadeTime` | | ? |
+| `cg_hudCompassSpringyPointers` | | ? |
+| `cg_hudDamageIconHeight` | | ? | 
+| `cg_hudDamageIconOffset` | | ? |
+| `cg_hudDamageIconTime` | | ? |
+| `cg_hudDamageIconWidth` | | ? |
+| `cg_hudGrenadeIconHeight` | | ? |
+| `cg_hudGrenadeIconOffset` | | ? |
+| `cg_hudGrenadeIconWidth` | | ? |
+| `cg_hudGrenadePointerHeight` | | ? |
+| `cg_hudGrenadePointerPivot` | | ? |
+| `cg_hudGrenadePointerWidth` | | ? |
+| `cg_hudObjectiveMaxRange` | | ? |
+| `cg_hudObjectiveMinAlpha` | | ? |
+| `cg_hudObjectiveMinHeight` | | ? |
+| `cg_hudProneY` | | ? |
+| `cg_hudSayPosition` | | ? |
+| `cg_hudStanceHintPrints` | zobrazení/skrytí nápovědy pro skrčení a lehnutí | |
+| `cg_marks` | zapne/vypne některé detaily(poškození zdi, po výbuchu atd.) | |
+| `cg_marksLimit` | maximum zobrazených marks pokud `cg_marks` = `1` | |
+| `cg_noTaunt` | eliminace odezvy reproduktorů | asi |
+| `cg_predictItems` | určuje, zda hra považuje předmět za sebraný v daném čase | `1` klient, `0` server |
+| `cg_scoreboardBannerHeight` | | ? |
+| `cg_scoreboardItemHeight` | | ? |
+| `cg_scoreboardScrollStep` | | ? |
+| `cg_scriptIconSize` | velikost teamové ikony | |
+| `cg_subtitleCharHeight` | | ? |
+| `cg_subtitleMinTime` | | ? |
+| `cg_subtitlePosX` | pozice titulků | osa x |
+| `cg_subtitlePosY` | pozice titulků | osa y |
+| `cg_subtitles` | vypne/zapne titulky | |
+| `cg_subtitleWidthStandard` | | ? |
+| `cg_subtitleWidthWidescreen` | | ? |
+| `cg_teamChatsOnly` | vypnutí globálního chatu, pouze teamový | |
+| `cg_viewsize` | nastavení zobrazení / obrazu v % | >100 = blackbars |
+| `cg_voiceIconSize` | velikost voice ikony | |
+| `cg_voiceSpriteTime` | doba zobrazení ikonky voice chatu | |
+| `cg_weaponCycleDelay` | zpoždění ke kolečku myši | udává počet řádků |
+| `cg_youInKillCamSize` | | ? | 
 
 ### Scripty
 
