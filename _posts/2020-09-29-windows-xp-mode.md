@@ -119,7 +119,7 @@ V prostředí Windows XP SP3 se v našem případě dají provozovat pouze 32 bi
 - Všechny aktualizace po SP3 až do ukončení podpory
     - [Roll-UP update](https://uloz.to/file/ReHrMuKZw/windows-xp-post-sp3-cz-roll-up-update-exe) pro českou verzi
     - [Roll-UP update](https://uloz.to/file/BffgxgPbD/windows-xp-post-sp3-en-roll-up-update-exe) pro anglickou verzi
-- [Windows Media Player 11](http://www.download.windowsupdate.com/msdownload/update/v3-19990518/cabpool/windows6.0-kb941651-x86_cf2d8dd55a356b9d27b75ead67ff45cf3d2d9a14.msu)
+- [Windows Media Player 11](https://www.download.windowsupdate.com/msdownload/update/v3-19990518/cabpool/windows6.0-kb941651-x86_cf2d8dd55a356b9d27b75ead67ff45cf3d2d9a14.msu)
 - Internet Explorer 8 ([v češtině](https://download.microsoft.com/download/7/F/2/7F2D755E-1568-482A-AC6B-2602B50FB88E/IE8-WindowsXP-x86-CSY.exe) / [v angličtině](https://download.microsoft.com/download/C/C/0/CC0BD555-33DD-411E-936B-73AC6F95AE11/IE8-WindowsXP-x86-ENU.exe))
 - [DirectX installer](https://www.microsoft.com/cs-cz/download/details.aspx?id=35) v 9.29.1974
 - [POSReady 2009](https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=6f4e581a-5f28-44a1-b3a5-c6c50951556f)
