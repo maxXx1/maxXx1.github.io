@@ -49,7 +49,7 @@ Ve vlastnostech systému zvolte záložku **Upřesnit** a v sekci Spouštění a
 
 ## Diskové oddíly
 
-Stáhněte si program na úpravu diskových oddílů. Já jsem zvolil AOMEI Partition Assistant, protože je ve verzi Professional zdarma [k vyzkoušení](http://www2.aomeisoftware.com/download/pa/PAssist_ProDemo.exe) a to pro náš účel plně postačuje.
+Stáhněte si program na úpravu diskových oddílů. Já jsem zvolil AOMEI Partition Assistant, protože je ve verzi Professional zdarma [k vyzkoušení](https://www2.aomeisoftware.com/download/pa/PAssist_ProDemo.exe) a to pro náš účel plně postačuje.
 
 - Program spustíme a v hlavním okně u našeho systémového disku vybereme možnost **Convert to MBR Disk**.
 

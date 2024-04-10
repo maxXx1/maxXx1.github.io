@@ -22,7 +22,7 @@ Poté si zjistíme ze zadní strany televize přesné modelové označení. Viz.
 ![model](/img/2013-09-06-aktualizace-firmware-televize-42lg3000/2013-09-01-12.39.32.jpg)
 _Model_
 
-1. Na stránkách společnosti LG si najdeme v sekci podpory (support) váš model, poté v záložce "software update" stáhneme aktuální firmware, který vždy obsahuje všechny předešlé verze.(v mém připadě zde: [lg-42LG3000-ZA.AEK](http://www.lg.com/uk/support-product/lg-42LG3000-ZA.AEK)
+1. Na stránkách společnosti LG si najdeme v sekci podpory (support) váš model, poté v záložce "software update" stáhneme aktuální firmware, který vždy obsahuje všechny předešlé verze - v mém připadě zde: [lg-42LG3000-ZA.AEK](https://www.lg.com/uk/support-product/lg-42LG3000-ZA.AEK) 
 2. Flash disk zformátujeme do souborového systému FAT (nikoli FAT32)
 3. Archív (v mém připadě `Software_File%28Version_03.55.01%29.zip`) rozbalíme a výsledný `.bin` soubor přesuneme na flash disk (do rootu)
 4. V televizi položku v "MENU - NASTAV. - Akt. Softwaru" nastavíme na hodnotu "Zap". a televizi poté vypneme.
