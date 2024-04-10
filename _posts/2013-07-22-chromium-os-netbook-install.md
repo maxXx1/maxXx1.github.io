@@ -2,7 +2,7 @@
 title: "Instalace Chromium OS na net/notebook"
 date: "2013-07-22"
 tags: 
-  - "Chromium"
+  - "Laptop"
 category: Linux
 image: 
   path: "img/page/chromium-os.jpg"
