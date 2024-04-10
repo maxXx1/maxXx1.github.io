@@ -1,39 +1,32 @@
 ---
 title: "Windows XP mode"
 date: "2020-09-29"
-categories: 
-  - "win"
+category: "Windows" 
 tags: 
-  - "windows-10"
-  - "windows-xp"
-coverImage: "Windows-XP-886x590-1.png"
+  - "Windows 10"
+  - "Windows XP"
+image: 
+  path: /img/page/Windows-XP.png
+  alt: Windows XP
 ---
 
 Součástí Windows 10 Pro (narozdíl od Windows 7 Pro) není nativní Windows XP mód. Ale s pomocí Hyper-V není problém si ho vytvořit a plně přizpůsobit.
 
-**Je třeba platná licence Windows XP Pro!**
+> Je třeba platná licence Windows XP Pro!
+{: .prompt-info }
 
 Nevýhodou oproti nativnímu řešení XP móde na Windows 7 Pro je, že do prostředí Hyper-V se nepřenese licence na hostovaný systém, tudíž bude ve lhůtě 30ti dnů nuceni vložit licenci na Windows XP Pro a systém aktivovat.
 
 ## Instalace Hyper-V
 
-<figure>
+![HyperV](/img/2020-09-29-windows-xp-mode/hyper-v1.png)
+_Win 10 Pro Hyper-V_
 
-![](images/hyper-v1.png)
-
-<figcaption>
-
-Win 10 Pro Hyper-V
-
-</figcaption>
-
-</figure>
-
-Podporu virtuálního prostředí spustíme v Ovládacích panelech, záložce "Programy a funkce" nalevo klikneme na "Zapnout nebo vypnout funkce systému Windows" a přidáme funkci "Hyper-V". Bude následovat restart.
+Podporu virtuálního prostředí spustíme v Ovládacích panelech, záložce "Programy a funkce" nalevo klikneme na "Zapnout nebo vypnout funkce systému Windows" a přidáme funkci __Hyper-V__. Bude následovat restart.
 
 Alternativně lze instalaci provést i z prostředí PowerShellu příkazem:
 
-```
+```powershell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 ```
 
@@ -45,75 +38,30 @@ Stáhněte oficiální Windows XP mode (pro Windows 7) přímo ze stránek MS. N
 
 K dispozici jsou 32 bitové verze systému v klasickém a "N" provedení (bez integrovaného přehrávače WMP). Velikost cca 446 MB.
 
-<figure>
-
-![](images/vXP1-1024x441.png)
-
-<figcaption>
-
-Stažení
-
-</figcaption>
-
-</figure>
+![vXP](/img/2020-09-29-windows-xp-mode/vXP1.png)
+_Stažení_
 
 U staženého instalátoru skrze "Vlastnosti" odblokujte soubor
 
-<figure>
+![vXP2](/img/2020-09-29-windows-xp-mode/vXP2.png)
+_Odblokování_
 
-![](images/vXP2.png)
+Následně soubor otevřete např. pomocí programu [7-Zip](https://www.7-zip.org/) a extrahujte z něj soubor `XMP` ze složky `sources`.
 
-<figcaption>
+![vXP3](/img/2020-09-29-windows-xp-mode/vXP3.png)
+_Instalátor_
 
-Odblokování
+Extrahovaný soubor `XMP` otevřeme stejným způsobem a z jeho útrob extrahujeme soubor virtuálního disku (`VirtualXPVHD`).
 
-</figcaption>
+![vXP3](/img/2020-09-29-windows-xp-mode/vXP4.png)
+_VHD_
 
-</figure>
-
-Následně soubor otevřete např. pomocí programu [7-Zip](https://www.7-zip.org/) a extrahujte z něj soubor "XMP" ze složky "sources".
-
-<figure>
-
-[![](images/vXP3.png)](http://old.maxxx.cz/wp-content/uploads/2020/09/vXP3.png)
-
-<figcaption>
-
-Instalátor
-
-</figcaption>
-
-</figure>
-
-Extrahovaný soubor "XMP" otevřeme stejným způsobem a z jeho útrob extrahujeme soubor virtuálního disku (VirtualXPVHD).
-
-<figure>
-
-[![](images/vXP4.png)](http://old.maxxx.cz/wp-content/uploads/2020/09/vXP4.png)
-
-<figcaption>
-
-VHD
-
-</figcaption>
-
-</figure>
-
-Soubor VirtualXPVHD opatříme příponou .vhd čímž z něj uděláme funkční virtuální disk, který si ihned můžeme dvoj klikem připojit a prohlédnout.
+Soubor `VirtualXPVHD` opatříme příponou `.vhd` čímž z něj uděláme funkční virtuální disk, který si ihned můžeme dvoj klikem připojit a prohlédnout.
 
 Disk se nám připojí jako další disková jednotka v "Tento počítač". Disk není blokován proti zápisu, tudíž já si do něj např. ihned nakopíroval složku s instalačkami programů, se kterými budu chtít v rámci virtuálního prostředí pracovat.
 
-<figure>
-
-![](images/vXP5-1.png)
-
-<figcaption>
-
-Obsah disku
-
-</figcaption>
-
-</figure>
+![vXP5](/img/2020-09-29-windows-xp-mode/vXP5.png)
+_Obsah disku_
 
 Po dobu provozu virtuálního stroje, ale disk připojený k hostitelskému počítači být nemůže, takže jej nezapomeňte po provedení změn opět **odpojit**.
 
@@ -121,52 +69,25 @@ Po dobu provozu virtuálního stroje, ale disk připojený k hostitelskému poč
 
 Dále si vytvoříme virtuální stroj ve kterém využijeme tento stažený a upravený virtuální disk. Dejte start napište "Hyper-V" a měl by se vám nabídnout "**Správce technologie Hyper-V**". V něm zvolíme možnost "Nová" a následně virtuální počítač.
 
-<figure>
-
-[![](images/hyper-v2-1024x683.png)](http://old.maxxx.cz/wp-content/uploads/2020/09/hyper-v2.png)
-
-<figcaption>
-
-Hyper-V
-
-</figcaption>
-
-</figure>
+![Hyper-V2](/img/2020-09-29-windows-xp-mode/hyper-v2.png)
+_Hyper-V_
 
 1. Zvolíme jeho název
 2. Zvolíme "1. generaci" virtuálního stroje (protože Windows XP neběží na UEFI)
 3. Nastavení paměti doporučuji udělat napevno. V mém případě tedy 2GB a bez dynamicky alokované paměti
 4. Konfiguraci sítě můžete v tomto kroku ponechat na "nepřipojeno"
-5. Ve volbě virtuálního disku máme možnost "**Použít existující virtuální disk**" pomocí které přiřadíme tomuto stroji náš vyextrahovaný **VirtualXPVHD.vhd**
+5. Ve volbě virtuálního disku máme možnost "**Použít existující virtuální disk**" pomocí které přiřadíme tomuto stroji náš vyextrahovaný `VirtualXPVHD.vhd`
 6. Dále už dáme jen dokončit, ale námi vytvořený virtuální počítač zatím nespouštíme.
 
 V prostředí správce Hyper-V klikneme na námi vytvořený virtuální počítač a dáme "**Nastavení**" v okně nastavení zvolíme "**Přidat Hardware**" a zvolíme "**Starší síťový adaptér**" a "**Přidat**".
 
-<figure>
-
-![](images/image-1.png)
-
-<figcaption>
-
-Přidat síťový adaptér
-
-</figcaption>
-
-</figure>
+![oldEth](/img/2020-09-29-windows-xp-mode/image-1.png)
+_Přidat síťový adaptér_
 
 Tento síťový adaptér nyní pomocí přepínače nasměrujeme na vaši síťovou kartu, popř. wifi adaptér.
 
-<figure>
-
-![](images/image-2.png)
-
-<figcaption>
-
-Virtuální switch
-
-</figcaption>
-
-</figure>
+![oldEth2](/img/2020-09-29-windows-xp-mode/image-2.png)
+_Virtuální switch_
 
 Tímto by mělo být nastavení virtuálního stroje hotové a vy můžete spouštět.
 
@@ -176,17 +97,8 @@ V prostředí virtuálního stroje jen po prvním spuštění klasicky dokončí
 
 Dále si můžeme zkontrolovat přístupnost námi vytvořené složky přímo v systému a začít normálně pracovat.
 
-<figure>
-
-[![](images/image-3-1024x859.png)](http://old.maxxx.cz/wp-content/uploads/2020/09/image-3.png)
-
-<figcaption>
-
-Windows XP
-
-</figcaption>
-
-</figure>
+![XPm](/img/2020-09-29-windows-xp-mode/image-3.png)
+_Windows XP_
 
 ## Testovaný SW pro Windows XP
 
