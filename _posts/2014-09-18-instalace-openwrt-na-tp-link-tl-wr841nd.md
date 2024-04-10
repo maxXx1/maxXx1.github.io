@@ -49,10 +49,10 @@ Poslední verze je již v základu vybavena webovým prostředím LuCi. Není tu
 6. Vaše resetované zařízení **připojte pouze k napájení a** propojte ho ethernetovým kabelem **k počítači** na kterém máte `openwrt.bin`.
 
 > **Přihlaste se do webové administrace** – ale neměňte žádné nastavení!  
-> Adresa: [192.168.1.1](http://192.168.1.1/) Uživatel: `admin` Heslo: `admin`  
+> Adresa: `http://192.168.1.1/` Uživatel: `admin` Heslo: `admin`  
 {: .prompt-warning }
 1. V menu webového rozhraní routeru zvolte **System tools** - **Firmware Upgrade** následně **Browse**, vyberte vámi stažený soubor `openwrt.bin` a klikněte na tlačítko **Upgrade**.
 2. Teď už stačí jen čekat na dokončení upgrade. Dojde k odpojení routeru od počítače, dokončení instalace poznáte na tom, že se Vám opět aktivuje síťové připojení v počítači.
-3. Nyní zkuste obnovit stránku ([http://192.168.1.1/](http://192.168.1.1/)). Nyní by se měla již zobrazit přihlašovací obrazovka GUI LuCi. ![openwrt](/img/2014-09-18-instalace-openwrt-na-tp-link-tl-wr841nd/openwrt-luci.png)
+3. Nyní zkuste obnovit stránku `http://192.168.1.1/`. Nyní by se měla již zobrazit přihlašovací obrazovka GUI LuCi. ![openwrt](/img/2014-09-18-instalace-openwrt-na-tp-link-tl-wr841nd/openwrt-luci.png)
 4. Pokud se přihlašovací dialog zobrazí, můžete rovnou kliknout na **"Go to password configuration"**, kde si nastavíte vlastní heslo k přihlašovacímu jménu root.
 5. Blahopřeji! Máte doma Linuxový router :)
