@@ -3,8 +3,8 @@ title: "Windows XP mode"
 date: "2020-09-29"
 category: "Windows" 
 tags: 
-  - "Windows 10"
-  - "Windows XP"
+  - "Windows-10"
+  - "Windows-XP"
 image: 
   path: /img/page/Windows-XP.png
   alt: Windows XP
