@@ -6,7 +6,7 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
 # gem "rails"
 # gem "github-pages", "~> 215", group: :jekyll_plugins
-gem "jekyll", "~> 3.8.5"
+gem "jekyll", "~> 4.3.3"
 gem "jekyll-theme-chirpy", "~> 6.5", ">= 6.5.5"
 gem 'jekyll-date-localization', group: :jekyll_plugins
 
