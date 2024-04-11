@@ -56,4 +56,4 @@ ts.maxxx.cz
 
 Pokud jsi zaznamenal výpadek, tak jej můžeš mrknout na stav serverů, jestli není chyba u tebe a pokud ne, tak musíš počkat, protože my už na tom určitě usilovně pracujeme. *Kappa* 
 
-[Server Status 🟢](https://status.maxxx.cz/)
+~~[Server Status 🟢](https://status.maxxx.cz/)~~
