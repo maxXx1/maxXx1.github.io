@@ -2,6 +2,8 @@
 
 source "https://rubygems.org"
 
+git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
+
 gem "jekyll-theme-chirpy", "~> 6.5", ">= 6.5.5"
 gem 'jekyll-date-localization', group: :jekyll_plugins
 
