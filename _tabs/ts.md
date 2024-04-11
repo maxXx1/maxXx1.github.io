@@ -7,6 +7,8 @@ order: 1
 
 ![TeamSpeak](/img/page/ts.jpg)
 
+<a href="https://www.tsviewer.com/index.php?page=ts_viewer&ID=1128803"><img src="https://www.tsviewer.com/promotion/dynamic_sig/sig.php/clan468x60_channel/1128803.png"></a>
+
 ## Komunita
 
 Náš TS server je striktně určen pro friends-of-friends komunitu. Pokud u nás někoho znáš, tak neváhej požádat některého ze stálých správců o svůj vlastní komunikační kanál.
@@ -51,6 +53,7 @@ ts.maxxx.cz
 | Permanentní místnost: | `Momentálně nepříjámáme nové žádosti` |
 
 ## Status
+
 Pokud jsi zaznamenal výpadek, tak jej můžeš mrknout na stav serverů, jestli není chyba u tebe a pokud ne, tak musíš počkat, protože my už na tom určitě usilovně pracujeme. *Kappa* 
 
 [Server Status 🟢](https://status.maxxx.cz/)
