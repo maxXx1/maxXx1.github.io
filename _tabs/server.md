@@ -5,9 +5,16 @@ icon: fab fa-steam
 order: 2
 ---
 
+<style>
+table.mojetabulka th, table.mojetabulka td {
+  width: 33.3333%;
+}
+</style>
+
+{: .mojetabulka}
 Unreal Tournament | Killing Floor | Killing Floor 2
 :---------------: | :-----------: | :-------------:
- [![ut-head](/img/page/ut-header.jpg)](#unreal-tournament){: width="460" height="215"} | [![kf-head](/img/page/kf-header.jpg)](#killing-floor){: width="460" height="215"} | [![kf2-head](/img/page/kf2-header.jpg)](#killing-floor-2){: width="460" height="215"}
+[![ut-head](/img/page/ut-header.jpg)](#unreal-tournament){: width="460" height="215"} | [![kf-head](/img/page/kf-header.jpg)](#killing-floor){: width="460" height="215"} | [![kf2-head](/img/page/kf2-header.jpg)](#killing-floor-2){: width="460" height="215"}
 
 ## Unreal Tournament
 
