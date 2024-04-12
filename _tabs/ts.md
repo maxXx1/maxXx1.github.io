@@ -4,8 +4,7 @@ title: TeamSpeak
 icon: fab fa-teamspeak
 order: 1
 ---
-
-![TeamSpeak](/img/page/ts.jpg)
+[![ts-srv](/img/page/ts-srv.png)](#adresa)
 
 <a href="https://www.tsviewer.com/index.php?page=ts_viewer&ID=1128803"><img src="https://www.tsviewer.com/promotion/dynamic_sig/sig.php/clan468x60_channel/1128803.png" alt="tsviewer"></a>
 
