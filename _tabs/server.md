@@ -27,6 +27,8 @@ Pro mnohé z nás se jednalo o jednu z prvních multiplayer her, která nás vt�
 
 # Killing Floor
 
+[![kf-srv](/img/page/kf-srv.png)](#killing-floor)
+
 *Kooperativní survival horror pro 6 hráčů v té nejlepší podobě!*
 
 > Killing Floor je kooperativní hororová střílečka, založena na __Unreal Engine 2.5__, zasazena do zdevastovaných měst a anglického venkova poté, co se série klonovacích experimentů pro armádu příšerně zvrtne.
@@ -63,6 +65,8 @@ open 95.82.183.132:7740
 ```
 
 # Killing Floor 2
+
+[![kf2-srv](/img/page/kf2-srv.png)](#killing-floor-2)
 
 > V Killing Floor 2 se hráči ponoří do kontinentální Evropy, kde se nezdařený experiment vymknul kontrole, nabral nezadržitelného spádu a ochromil celou evropskouunii. Pouze měsíc po událostech KillingFloor se klonové rozšíří prakticky všude a civilizace je značně roztříštěná. Nelze komunikovat, vlády nefungují a armády byly systematicky vyřazeny. Lidé z Evropy, kteří dokázali se štěstím přežít, se nyní schovávají před hrůzami každodenního světa.
 
