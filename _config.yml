@@ -16,14 +16,14 @@ timezone: Europe/Prague
 
 title: maxXx # the main title
 
-tagline: Sysadmin knowlage base # it will display as the sub-title
+tagline: Sysadmin knowlage base | Game servers | Teamspeak server # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Píšu o tom co dělám a nebo hraju.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://maxXx1.github.io"
+url: "https://maxxx.cz"
 
 github:
   username: maxXx1 # change to your github username

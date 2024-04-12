@@ -1,11 +1,15 @@
 ---
 layout: page
-title: Server
+title: Servery
 icon: fab fa-steam
 order: 2
 ---
 
-# Unreal Tournament
+Unreal Tournament | Killing Floor | Killing Floor 2
+:---------------: | :-----------: | :-------------:
+ [![ut-head](/img/page/ut-header.jpg)](#unreal-tournament){: width="460" height="215"} | [![kf-head](/img/page/kf-header.jpg)](#killing-floor){: width="460" height="215"} | [![kf2-head](/img/page/kf2-header.jpg)](#killing-floor-2){: width="460" height="215"}
+
+## Unreal Tournament
 
 [![ut-srv](/img/page/ut-srv.png)](#unreal-tournament)
 
@@ -25,7 +29,7 @@ Pro mnohé z nás se jednalo o jednu z prvních multiplayer her, která nás vt�
 > Doporučujeme také nainstalovat tyto oficiální bonuspacky: Epic Bonus Pack, Digital Extremes Pack, Inoxx Map Pack, Christmas 2000 Pack. Vyhnete se tím stahování skinů a map po připojení do hry.
 {: .prompt-tip }
 
-# Killing Floor
+## Killing Floor
 
 [![kf-srv](/img/page/kf-srv.png)](#killing-floor)
 
@@ -64,7 +68,7 @@ open 95.82.183.132:7720
 open 95.82.183.132:7740
 ```
 
-# Killing Floor 2
+## Killing Floor 2
 
 [![kf2-srv](/img/page/kf2-srv.png)](#killing-floor-2)
 
