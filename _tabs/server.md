@@ -27,11 +27,11 @@ Pro mnohé z nás se jednalo o jednu z prvních multiplayer her, která nás vt�
 > Pro všechny typy her musíte mít nainstalovanou hru Unreal Tournament s patchem **ver.4.36** a **anticheatem UTDC 1.8**, někdy též konkrétní modifikaci hry
 {: .prompt-info }
 
-| Instance | IP adresa : Port | QueryPort | Připojit |
-| :- | :--------------- | :------ | ------: |
-| #1 | `95.82.183.132:7000` | 7001 | Offline |
-| #2 | `95.82.183.132:7020` | 7021 | Offline |
-| #3 | `95.82.183.132:7040` | 7041 | Offline |
+| Instance | Mód | IP adresa : Port | Status | 
+| :- | :- | :------ | :------: |
+| #1 | DM | `83.240.121.205:7000` | [![status](https://uptime.maxxx.cz/api/badge/4/status?style=flat-square)](#unreal-tournament) |
+| #2 | DM | `83.240.121.205:7020` | [![status](https://uptime.maxxx.cz/api/badge/5/status?style=flat-square)](#unreal-tournament) |
+| #3 | StdAS | `83.240.121.205:7040` | [![status](https://uptime.maxxx.cz/api/badge/6/status?style=flat-square)](#unreal-tournament) |
 
 > Doporučujeme také nainstalovat tyto oficiální bonuspacky: Epic Bonus Pack, Digital Extremes Pack, Inoxx Map Pack, Christmas 2000 Pack. Vyhnete se tím stahování skinů a map po připojení do hry.
 {: .prompt-tip }
@@ -57,22 +57,28 @@ Námi hostované Killing Floor servery jsou poslední, které fungují v České
 > Pokud server na připojení neodpovídá, __použijte příkaz (v konzoli hry)__
 {: .prompt-tip }
 
-##### #V1 Killing Floor Server | PUBLIC | HOE LONG | Europe CZE
+##### #V1 Killing Floor Server | PUBLIC | HOE LONG | Europe CZE 
+
+ [![status](https://uptime.maxxx.cz/api/badge/7/status?style=flat-square)](#v1-killing-floor-server--public--hoe-long--europe-cze) [![status](https://uptime.maxxx.cz/api/badge/7/ping?style=flat-square)](#v1-killing-floor-server--public--hoe-long--europe-cze)
 
 ```console
-open 95.82.183.132:7700
+open 83.240.121.205:7700
 ```
 
-##### #V2 Killing Floor Server | PUBLIC | HOE LONG | Europe CZE
+##### #V2 Killing Floor Server | PUBLIC | HOE LONG | Europe CZE 
+
+[![status](https://uptime.maxxx.cz/api/badge/8/status?style=flat-square)](#v2-killing-floor-server--public--hoe-long--europe-cze) [![status](https://uptime.maxxx.cz/api/badge/8/ping?style=flat-square)](#v2-killing-floor-server--public--hoe-long--europe-cze)
 
 ```console
-open 95.82.183.132:7720
+open 83.240.121.205:7720
 ```
 
 ##### #V3 Killing Floor Server | PUBLIC | HOE LONG | Europe CZE
 
+[![status](https://uptime.maxxx.cz/api/badge/9/status?style=flat-square)](#v3-killing-floor-server--public--hoe-long--europe-cze) [![status](https://uptime.maxxx.cz/api/badge/9/ping?style=flat-square)](#v3-killing-floor-server--public--hoe-long--europe-cze)
+
 ```console
-open 95.82.183.132:7740
+open 83.240.121.205:7740
 ```
 
 ## Killing Floor 2
@@ -88,26 +94,34 @@ Naše servery jsou čisté (bez zbytečných modifikací) vždy v aktuální ver
 
 ##### #V1 Killing Floor 2 Server | PUBLIC | Europe | CZE
 
+[![status](https://uptime.maxxx.cz/api/badge/10/status?style=flat-square)](#v1-killing-floor-2-server--public--europe--cze) [![status](https://uptime.maxxx.cz/api/badge/10/ping?style=flat-square)](#v1-killing-floor-2-server--public--europe--cze)
+
 ```console
-open 95.82.183.132:7800
+open 83.240.121.205:7800
 ```
 
 ##### #V2 Killing Floor 2 Server | PUBLIC | Europe | CZE
 
+[![status](https://uptime.maxxx.cz/api/badge/11/status?style=flat-square)](#v2-killing-floor-2-server--public--europe--cze) [![status](https://uptime.maxxx.cz/api/badge/11/ping?style=flat-square)](#v2-killing-floor-2-server--public--europe--cze)
+
 ```console
-open 95.82.183.132:7820
+open 83.240.121.205:7820
 ```
 
 ##### #V3 Killing Floor 2 Server | PUBLIC | Europe | CZE
 
+[![status](https://uptime.maxxx.cz/api/badge/12/status?style=flat-square)](#v3-killing-floor-2-server--public--europe--cze) [![status](https://uptime.maxxx.cz/api/badge/12/ping?style=flat-square)](#v3-killing-floor-2-server--public--europe--cze)
+
 ```console
-open 95.82.183.132:7840
+open 83.240.121.205:7840
 ```
 
 ##### #V4 Killing Floor 2 Server | PUBLIC | Europe | CZE
 
+[![status](https://uptime.maxxx.cz/api/badge/13/status?style=flat-square)](#v4-killing-floor-2-server--public--europe--cze) [![status](https://uptime.maxxx.cz/api/badge/13/ping?style=flat-square)](#v4-killing-floor-2-server--public--europe--cze)
+
 ```console
-open 95.82.183.132:7860
+open 83.240.121.205:7860
 ```
 
 > Pro hraní na našich serverech je vyžadována __originální verze__ hry.
