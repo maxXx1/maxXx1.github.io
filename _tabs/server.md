@@ -7,6 +7,8 @@ order: 2
 
 # Unreal Tournament
 
+[![ut-srv](/img/page/ut-srv.png)]()
+
 Revoluce v multiplayerovém hraní, netradiční a zároveň skvěle využitelné zbraně, propracovaný pohyb. Právě těmito atributy se může pyšnit tato hra z přelomu milénia. Tehdy to byl buď Unreal Tournament nebo Quake, nic mezi tím.
 My jsme byli Unreal a těmito servery bychom chtěli poděkovat komunitě této hry, na kterou nikdy nikdy nezapomeneme.
 Pro mnohé z nás se jednalo o jednu z prvních multiplayer her, která nás vtáhla do online světa.
