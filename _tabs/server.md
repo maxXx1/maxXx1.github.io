@@ -126,3 +126,9 @@ open 83.240.121.205:7860
 
 > Pro hraní na našich serverech je vyžadována __originální verze__ hry.
 {: .prompt-warning }
+
+## Status
+
+Pokud jsi zaznamenal výpadek, tak můžeš mrknout na stav serverů, jestli není chyba u tebe a pokud ne, tak musíš počkat, protože my už na tom určitě usilovně pracujeme. *Kappa* 
+
+[Server Status 🟢](https://uptime.maxxx.cz/status/srv){:target="_blank"}

@@ -57,6 +57,6 @@ Náš TS server je striktně určen pro friends-of-friends komunitu. Pokud u ná
 
 ## Status
 
-Pokud jsi zaznamenal výpadek, tak jej můžeš mrknout na stav serverů, jestli není chyba u tebe a pokud ne, tak musíš počkat, protože my už na tom určitě usilovně pracujeme. *Kappa* 
+Pokud jsi zaznamenal výpadek, tak můžeš mrknout na stav serverů, jestli není chyba u tebe a pokud ne, tak musíš počkat, protože my už na tom určitě usilovně pracujeme. *Kappa* 
 
 [Server Status 🟢](https://uptime.maxxx.cz/status/srv){:target="_blank"}
