@@ -9,6 +9,7 @@ source "https://rubygems.org"
 # gem "jekyll", "~> 4.3.3"
 gem "jekyll-theme-chirpy", "~> 6.5", ">= 6.5.5"
 gem 'jekyll-date-localization', group: :jekyll_plugins
+gem 'jekyll-target-blank'
 
 group :test do
   gem "html-proofer", "~> 4.4"

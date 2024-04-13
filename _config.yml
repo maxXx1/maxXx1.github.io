@@ -204,3 +204,6 @@ jekyll-archives:
     category: /categories/:name/
 
 date_locale: cs
+
+plugins:
+  - jekyll-target-blank
