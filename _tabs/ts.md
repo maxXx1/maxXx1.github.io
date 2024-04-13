@@ -4,14 +4,23 @@ title: TeamSpeak
 icon: fab fa-teamspeak
 order: 1
 ---
-[![ts-srv](/img/page/ts-srv.png)](#adresa)
+[![ts-srv](/img/page/ts-srv.png)](#pravidla)
 
-<a href="https://www.tsviewer.com/index.php?page=ts_viewer&ID=1128803"><img src="https://www.tsviewer.com/promotion/dynamic_sig/sig.php/clan468x60_channel/1128803.png" alt="tsviewer"></a>
+<div id="ts3viewer_1128803" style=""> </div>
+
+<script src="https://static.tsviewer.com/short_expire/js/ts3viewer_loader.js"></script>
+<script>
+var ts3v_url_1 = "https://www.tsviewer.com/ts3viewer.php?ID=1128803&text=757575&text_size=12&text_family=4&text_s_color=E4E4E4&text_s_weight=bold&text_s_style=normal&text_s_variant=normal&text_s_decoration=none&text_i_color=&text_i_weight=normal&text_i_style=normal&text_i_variant=normal&text_i_decoration=none&text_c_color=&text_c_weight=normal&text_c_style=normal&text_c_variant=normal&text_c_decoration=none&text_u_color=E4E4E4&text_u_weight=normal&text_u_style=normal&text_u_variant=normal&text_u_decoration=none&text_s_color_h=&text_s_weight_h=bold&text_s_style_h=normal&text_s_variant_h=normal&text_s_decoration_h=none&text_i_color_h=E4E4E4&text_i_weight_h=bold&text_i_style_h=normal&text_i_variant_h=normal&text_i_decoration_h=none&text_c_color_h=&text_c_weight_h=normal&text_c_style_h=normal&text_c_variant_h=normal&text_c_decoration_h=none&text_u_color_h=&text_u_weight_h=bold&text_u_style_h=normal&text_u_variant_h=normal&text_u_decoration_h=none&hideEmptyChannels&iconset=default_colored_2014";
+ts3v_display.init(ts3v_url_1, 1128803, 100);
+</script>
+
+```
+ts.maxxx.cz
+```
 
 ## Komunita
 
-Náš TS server je striktně určen pro friends-of-friends komunitu. Pokud u nás někoho znáš, tak neváhej požádat některého ze stálých správců o svůj vlastní komunikační kanál.
-TeamSpeak 3 public server je k dispozici komukoliv z naší komunity a je v provozu 24/7.
+Náš TS server je striktně určen pro friends-of-friends komunitu. Pokud u nás někoho znáš, tak neváhej požádat některého ze stálých správců o svůj vlastní komunikační kanál.TeamSpeak 3 public server je k dispozici komukoliv z naší komunity a je v provozu 24/7.
 
 > Náš server je provozován naprosto zdarma! Nevyžadujeme žádné příspěvky, ani poplatky.
 {: .prompt-warning }
@@ -28,12 +37,6 @@ TeamSpeak 3 public server je k dispozici komukoliv z naší komunity a je v prov
 8. Vždy respektuejeme příkazy stálých správců.
 9. Neznalost pravidel neomlouvá.
 
-## Adresa 
-```
-ts.maxxx.cz
-```
-##### [Připojit](ts3server://ts.maxxx.cz?port=9987)
-
 ## Instalace
 
 > Náš server je kompatibilní se stabilní i beta verzí TeamSpeak klienta.
@@ -44,15 +47,16 @@ ts.maxxx.cz
 ## Parametry
 
 | Verze serveru: | 3.13.5 |
+| Port | `9987` |
 | Platforma: | Linux 🐧 |
 | Lokalita: | Brno (CZ) |
 | Počet slotů: | 128 |
 | Licence: | Non-Profit License |
 | Dočasná místnost: | Může si vytvořit každý sám |
-| Permanentní místnost: | `Momentálně nepříjámáme nové žádosti` |
+| Permanentní místnost: | TBA |
 
 ## Status
 
 Pokud jsi zaznamenal výpadek, tak jej můžeš mrknout na stav serverů, jestli není chyba u tebe a pokud ne, tak musíš počkat, protože my už na tom určitě usilovně pracujeme. *Kappa* 
 
-~~[Server Status 🟢](https://status.maxxx.cz/)~~
+[Server Status 🟢](https://uptime.maxxx.cz/status/srv){:target="_blank"}
