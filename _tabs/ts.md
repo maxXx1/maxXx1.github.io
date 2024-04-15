@@ -46,7 +46,7 @@ Náš TS server je striktně určen pro friends-of-friends komunitu. Pokud u ná
 
 ## Parametry
 
-| Verze serveru: | 3.13.5 |
+| Verze serveru: | 3.13.7 |
 | Port | `9987` |
 | Platforma: | Linux 🐧 |
 | Lokalita: | Brno (CZ) |
@@ -60,7 +60,3 @@ Náš TS server je striktně určen pro friends-of-friends komunitu. Pokud u ná
 Pokud jsi zaznamenal výpadek, tak můžeš mrknout na stav serverů, jestli není chyba u tebe a pokud ne, tak musíš počkat, protože my už na tom určitě usilovně pracujeme. *Kappa* 
 
 [Server Status 🟢](https://uptime.maxxx.cz/status/srv){:target="_blank"}
-
-## Vlastní kanál
-
-{% include contact-form.html %}
