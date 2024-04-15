@@ -53,10 +53,17 @@ Náš TS server je striktně určen pro friends-of-friends komunitu. Pokud u ná
 | Počet slotů: | 128 |
 | Licence: | Non-Profit License |
 | Dočasná místnost: | Může si vytvořit každý sám |
-| Permanentní místnost: | TBA |
+| Permanentní místnost: | Žádost SA nebo [formulář](#žádost-o-trvalý-kanál) |
 
 ## Status
 
 Pokud jsi zaznamenal výpadek, tak můžeš mrknout na stav serverů, jestli není chyba u tebe a pokud ne, tak musíš počkat, protože my už na tom určitě usilovně pracujeme. *Kappa* 
 
 [Server Status 🟢](https://uptime.maxxx.cz/status/srv){:target="_blank"}
+<<<<<<< HEAD
+=======
+
+## Žádost o trvalý kanál
+
+{% include ts-form.html %}
+>>>>>>> 67554c7 (form)

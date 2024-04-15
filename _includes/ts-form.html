@@ -1,0 +1,53 @@
+   <form action="https://openformstack.com/f/clv1ep7ok0004125l2bzvvlqr" method="POST">
+    <form>
+        <div class="form-group row">
+          <label for="nickname" class="col-4 col-form-label">Nickname</label> 
+          <div class="col-8">
+            <input id="nickname" name="nickname" type="text" aria-describedby="nicknameHelpBlock" required="required" class="form-control"> 
+            <span id="nicknameHelpBlock" class="form-text text-muted">Nickname správce kanálu</span>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="email" class="col-4 col-form-label">Email</label> 
+          <div class="col-8">
+            <input id="email" name="email" placeholder="email@doména.cz" type="text" aria-describedby="emailHelpBlock" required="required" class="form-control"> 
+            <span id="emailHelpBlock" class="form-text text-muted">Mail na který bude zaslán CA token</span>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="channel" class="col-4 col-form-label">Název kanálu</label> 
+          <div class="col-8">
+            <input id="channel" name="channel" type="text" class="form-control" required="required" aria-describedby="channelHelpBlock"> 
+            <span id="channelHelpBlock" class="form-text text-muted">Jak kanál pojmenujeme</span>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="password" class="col-4 col-form-label">Heslo (nepovinné)</label> 
+          <div class="col-8">
+            <input id="password" name="password" type="text" class="form-control" aria-describedby="passwordHelpBlock"> 
+            <span id="passwordHelpBlock" class="form-text text-muted">Heslo lze v budoucnu přidat, odebrat i změnit.</span>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="ico" class="col-4 col-form-label">Ikona (nepovinné)</label> 
+          <div class="col-8">
+            <input id="ico" name="ico" placeholder="https://" type="text" class="form-control" aria-describedby="icoHelpBlock"> 
+            <span id="icoHelpBlock" class="form-text text-muted">Ikona musí být ve formátu PNG o velikosti 16x16px</span>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-4"></div> 
+          <div class="col-8">
+            <div class="form-check form-check-inline">
+              <input name="checkbox" id="checkbox_0" type="checkbox" required="required" class="form-check-input" value="rules"> 
+              <label for="checkbox_0" class="form-check-label">Četl jsem pravidla a souhlasím.</label>
+            </div>
+          </div>
+        </div> 
+        <div class="form-group row">
+          <div class="offset-4 col-8">
+            <button name="submit" type="submit" class="btn btn-primary">Odeslat</button>
+          </div>
+        </div>
+      </form>
+      
