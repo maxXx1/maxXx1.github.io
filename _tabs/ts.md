@@ -51,6 +51,7 @@ Náš TS server je striktně určen pro friends-of-friends komunitu. Pokud u ná
 | Platforma: | Linux 🐧 |
 | Lokalita: | Brno (CZ) |
 | Počet slotů: | 128 |
+| Datum spuštění | 1.1.2016 |
 | Licence: | Non-Profit License |
 | Dočasná místnost: | Může si vytvořit každý sám |
 | Permanentní místnost: | Žádost SA nebo [formulář](#žádost-o-trvalý-kanál) |
@@ -60,10 +61,9 @@ Náš TS server je striktně určen pro friends-of-friends komunitu. Pokud u ná
 Pokud jsi zaznamenal výpadek, tak můžeš mrknout na stav serverů, jestli není chyba u tebe a pokud ne, tak musíš počkat, protože my už na tom určitě usilovně pracujeme. *Kappa* 
 
 [Server Status 🟢](https://uptime.maxxx.cz/status/srv){:target="_blank"}
-<<<<<<< HEAD
-=======
 
 ## Žádost o trvalý kanál
 
+> Pokud chcete mít vlastní místnost na našem TeamSpeak serveru, tak prosím vyplňte niže uvedený formulář. Místnost vám bude zřízena zpravidla do 24 hodin od podání žádosti.
+
 {% include ts-form.html %}
->>>>>>> 67554c7 (form)
