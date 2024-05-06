@@ -59,18 +59,21 @@ Pokud jste se dostali do tohoto bodu, pak je nutno:
 
 **Pro systém Windows XP:**
 
-Smazat složky `Delphi` v: 
-- `C:\Documents and Settings\All Users\Application Data\`{: .filepath} 
+Smazat složky `Delphi` v:
+
+- `C:\Documents and Settings\All Users\Application Data\`{: .filepath}
 - `C:\Documents and Settings\Your Account\Application Data\`{: .filepath}
 
-Smazat složky: 
-- `C:\Documents and Settings\Default User\Application Data\Microsoft\SystemCertificates\My`{: .filepath} 
-- `C:\Documents and Settings\LocalService\Application Data\Microsoft\SystemCertificates\My`{: .filepath} 
+Smazat složky:
+
+- `C:\Documents and Settings\Default User\Application Data\Microsoft\SystemCertificates\My`{: .filepath}
+- `C:\Documents and Settings\LocalService\Application Data\Microsoft\SystemCertificates\My`{: .filepath}
 - `C:\Documents and Settings\NetworkService\Application Data\Microsoft\SystemCertificates\My`{: .filepath}
 
 **Pro systém Windows 7/10:**
 
-Smazat složky `Delphi` v: 
+Smazat složky `Delphi` v:
+
 - `C:\users\All Users\Application Data\`{: .filepath}
 - `C:\users\uživatel\Application Data\`{: .filepath}
 - `C:\users\uživatel\Application Data\`{: .filepath}
@@ -81,11 +84,12 @@ Smazat složku: `C:\users\uživatel\AppData\Roaming\Microsoft\System Certificate
 
 Dále je nutno upravit soubor **hosts**
 
-```
+```plaintext
 127.0.0.1 activation.autocom.se
 127.0.0.1 activation2.autocom.se
 127.0.0.1 updates.autocom.se
 ```
+
 {: file='C:\Windows\system32\drivers\etc'}
 
 Aktivátor přetáhnout taktéž do PC a přejmenovat jej na `_WyUpdate.exe_` a **restartovat počítač**.
