@@ -106,11 +106,13 @@ V prostředí Windows XP SP3 se v našem případě dají provozovat pouze 32 bi
 
 - **Internetový prohlížeč**: [Internet Explorer 8](https://www.microsoft.com/cs-cz/download/details.aspx?id=40390) / [Mozilla Firefox 52.9.0 ESR](https://ftp.mozilla.org/pub/firefox/releases/52.9.0esr/win32/cs/)
 - **Kancelářský balík:** MS Office 2007 / [LibreOffice 5.4.7.2](https://downloadarchive.documentfoundation.org/libreoffice/old/5.4.7.2/win/x86/)
-- **Práce s archívy:** [7-Zip 19.00](https://www.7-zip.org/download.html)
+- **Práce s archívy:** [7-Zip 23.01](https://www.7-zip.org/download.html)
 - **Audio/video:** Windows Media Player 11 / [VLC 3.0.11](https://download.videolan.org/pub/videolan/vlc/last/win32/)
 - **PDF prohlížeč:** [Acrobat Reader 11](https://get.adobe.com/cz/reader/otherversions/) / [Foxit Reader 6.23.815](https://cdn01.foxitsoftware.com/pub/foxit/reader/desktop/win/6.x/6.2/enu/FoxitReader623.815_enu_Setup.exe)
 - **Anti-virus:** [ADWcleaner 7.4.2](https://downloads.malwarebytes.com/file/adwcleaner-legacy)
 - **ADblock pro Firefox:** [uBlock Legacy 1.14.4.22](https://github.com/gorhill/uBlock-for-firefox-legacy/releases/tag/firefox-legacy-1.16.4.22)
+- **Práce s oddíly** [AOMEI Partition Asisstant 10.2.0](http://www2.aomeisoftware.com/download/pa/full/10.2.0/PAssist_Setup.exe)
+- **File Manager** [Total Commander 11.03](https://totalcommander.ch/1103/tcmd1103x32.exe) / [WinSCP 6.1.2](https://sourceforge.net/projects/winscp/files/WinSCP/6.1.2/)
 - A další na... [MSFN.org](https://msfn.org/board/topic/176299-latest-version-of-software-running-on-xp/) a [XPforums.com](https://www.xpforums.com/)
 
 ## Nezbytné aktualizace
