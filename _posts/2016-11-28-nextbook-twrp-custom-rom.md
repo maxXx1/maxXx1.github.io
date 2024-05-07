@@ -10,7 +10,7 @@ image:
   alt: "Nextbook"
 ---
 
-Dnes se mi dostal na stůl cca. 2-3 roky starý 7mi palcový Android tablet **NEXTBOOK NEXT7P12-GP**, s klasickou chybou stack (zaseknutí) při načítání systému. Před cca dvěma lety se prodával na [CZC](https://www.czc.cz/nextbook-7p12-8g-cerna/155268/produkt), ale stránky českého zastoupení této firmy jsou k dnešnímu dni [mrtvé](http://www.nextbook.cz/).
+Dnes se mi dostal na stůl cca. 2-3 roky starý 7mi palcový Android tablet **NEXTBOOK NEXT7P12-GP**, s klasickou chybou stack (zaseknutí) při načítání systému. Před cca dvěma lety se prodával na [CZC](https://www.czc.cz/nextbook-7p12-8g-cerna/155268/produkt), ale stránky českého zastoupení této firmy jsou k dnešnímu dni [mrtvé](https://www.nextbook.cz/).
 
 V mém případě se jednalo o variantu s 4GB vnitřním úložištěm na Androidu 4.0.4, ale vyráběla se i 8GB varianta s Androidem 4.1. Obě verze mají dosti exotický procesor **Amlogic AML8726-M3** (ARM Cortex A9) s frekvencí 1.0 GHz, 1GB DDR3 operační paměti a grafikou **ARM Mali TM-400**.
 
@@ -21,7 +21,7 @@ Protože ani na stránkách oficiální podpory pro USA nenajdete firmware upgra
 1. SD kartu (alespoň 4GB)
 2. Počítač se čtečkou pam. karet
 3. Custom zavaděč - TWRP Pro 4GB verzi: [Next7P12-4G-POM727MC\_1G](https://mega.nz/#!u0QHULZJ!A6y4Y65OG03RLjcMZdCBnfxpr4dxA10orneC2qsPuvU) Pro 8GB verzi: [Next7P12-8G-NXM727MC\_WM](https://mega.nz/#!P9RxmKCT!bHeLbRk1xS8S9NBi1gIfwHfc5LdCnh-fili-b1VX9VQ)
-4. Custom ROM - (od [ShaunMT](http://freaktab.com/member/6564-shaunmt)) [](http://freaktab.com/member/6564-shaunmt)Pro EU verzi: [WM-082313-8188eu\_wifi](https://mega.nz/#!i5gViYTY!wcJK3puIGST9Y_76oOXU1TFRHVU1Q3lbxQTkg5uiPqI) Pro CU verzi: [WM-102312-8192cu\_wifi](https://mega.nz/#!yhYylKSY!zj3Jd3TYBiX5i37WyeWKtKAHKBc04RWh6lSQ3aezt2g)
+4. Custom ROM - (od [ShaunMT](https://freaktab.com/member/6564-shaunmt)) [](http://freaktab.com/member/6564-shaunmt)Pro EU verzi: [WM-082313-8188eu\_wifi](https://mega.nz/#!i5gViYTY!wcJK3puIGST9Y_76oOXU1TFRHVU1Q3lbxQTkg5uiPqI) Pro CU verzi: [WM-102312-8192cu\_wifi](https://mega.nz/#!yhYylKSY!zj3Jd3TYBiX5i37WyeWKtKAHKBc04RWh6lSQ3aezt2g)
 
 ## Postup
 
@@ -48,4 +48,4 @@ V mém případě se jednalo o CU verzi tabletu i když byl zakoupen v ČR (prav
 
 ![tab](/img/2016-11-28-nextbook-twrp-custom-rom/IMG_20161128_122656.jpg)
 
-**Zdroj:** [FreakTab.com](http://freaktab.com/forum/tablet-support-android/nextbook-tablets/amlogic-nextbook-tablets)
+**Zdroj:** [FreakTab.com](https://freaktab.com/forum/tablet-support-android/nextbook-tablets/amlogic-nextbook-tablets)
