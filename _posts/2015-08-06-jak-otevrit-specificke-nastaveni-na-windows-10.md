@@ -2,24 +2,23 @@
 title: "Jak otevřít specifické nastavení na Windows 10"
 date: "2015-08-06"
 categories: 
-  - "win"
+  - "Windows"
 tags: 
-  - "downgrade"
-  - "nastaveni"
-  - "windows-10"
-coverImage: "WinX-RUNCommands_1024x768.jpg"
+  - "Windows-10"
+image: 
+  path: "/img/page/Windows_10.jpg"
+  alt: Windows 10
 ---
 
-S updatem na Windows 10 se Microsoft odklonil od klasických ovládacích panelů a navrhl Nastavení nové a moderní. Problém je, že mnoha lidem se po update na Windows 10 moderní rozhraní (včetně nabídky start) vůbec nerozjede a přes klasický explorer se do nového nastavení nedá "proklikat". Řešením by mohla být stará dobrá zkratka Win + R...<!--more-->
+S updatem na Windows 10 se Microsoft odklonil od klasických ovládacích panelů a navrhl Nastavení nové a moderní. Problém je, že mnoha lidem se po update na Windows 10 moderní rozhraní (včetně nabídky start) vůbec nerozjede a přes klasický explorer se do nového nastavení nedá "proklikat". Řešením by mohla být stará dobrá zkratka Win + R...
 
 Dostala se mi na stůl počítačová sestava HP Pavilion Elite, která po update z Windows 7 na Windows 10 přestala reagovat po načtení uživatelského profilu. Downgrade se v normálních případech provádí velmi triviálně, klikací metodou...
 
 > Start - Nastavení - Aktualizace a zabezpečení - Obnovení - Přejít zpátky k Windows X
-
   
 Jenomže v tomto případě byl takový postup nemožný, protože nereagoval hlavní panel včetně nabídky start a přes explorer se mi podařilo dostat pouze do klasických ovládacích panelů, kde tato možnost schází.
 
-Proto jsem se poohlédl po nových příkazech a skrze _**Win + R - ms-settings:windowsupdate**_ jsem se dostal do nastavení Aktualizací a obnovení, ze kterého jsem již mohl provést daný úkon. Proto bych zde rád zveřejnil téměř kompletní seznam nových příkazů, snad se někomu budou hodit.
+Proto jsem se poohlédl po nových příkazech a skrze **Win + R** + `ms-settings:windowsupdate` jsem se dostal do nastavení Aktualizací a obnovení, ze kterého jsem již mohl provést daný úkon. Proto bych zde rád zveřejnil téměř kompletní seznam nových příkazů, snad se někomu budou hodit.
 
 | **Settings app page** | **command** |
 | --- | --- |
