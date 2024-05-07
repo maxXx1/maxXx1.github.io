@@ -104,7 +104,7 @@ _Windows XP_
 
 V prostředí Windows XP SP3 se v našem případě dají provozovat pouze 32 bitové aplikace pro architekturu x86. Takže si níže odložím výpis mnou testovaných verzí:
 
-- **Internetový prohlížeč**: [Internet Explorer 8](https://www.microsoft.com/cs-cz/download/details.aspx?id=40390) / [Mozilla Firefox 52.9.0 ESR](https://ftp.mozilla.org/pub/firefox/releases/52.9.0esr/win32/cs/)
+- **Internetový prohlížeč**: [Internet Explorer 8](https://www.microsoft.com/cs-cz/download/details.aspx?id=40390) / [Mozilla Firefox 52.9.0 ESR](https://ftp.mozilla.org/pub/firefox/releases/52.9.0esr/win32/cs/) / [Supermium](https://win32subsystem.live/supermium/)
 - **Kancelářský balík:** MS Office 2007 / [LibreOffice 5.4.7.2](https://downloadarchive.documentfoundation.org/libreoffice/old/5.4.7.2/win/x86/)
 - **Práce s archívy:** [7-Zip 23.01](https://www.7-zip.org/download.html)
 - **Audio/video:** Windows Media Player 11 / [VLC 3.0.11](https://download.videolan.org/pub/videolan/vlc/last/win32/)
