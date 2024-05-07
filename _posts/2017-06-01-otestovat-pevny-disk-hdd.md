@@ -26,7 +26,7 @@ Většinou se doporučuje použít na kontrolu disku utilitu od výrobce, ten to
 
 ## Rychlý test - Crystal Disk Info
 
-Na rychlý test bych doporučil [Crystal Disk Info](http://crystalmark.info/download/index-e.html#CrystalDiskInfo) - tento prográmek je v češtině a ihned po zapnutí vás bude přehledně informovat, zdali je disk v pořádku.
+Na rychlý test bych doporučil [Crystal Disk Info](https://crystalmark.info/download/index-e.html#CrystalDiskInfo) - tento prográmek je v češtině a ihned po zapnutí vás bude přehledně informovat, zdali je disk v pořádku.
 
 ![crystal](/img/2017-06-01-otestovat-pevny-disk-hdd/crystal.png)
 
@@ -36,7 +36,7 @@ Na rychlý test bych doporučil [Crystal Disk Info](http://crystalmark.info/dow
 
 ## Hloubkový test - HD Tune
 
-Na hloubkový test bych doporučil starší program [HDTune](http://www.hdtune.com/download.html), naprosto postačí jeho verze zdarma (v 2.55 z roku 2008). Tento program proklepne váš disk po více stránkách.
+Na hloubkový test bych doporučil starší program [HDTune](https://www.hdtune.com/download.html), naprosto postačí jeho verze zdarma (v 2.55 z roku 2008). Tento program proklepne váš disk po více stránkách.
 
 **Benchmark** - Po kliknutí na "Start" nejdřív dojde k testu rychlosti (na pc nic v tu chvíli nedělejte, čtení a zápis by byl ovlivněn). Poté se začnou objevovat žluté tečky, což je test konzistence disku. Tečky by měly tvořit pruh, neměly by být rozprostřeny přes celé okno. Také spojnice grafu při měření rychlosti by neměla být příliš "rozběhaná" a rychlost by měla odpovídat typu disku, který testujete. Starší ATA disky jsou pomalejší než disky SATA, SSD disk je výrazně nejrychlejší.
 

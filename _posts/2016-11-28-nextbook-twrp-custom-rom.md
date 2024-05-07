@@ -21,7 +21,7 @@ Protože ani na stránkách oficiální podpory pro USA nenajdete firmware upgra
 1. SD kartu (alespoň 4GB)
 2. Počítač se čtečkou pam. karet
 3. Custom zavaděč - TWRP Pro 4GB verzi: [Next7P12-4G-POM727MC\_1G](https://mega.nz/#!u0QHULZJ!A6y4Y65OG03RLjcMZdCBnfxpr4dxA10orneC2qsPuvU) Pro 8GB verzi: [Next7P12-8G-NXM727MC\_WM](https://mega.nz/#!P9RxmKCT!bHeLbRk1xS8S9NBi1gIfwHfc5LdCnh-fili-b1VX9VQ)
-4. Custom ROM - (od [ShaunMT](https://freaktab.com/member/6564-shaunmt)) [](http://freaktab.com/member/6564-shaunmt)Pro EU verzi: [WM-082313-8188eu\_wifi](https://mega.nz/#!i5gViYTY!wcJK3puIGST9Y_76oOXU1TFRHVU1Q3lbxQTkg5uiPqI) Pro CU verzi: [WM-102312-8192cu\_wifi](https://mega.nz/#!yhYylKSY!zj3Jd3TYBiX5i37WyeWKtKAHKBc04RWh6lSQ3aezt2g)
+4. Custom ROM - (od [ShaunMT](https://freaktab.com/member/6564-shaunmt)) [](https://freaktab.com/member/6564-shaunmt)Pro EU verzi: [WM-082313-8188eu\_wifi](https://mega.nz/#!i5gViYTY!wcJK3puIGST9Y_76oOXU1TFRHVU1Q3lbxQTkg5uiPqI) Pro CU verzi: [WM-102312-8192cu\_wifi](https://mega.nz/#!yhYylKSY!zj3Jd3TYBiX5i37WyeWKtKAHKBc04RWh6lSQ3aezt2g)
 
 ## Postup
 
