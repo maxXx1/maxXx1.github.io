@@ -108,5 +108,5 @@ Na závěr něco z českých luhů a hájů:
     - VAC neovlivňuje počet reportů viz [support](https://support.steampowered.com/kb_article.php?ref=1010-TOKN-8461)
 - Někdo vás kontaktuje s tím, že když mu dáte přístup do svého počítače skrze SW TeamViewer, tak vám po uskutečnění obchodu dobije peníze přímo na steam. To snad ani nepotřebuje komentář....
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/vCZen" data-context="false" ><a href="//imgur.com/a/vCZen">CSGO funny.scam</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/vCZen" data-context="false" ><a href="https://imgur.com/a/vCZen">CSGO funny.scam</a></blockquote><script async src="https://s.imgur.com/min/embed.js" charset="utf-8"></script>
 __Zde jsou další případy (včetně SteamID64 profilů)__
