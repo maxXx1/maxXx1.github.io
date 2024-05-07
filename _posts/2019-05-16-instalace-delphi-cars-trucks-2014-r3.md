@@ -89,8 +89,7 @@ Dále je nutno upravit soubor **hosts**
 127.0.0.1 activation2.autocom.se
 127.0.0.1 updates.autocom.se
 ```
-
-{: file='C:\Windows\system32\drivers\etc'}
+{: file='C:\Windows\system32\drivers\etc\hosts'}
 
 Aktivátor přetáhnout taktéž do PC a přejmenovat jej na `_WyUpdate.exe_` a **restartovat počítač**.
 
