@@ -2,9 +2,9 @@
 title: "Samsung Galaxy Mini 2 - Instalace ROM"
 date: "2016-12-13"
 categories: 
-  - "Hardware"
-tags: 
   - "Android"
+tags: 
+  - "Samsung"
 image: 
   path: "/img/2016-12-13-samsung-galaxy-mini-2-instalace-rom/gt-s6500.jpg"
   alt: "Samsung Galaxy Mini GT-S6500"

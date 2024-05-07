@@ -2,9 +2,9 @@
 title: "Čeština pro Xiaomi Mi Band 3"
 date: "2019-03-06"
 categories: 
-  - "Hardware"
-tags: 
   - "Android"
+tags: 
+  - "Xiaomi"
 image: 
   path: /img/2019-03-06-cestina-pro-xiaomi-mi-band-3/miband.jpg
   alt: Xiaomi Mi Band 3

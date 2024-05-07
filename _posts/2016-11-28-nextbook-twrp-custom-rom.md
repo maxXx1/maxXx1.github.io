@@ -2,9 +2,9 @@
 title: "nextbook - TWRP a custom ROM"
 date: "2016-11-28"
 categories: 
-  - "Hardware"
-tags: 
   - "Android"
+tags: 
+  - "nextbook"
 image:
   path: "/img/2016-11-28-nextbook-twrp-custom-rom/nextbook.jpg"
   alt: "Nextbook"
