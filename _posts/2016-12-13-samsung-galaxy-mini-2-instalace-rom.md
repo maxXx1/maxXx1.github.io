@@ -14,8 +14,8 @@ Dostal se mi do ruky malý Samsung Galaxy Mini 2 (GT-S6500) s klasickým boot lo
 
 ## Co budeme potřebovat
 
-- **ROM** určenou k flashování skrze Odin najdete v databázi na stránkách [Sammobile.com](http://www.sammobile.com/firmwares/database/GT-S6500/). Pro stažení ROM je nutná registrace, která je zdarma a není nutno ji potvrzovat na emailu. Následně stahujte v bezplatném módu "Regular download"
-- **Odin** je program který slouží pro nahrání ROM v surovém stavu a je vhodné stahovat jeho aktuální verzi ze stránek [Odindownload.com](http://Odindownload.com).
+- **ROM** určenou k flashování skrze Odin najdete v databázi na stránkách [Sammobile.com](https://www.sammobile.com/firmwares/database/GT-S6500/). Pro stažení ROM je nutná registrace, která je zdarma a není nutno ji potvrzovat na emailu. Následně stahujte v bezplatném módu "Regular download"
+- **Odin** je program který slouží pro nahrání ROM v surovém stavu a je vhodné stahovat jeho aktuální verzi ze stránek [Odindownload.com](https://Odindownload.com).
 - **USB driver** který je sice postarší, ale lze jej nainstalovat i na Windows 10, za předpokladu, že vypnete vynucení podpisu ovladačů.
 
 ## Postup
