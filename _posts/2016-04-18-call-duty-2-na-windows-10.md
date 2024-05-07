@@ -11,7 +11,7 @@ image:
 
 Konečně jsem našel funkční postup, jak zprovoznit Call of Duty 2 Single i Multiplayer na 64 i 32bitovývh Windows 10 včetně nastavení jasu. Pokusím se postup unifikovat pro steam i non-steam verzi hry.
 
-> Vypnutím [UAC](https://cs.wikipedia.org/wiki/User_Account_Control) a [SmartScreen](http://windows.microsoft.com/cs-cz/internet-explorer/products/ie-9/features/smartscreen-filter)u snížíte základní obranyschopnost vašeho operačního systému, proto by jste úroveň této ochrany měli snižovat cíleně pouze kvůli hře a následně ji opět vrátit do původních hodnot.
+> Vypnutím [UAC](https://cs.wikipedia.org/wiki/User_Account_Control) a [SmartScreen](https://windows.microsoft.com/cs-cz/internet-explorer/products/ie-9/features/smartscreen-filter)u snížíte základní obranyschopnost vašeho operačního systému, proto by jste úroveň této ochrany měli snižovat cíleně pouze kvůli hře a následně ji opět vrátit do původních hodnot.
 {: .prompt-danger }
 
 Ujistěte se, že jste přihlášeni pod **místním účtem** (nikoli účtem Microsoft) 
