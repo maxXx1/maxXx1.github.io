@@ -2,14 +2,12 @@
 title: "Vodafone Smart Prime 6 - Unbrick ROOT TWRP"
 date: "2016-03-08"
 categories: 
-  - "nezarazene"
+  - "Android"
 tags: 
-  - "nezarazene"
-  - "root"
-  - "twrp"
-  - "unbrick"
-  - "xposed"
-coverImage: "prime6-1024x576-1.jpg"
+  - "Vodafone"
+image: 
+  path: "/img/2016-03-08-vodafone-smart-prime-6/prime6.jpg"
+  alt: "Vodafone Smart Prime 6"
 ---
 
 Tento telefon sice nemá téměř žádné potencionálně nežádoucí, předinstalované aplikace, ale mnoho lidí se (ať už z jakýchkoliv důvodů) zajímá o postup k získání root oprávnění na tomto zařízení.
@@ -22,7 +20,7 @@ Pročtěte nejprve návod celý až do konce, aby se nestalo, že se v některé
 
 Tyto postupy byly testovány na několika verzích Firmware a posledním dostupném update operačního systému Android z Windows 7 i 10 (64bit).
 
-### Příprava a Root
+## Příprava a Root
 
 1. **Povolte "Možnosti pro vývojáře"** Nastavení - Informace o telefonu - _7x klikněte na ikonu_ "číslo sestavení" a poté se objeví "Možnosti pro vývojáře" dole v menu Nastavení.
 2. **Povolte v nastavení "Ladění přes USB"** Nastavení - Možnosti pro vývojáře - Ladění přes USB
@@ -34,12 +32,12 @@ Tyto postupy byly testovány na několika verzích Firmware a posledním dostupn
 8. A **"Set write protect off"** (čímž vypnete ochranu proti přepsání)
 9. Zobrazí se zpráva _"write protect is off after reboot"_
 10. Nakonec zvolte **"cancel"** a **"reboot system now"**
-11. Připojte se na WIFI a nainstalujte aplikaci **[KingRoot](http://kingroot.net/?myLocale=en_US)** (pro Android)
-12.  V aplikaci klikněte na [modré tlačítko](http://kingroot.net/tutorials) a počkejte dokud nebude progress bar na 100%.
+11. Připojte se na WIFI a nainstalujte aplikaci **[KingRoot](https://kingroot.net/?myLocale=en_US)** (pro Android)
+12.  V aplikaci klikněte na [modré tlačítko](https://kingroot.net/tutorials) a počkejte dokud nebude progress bar na 100%.
     - Pokud se telefon zasekne, tak podržte tlačítko power dokud se telefon nerestuje (nevypne) a postup opakujte.
 13. Hotovo! Nyní můžete ověřit, jestli je vaše zařízení rootnuto pomocí [root check tool](https://play.google.com/store/apps/details?id=com.rootcheck.tool).
 
-### Přehození z KingRoot na SuperSU
+## Přehození z KingRoot na SuperSU
 
 1. Stáhněte si [script](https://mega.nz/#!q04XWa4A!kNB_DZsqTJjbmEiRE_f9axypQBDrtcQ16UKi8TToND8).
 2. **Rozbalte a nainstalujte** do mobilu
@@ -56,8 +54,9 @@ Tyto postupy byly testovány na několika verzích Firmware a posledním dostupn
 13. Nyní by po restartu telefonu měl být místo KingRootu nově SuperSU
 
 > Pokud budete provádět update firmware (Androidu) na vyšší verzi, tak před tím musíte telefon unrootnout, znovu povolit "write protect" a přehrát soubor build.prop (nemodifikovanou verzí)! Jinak hrozí, že vám po update telefon naběhne pouze do fastbootu.
+{: .prompt-danger }
 
-### Instalace TWRP (alternativní recovery)
+## Instalace TWRP (alternativní recovery)
 
 1. Stáhněte [TWRP 3.0.0-0](https://mega.nz/#!XpJwRSwL!47Z72snWrWy88IE6BkVjCabQn4596cvaK6QzN431yLU) a skrze USB ho nahrajte do **vnitřního úložiště**
 2. Stáhněte a **nainstalujte** aplikaci [Flashify](https://play.google.com/store/apps/details?id=com.cgollner.flashify)
@@ -69,25 +68,31 @@ Tyto postupy byly testovány na několika verzích Firmware a posledním dostupn
 8. Mobil se resetuje přímo do **TWRP recovery**
 
 > V TWRP můžete nahrávat custom ROMs, resetovat telefon do továrního nastavení či celý smazat, ale hlavně provést zálohu vaší stávající ROM pro případné pozdější obnovení!
+{: .prompt-info }
 
-#### Xposed Framework
+## Xposed Framework
 
-- V TWRP lze jednoduše flashnout i **aktuální** [Xposed Framework](http://forum.xda-developers.com/showthread.php?t=3034811)
+- V TWRP lze jednoduše flashnout i **aktuální** [Xposed Framework](https://forum.xda-developers.com/showthread.php?t=3034811)
 - Následně pak stačí nainstalovat [Installer](https://mega.nz/#!G85CEbZa!u_A-qutEaw7Sdz6jIKUS1pa_OH-s_bJwlnc3To5skhI) **přímo v androidu**
 
-### Unbrick po OTA update
+## Unbrick po OTA update
 
 1. Stáhněte [archív s nástroji](https://mega.nz/#!D9ZFiRTL!hB9OfqHX0cde4WgTzDlyg-6kO_HFfeonPUV_mEIrFBM) a firmwarem zde
-2. **Rozbalte archív** např. do C:\\Program Files (x86)\\SUGAR QCT\_SP\\
-3. **Nainstalujte ovaladač** (jako správce) z C:\\Program Files (x86)\\SUGAR QCT\_SP\\usb\_driver\\installdriver\\DriverInstaller.exe
-4. Restartujte telefon do recovery (**vol up + power button**) \[notification type="alert-info" close="false" \]Pokud se nedaří dostat telefon do diagnostického režimu, tak zkuste "download mode" - volume up + volume down + power button a následně volume up\[/notification\]
+2. **Rozbalte archív** např. do `C:\Program Files (x86)\SUGAR QCT_SP\`{: .filepath}
+3. **Nainstalujte ovaladač** (jako správce) z `C:\Program Files (x86)\SUGAR QCT_SP\usb_driver\installdriver\DriverInstaller.exe`{: .filepath}
+4. Restartujte telefon do recovery (**vol up + power button**)
+
+> Pokud se nedaří dostat telefon do diagnostického režimu, tak zkuste "download mode" - `volume up` + `volume down` + `power button` a následně `volume up`
+{: .prompt-tip }
+
 5. Nyní dejte **power down** z menu (kompletni vypnuti telefonu) a **zapojte USB kabel**
-6. Nyní by se měl telefon detekovat v OS takto: [![](images/Sn_mek_obrazovky_52-1024x576-1.png)](http://old.maxxx.cz/wp-content/uploads/2016/03/Sn_mek_obrazovky_52-1024x576-1.png)
-7. **Spusťte sugar** (jako správce) C:\\Program Files (x86)\\SUGAR QCT\_SP\\tool\\SUGAR QCT\_SP.exe
+6. Nyní by se měl telefon detekovat v OS takto: 
+![obrayovka](/img/2016-03-08-vodafone-smart-prime-6/Snimek_obrazovky.png)
+7. **Spusťte sugar** (jako správce) `C:\Program Files (x86)\SUGAR QCT_SP\tool\SUGAR QCT_SP.exe`{: .filepath}
 8. Odklikněte "**press OK**" přihlášení v sugaru (Vyhodí chybu, že nelze připojit, ale program jako takový naběhne)
 9. Nyní pokud v programu vidíte váš telefon, tak **vyberte model "VF-895N"**
 10.  Klikněte na **upgrade** a potvrďte flash Pokud program detekuje root, tak neklikejte na "**get status**", protože by vám to telefon přepnulo zpět do normálního režimu (a museli by jste znovu do recovery).
 11. Pokud je vše v pořádku, tak by se měl automaticky spustit flash, který trvá cca. 8 - 10 minut, takže **buďte trpěliví**.
 12. Hotovo! Můžete utřít pot z čela.
 
-Zdroj: [AndroidForum](http://androidforum.cz/), [XDA Fórum](http://www.xda-developers.com/)
+Zdroj: [AndroidForum](https://androidforum.cz/), [XDA Fórum](https://www.xda-developers.com/)
