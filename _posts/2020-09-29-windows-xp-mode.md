@@ -37,6 +37,8 @@ Stáhněte oficiální Windows XP mode (pro Windows 7) přímo ze stránek MS. N
 [Windows XP Mode](https://www.microsoft.com/cs-cz/download/details.aspx?id=8002)
 
 K dispozici jsou 32 bitové verze systému v klasickém a "N" provedení (bez integrovaného přehrávače WMP). Velikost cca 446 MB.
+> Windows6.1‐KB958559‐x86.msu (případně –x64)
+> WindowsXPMode_cs-cz.exe
 
 ![vXP](/img/2020-09-29-windows-xp-mode/vXP1.png)
 _Stažení_
