@@ -14,9 +14,9 @@ timezone: Europe/Prague
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Pokorak.cz # the main title
+title: Pokorák.cz # the main title
 
-tagline: Sysadmin knowlage base | Game servers | Teamspeak3 | CZ/SK # it will display as the sub-title
+tagline: Sysadmin | ex-CoD2 | Blog | Czech # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Píšu o tom co dělám a nebo hraju.
