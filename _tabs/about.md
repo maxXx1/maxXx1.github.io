@@ -10,5 +10,5 @@ order: 6
  - [ ] GamePark Blog 2006 - 2010
  - [x] phpBB 2007 - 2010
  - [ ] Blogger 2011 - 2015
- - [ ] Wordpress 2016 - 2021
+ - [x] Wordpress 2016 - 2021
  - [x] Ghost 2022 - 2024
