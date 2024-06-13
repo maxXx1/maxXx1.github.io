@@ -1,5 +1,5 @@
 ---
-title: "Chyba aktualizace KB5034441"
+title: "Windows Update - chyba 0x80070643"
 date: "2024-06-13"
 tags: 
   - "Windows-10"
