@@ -31,10 +31,10 @@ Microsoft po měsících slibů rezignoval a jediné co nabídl je [automatizova
 
 Pomocí tohoto Powershell scriptu můžete obsah obnovovacího oddílu zazálohovat bokem, rozšířit jeho velikost a nechat jej znova vytvořit.
 
-> Script je sice přímo ze stránek MS, ale za jeho funkčnost nijak neručím.
+> Script je sice přímo ze support.microsoft.com, ale za jeho funkčnost nijak neručím.
 {: .prompt-danger }
 
-1. Zkopírute následující script a uložte jej např. jako `Resize_script.ps1`{: .filepath}
+- Zkopírujte následující script a uložte jej např. jako `Resize_script.ps1`{: .filepath}
 
 ```powershell
 Param (
