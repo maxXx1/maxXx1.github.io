@@ -9,9 +9,10 @@ image:
   path: "img/2024-06-13-chyba-aktualizace-kb5034441/ps.webp"
   alt: "Windows 10"
 ---
-## Popis problému
 
 Oddíl pro obnovu systému se stává častým vektorem útoku, takže se MS rozhodl jej pravidelně aktualizovat. Pravidla pro jeho tvorbu se ale během let měnila, takže pokud máte letitou instalaci systému, tak se vám může stát, že lednová aktualizace se vám odmítne nainstalovat, protože je oddíl menší než 250MB.
+
+## Popis problému
 
 Obnovovací oddíly nejsou tvořeny s fixní velikostí, v případě Windows 11 mají tyto oddíly od 500MB do 700MB.
 
