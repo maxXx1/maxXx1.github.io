@@ -1,6 +1,6 @@
 ---
 title: "Chyba aktualizace KB5034441"
-date: "2023-09-22"
+date: "2024-06-13"
 tags: 
   - "Windows-10"
   - "Windows-11"
@@ -683,4 +683,4 @@ Set-ExecutionPolicy Restricted
 
 - Nyní spusťe znovu vyhledávání Windows Update, aktualizace by se měla korektně nainstalovat.
 
-> Tento postup jsem několikrát otestoval na různých sestaveních Windows 10.
+> Tento postup jsem několikrát otestoval na různých sestaveních Windows 10
