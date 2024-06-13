@@ -22,7 +22,7 @@ Tato chyba umožňuje bypass Bitlockeru, právě přes oddíl obnovení (WinRE).
 ## Řešení
 ### Skrytí aktualizace
 
-Microsoft po měsících slibů rezignoval a jediné co nabídl je [automatizovaný nástroj](http://download.microsoft.com/download/f/2/2/f22d5fdb-59cd-4275-8c95-1be17bf70b21/wushowhide.diagcab) na "opravu", který nedělá nic jeného, než že aktualizaci skryje.
+Microsoft po měsících slibů rezignoval a jediné co nabídl je [automatizovaný nástroj](https://download.microsoft.com/download/f/2/2/f22d5fdb-59cd-4275-8c95-1be17bf70b21/wushowhide.diagcab) na "opravu", který nedělá nic jeného, než že aktualizaci skryje.
 
 ![hide-update](/img/2024-06-13-chyba-aktualizace-kb5034441/hide-update.png)
 
