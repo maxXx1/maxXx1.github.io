@@ -653,7 +653,7 @@ LogMessage("Successfully completed the operation")
 - Vytvořite složku na zálohu obnovovacího oddílu
 
 ```powershell
-mkdr c:\winre_backup
+mkdir c:\winre_backup
 ```
 
 - Zkontrolovat politiku spouštění nepodepsaných scriptů, pomocí příkazu
