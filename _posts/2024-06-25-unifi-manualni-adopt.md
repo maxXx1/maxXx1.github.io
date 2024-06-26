@@ -28,6 +28,9 @@ Budeme předpokládat, že vaše zařízení je vyresetováno do defaultu a nab�
 - Legacy zařízení: žlutá barva LED
 - Aktuální zařízení: bílá barva LED
 
+> Mezi controllerem a koncovým zařízením by musí být vždy prostupný TCP port 8080
+{: .prompt-warning }
+
 ### Příklad
 Pro náš příklad budeme předpokládat, že koncové zařízení obdrželo od DHCP adresu `192.168.0.5` a controller se nachází na adrese `192.168.0.20`
 
@@ -36,14 +39,14 @@ Na libovnolném zařízení, které se nachází ve stejné síti, jako koncové
 Zařízení si v síti můžete vyhledat pomocí libovolného IP scanneru.
 Ve Windows terminálu bude formát takového příkazu vypadat takto:
 
-```powershell
+```shell
  ssh ubnt@192.168.0.5 -p 22
 ```
 
 - Následně potvrdíte fingerprint příkazem `yes`, dále výchozí heslo `ubnt` a měl by vás přivítat welcome screen vašeho unifi zařízení.
 - Zařízení informujeme o adrese controlleru příkazem:
 
-```bash
+```shell
  set-inform http://192.168.0.20:8080/inform
 ```
 
@@ -52,7 +55,7 @@ Ve Windows terminálu bude formát takového příkazu vypadat takto:
 - v této chvíli můžeme úplně opustit terminál pomocí příkazu `exit` a pokud tento magický packet doputoval až ke controlleru, tak se v něm zobrazí dané zařízení v "Unifi devices" s nabídkou `Adopt`
 - po úspěšné adopci si zařízení přejímá přihlašovací údaje SSH z controlleru
 
-### Nejběžnější příkazy
+### Nejběžnější unifi příkazy
 
 - `info` - zobrazí informace o zařízení
 - `set-default` - vyresetuje zařízení do továrního nastavení
@@ -62,7 +65,7 @@ Ve Windows terminálu bude formát takového příkazu vypadat takto:
 - `poweroff` - vypne zařízení
 - `uptime` - ukáže jak dlouho je zařízení zapnuté
 
-### Ostatní příkazy
+### Ostatní BusyBox příkazy
 
 Na Unifi zařízení můžete vyvolávat i klasické shell příkazy, které by vám taky mohli pomoci s nastavením zařízení, zde je pár příkladů:
 
