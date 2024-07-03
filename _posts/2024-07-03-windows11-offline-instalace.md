@@ -48,7 +48,7 @@ Windows 11 Pro
  
 Windows 11 Home
  ```
- VK7JG-NPHTM-C97JM-9MPGT-3V66T
+ YTMG3-N6DKC-DKB77-7M9GH-8HVX7
  ```
 
 ![krok4](/img/2024-07-03-windows11-offline-instalace/HyperV_Windows%2011_04.png)
