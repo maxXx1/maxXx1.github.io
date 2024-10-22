@@ -152,4 +152,13 @@ ___
 
 ![site-to-site](/img/2024-10-18-unifi-mikrotik-s2s-ipsec/usg-ipsec.png)
 
+Pokud vše půjde jak má, tak na Mikrotiku bude vidět, jak si zařízení vyměnily certifikáty
+
+### Mikrotik -> IPsec -> Installed SAs
+
+|  | SPI | Src. Address | Dst. Address | Auth. Algorithm | Encr. Algorithm | Encr. Key Size | Current Bytes |
+| - | - | - | - | - | - | - | - |
+| EH | xy123z4 | WAN IP Unifi | WAN IP Mikrotiku | sha1 | aes cbc | 128 | 123000
+| EH | x012y3z4 | WAN IP Mikrotiku | WAN IP Unifi | sha1 | aes cbc | 128 | 321000
+
 Zdroje: [Github/iisti](https://github.com/iisti/how-to-usg-mikrotik-ipsec-vpn) a [Willie Howe](https://www.youtube.com/watch?v=70EIA4bF820)
