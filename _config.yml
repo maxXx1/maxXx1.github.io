@@ -34,15 +34,15 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Aleš
-  email: ales@pokorak.cz # change to your email address
+  name: "Aleš"
+  email: "ales@pokorak.cz" # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/maxxxicz # change to your twitter homepage
     - https://github.com/maxXx1 # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/ale%C5%A1-pokor%C3%A1k/
 
 google_site_verification: # fill in to your verification string
 
