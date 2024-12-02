@@ -20,7 +20,7 @@ Instalace Outline knowlge base (self-hosted) na Synology DSM 7.2 s použitím lo
 - [x] Přístup z internetu skrze DDNS
 - [x] Náhrada Slack API za lokální Synology SSO server
 - [ ] Outline a SSO na vlastní doméně
-- [ ] Náhrada lokálních příloh, napojení na Synology C2 storage
+- [ ] Náhrada lokálních příloh, napojení na Synology C2 storage [1](https://github.com/outline/outline/discussions/8033){:target="_blank"}
 
 # Konfigurace Synology SSO
 
