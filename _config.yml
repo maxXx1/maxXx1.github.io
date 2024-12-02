@@ -28,8 +28,8 @@ url: "https://pokorak.cz"
 github:
   username: maxXx1 # change to your github username
 
-# twitter:
-#  username: maxxxicz # change to your twitter username
+twitter:
+  username: maxxxicz # change to your twitter username
 
 social:
   # Change to your full name.
@@ -38,8 +38,8 @@ social:
   email: ales@pokorak.cz # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # - https://twitter.com/username # change to your Twitter homepage
-     - https://github.com/maxXx1 # change to your GitHub homepage
+    # - https://twitter.com/maxxxicz # change to your Twitter homepage
+   - https://github.com/maxXx1 # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -108,7 +108,7 @@ social_preview_image: # string, local or CORS resources
 toc: true
 
 comments:
-  active: "giscus" # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  provider: "giscus" # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -123,6 +123,7 @@ comments:
     category: "Komentáře"
     category_id: "DIC_kwDOLpRRXc4Ckw7o"
     mapping: "title" # optional, default to 'pathname'
+    strict: # optional, default to '0'
     input_position: "top" # optional, default to 'bottom'
     lang: "cs" # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
