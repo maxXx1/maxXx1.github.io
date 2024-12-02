@@ -17,13 +17,11 @@ Instalace Outline (self-hosted) na Synology DSM 7.2 s použitím lokálního Syn
 
 - Nainstaluj balíček Synology SSO (Nikoliv “Synology OAuth Service")
     
-    &nbsp;
-    
 - Otevři balíček "Server SSO" a v Obecných nastavní nastav URL serveru a v Nastavení příhlášení Přizpůsobenou doménu.
     
 - V záložce služba povolit Server OIDC, zkopírum Well-known URL a otevři ji v nové záložce
     
-    ```javascript
+    ```js
     {
         "authorization_endpoint": "https://sso.nuf.dscloud.me/webman/sso/SSOOauth.cgi",
         "claims_supported": [
@@ -91,6 +89,8 @@ Instalace Outline (self-hosted) na Synology DSM 7.2 s použitím lokálního Syn
         Pokud používáš reverzní proxy, tak použij veřejnou URL
         
 - Otevři tuto nově vytvořenou “Outline” aplikaci
+
+![sso-app](/img/2024-12-02-outline-synology-sso/sso_app.png)
     
 - Zkopíruj ID a Tajný klíč apliace do tvé Outline konfigurace `.env` nebo `docker-compose.yaml`
     
