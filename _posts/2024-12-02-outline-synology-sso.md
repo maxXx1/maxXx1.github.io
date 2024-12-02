@@ -2,22 +2,35 @@
 title: "Outline v Dockeru s ověřením Synology SSO"
 date: "2024-12-02"
 tags: 
-  - "Synology"
+  - "Self-host"
   - "Docker"
   - "Homelab"
-category: "Self-host"
+category: "Synology"
 image: 
   path: "img/2024-12-02-outline-synology-sso/outline.jpg"
   alt: "Zdroj: Blackvoid"
 ---
 
-Instalace Outline (self-hosted) na Synology DSM 7.2 s použitím lokálního Synology SSO serveru. Jedná se o náhradu přihlášení přes Slack, která je jediná dostupná u self-hosted varianty.
+Instalace Outline knowlge base (self-hosted) na Synology DSM 7.2 s použitím lokálního Synology SSO serveru. Jedná se o náhradu přihlášení přes Slack, která je jediná dostupná u self-hosted varianty.
 
-#Konfigurace Synology SSO
+# TO-DO
+
+- [x] Outline v Dockeru (pomocí nativního Container manageru)
+- [x] Přístup k datovým a databázovým souborům přímo z File Station
+- [x] Přístup z internetu skrze DDNS
+- [x] Náhrada Slack API za lokální Synology SSO server
+- [ ] Outline a SSO na vlastní doméně
+- [ ] Náhrada lokálních příloh, napojení na Synology C2 storage
+
+# Konfigurace Synology SSO
 
 - Nainstaluj balíček Synology SSO (Nikoliv “Synology OAuth Service")
+
+![package](/img/2024-12-02-outline-synology-sso/package.png)
     
 - Otevři balíček "Server SSO" a v Obecných nastavní nastav URL serveru a v Nastavení příhlášení Přizpůsobenou doménu.
+
+![server_sso](c:\Users\Aleš\Desktop\Outline\server_sso.png)
     
 - V záložce služba povolit Server OIDC, zkopírum Well-known URL a otevři ji v nové záložce
     
@@ -106,7 +119,7 @@ Instalace Outline (self-hosted) na Synology DSM 7.2 s použitím lokálního Syn
 - A to by mělo být ohledně SSO vše!
     
 
-#Instalace Outline (Docker)
+# Instalace Outline (Docker)
 
 1.  Skrze File Station ve složce `docker` vytvoř složku `outline` a v ní další 2 pod-složky
     
@@ -122,7 +135,7 @@ Instalace Outline (self-hosted) na Synology DSM 7.2 s použitím lokálního Syn
         
     3.  Zaklikni použít pro tuto složku i podsložky a dej uložit
         
-3.  Do složky `outline` nahraj svůj nakonfigurovaný docker-compose.yaml
+3.  Do složky `outline` nahraj svůj nakonfigurovaný `docker-compose.yaml`
     
 4.  V balíčku Container manager vytvoř projekt:
     
@@ -137,15 +150,16 @@ Instalace Outline (self-hosted) na Synology DSM 7.2 s použitím lokálního Syn
 5.  Jedná se o 3 kontejnery (app, redis, postgres), celé to startuje v závislosti na výkonu cca 5 minut
     
 
-## #Konfigurace
+## Konfigurace
 
 Hodnoty `SECRET_KEY` a `UTILS_SECRET` lze vygenrovat v terminálu pomocí příkazu
 
-```
+```bash
 openssl rand -hex 32
 ```
 
-Já jsem nepoužil konfigurační `.env`, ale všechno na pevno definoval v `docker-compose.yaml`
+> Já jsem nepoužil konfigurační `.env`, ale všechno na pevno definoval v `docker-compose.yaml`
+{: .prompt-info }
 
 ```yaml
 version: "3.7"
@@ -212,6 +226,7 @@ services:
     volumes:
       - /volume1/docker/outline/postgres-data:/var/lib/postgresql/data
 ```
+{: file='docker-compose.yaml'}
 
 ## Reverzní Proxy
 
@@ -241,3 +256,5 @@ services:
     
 
 Následně by tě po zadání veřejné URL nebo DDNS adresy měl čekat SSO login portál.
+
+![screen](/img/2024-12-02-outline-synology-sso/screenshot.png)
