@@ -37,6 +37,7 @@ social:
   name: Aleš
   email: ales@pokorak.cz # change to your email address
   links:
+      - https://bsky.app/profile/pokorak.cz
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your Twitter homepage
     # - https://github.com/username # change to your GitHub homepage
