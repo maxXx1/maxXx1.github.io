@@ -36,7 +36,7 @@ Instalace Outline knowlge base (self-hosted) na Synology DSM 7.2 s použitím lo
     
     ```js
     {
-        "authorization_endpoint": "https://sso.nuf.dscloud.me/webman/sso/SSOOauth.cgi",
+        "authorization_endpoint": "https://sso.xxx.dscloud.me/webman/sso/SSOOauth.cgi",
         "claims_supported": [
             "aud",
             "email",
@@ -58,8 +58,8 @@ Instalace Outline knowlge base (self-hosted) na Synology DSM 7.2 s použitím lo
         "id_token_signing_alg_values_supported": [
             "RS256"
         ],
-        "issuer": "https://sso.nuf.dscloud.me/webman/sso",
-        "jwks_uri": "https://sso.nuf.dscloud.me/webman/sso/openid-jwks.json",
+        "issuer": "https://sso.xxx.dscloud.me/webman/sso",
+        "jwks_uri": "https://sso.xxx.dscloud.me/webman/sso/openid-jwks.json",
         "response_types_supported": [
             "code",
             "code id_token",
@@ -74,14 +74,15 @@ Instalace Outline knowlge base (self-hosted) na Synology DSM 7.2 s použitím lo
         "subject_types_supported": [
             "public"
         ],
-        "token_endpoint": "https://sso.nuf.dscloud.me/webman/sso/SSOAccessToken.cgi",
+        "token_endpoint": "https://sso.xxx.dscloud.me/webman/sso/SSOAccessToken.cgi",
         "token_endpoint_auth_methods_supported": [
             "client_secret_basic",
             "client_secret_post"
         ],
-        "userinfo_endpoint": "https://sso.nuf.dscloud.me/webman/sso/SSOUserInfo.cgi"
+        "userinfo_endpoint": "https://sso.xxx.dscloud.me/webman/sso/SSOUserInfo.cgi"
     }
     ```
+    {: file='.../webman/sso/.well-known/openid-configuration'}
     
 - Zkopíruj endpointy do odpovídajících parametrů v Outline configu `.env` nebo přímo do `docker-compose.yaml`
     
