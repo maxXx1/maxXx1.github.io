@@ -2,10 +2,10 @@
 title: "Outline v Dockeru s ověřením Synology SSO"
 date: "2024-12-02"
 tags: 
-  - "Self-host"
-  - "Docker"
+  - "Synology"
+  - "Selfhost"
   - "Homelab"
-category: "Synology"
+category: "Docker"
 image: 
   path: "img/2024-12-02-outline-synology-sso/outline.jpg"
   alt: "Zdroj: Blackvoid"
@@ -30,7 +30,7 @@ Instalace Outline knowlge base (self-hosted) na Synology DSM 7.2 s použitím lo
     
 - Otevři balíček "Server SSO" a v Obecných nastavní nastav URL serveru a v Nastavení příhlášení Přizpůsobenou doménu.
 
-![server_sso](c:\Users\Aleš\Desktop\Outline\server_sso.png)
+![server_sso](/img/2024-12-02-outline-synology-sso/server_sso.png)
     
 - V záložce služba povolit Server OIDC, zkopírum Well-known URL a otevři ji v nové záložce
     
