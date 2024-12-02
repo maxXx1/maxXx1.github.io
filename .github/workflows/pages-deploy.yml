@@ -42,7 +42,11 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
+<<<<<<< HEAD
           ruby-version: 3.2
+=======
+          ruby-version: 3.3
+>>>>>>> v7.2.0
           bundler-cache: true
 
       - name: Build site
@@ -53,7 +57,11 @@ jobs:
       - name: Test site
         run: |
           bundle exec htmlproofer _site \
+<<<<<<< HEAD
             \-\-disable-external=true \
+=======
+            \-\-disable-external \
+>>>>>>> v7.2.0
             \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 
       - name: Upload site artifact
