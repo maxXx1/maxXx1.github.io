@@ -22,7 +22,7 @@ Instalace Outline knowlge base (self-hosted) na Synology DSM 7.2 s použitím lo
 - [ ] Outline a SSO na vlastní doméně
 - [ ] Náhrada lokálních příloh, napojení na Synology C2 storage [1](https://github.com/outline/outline/discussions/8033){:target="_blank"}
 
-# Konfigurace Synology SSO
+## Konfigurace Synology SSO
 
 - Nainstaluj balíček Synology SSO (Nikoliv “Synology OAuth Service")
 
@@ -120,7 +120,7 @@ Instalace Outline knowlge base (self-hosted) na Synology DSM 7.2 s použitím lo
 - A to by mělo být ohledně SSO vše!
     
 
-# Instalace Outline (Docker)
+## Instalace Outline (Docker)
 
 1.  Skrze File Station ve složce `docker` vytvoř složku `outline` a v ní další 2 pod-složky
     
@@ -151,7 +151,7 @@ Instalace Outline knowlge base (self-hosted) na Synology DSM 7.2 s použitím lo
 5.  Jedná se o 3 kontejnery (app, redis, postgres), celé to startuje v závislosti na výkonu cca 5 minut
     
 
-## Konfigurace
+### Konfigurace
 
 Hodnoty `SECRET_KEY` a `UTILS_SECRET` lze vygenrovat v terminálu pomocí příkazu
 
@@ -180,7 +180,7 @@ services:
       SECRET_KEY: ###SMAZÁNO###
       UTILS_SECRET: ###SMAZÁNO###
       # HTTP
-      URL: https://docs.nuf.dscloud.me
+      URL: https://docs.xxx.dscloud.me
       PORT: 3000
       FORCE_HTTPS: false
       WEB_CONCURRENCY: 1
@@ -191,9 +191,9 @@ services:
       # Authentication
       OIDC_CLIENT_ID: ###SMAZÁNO###
       OIDC_CLIENT_SECRET: ###SMAZÁNO###
-      OIDC_AUTH_URI: https://sso.nuf.dscloud.me/webman/sso/SSOOauth.cgi
-      OIDC_TOKEN_URI: https://sso.nuf.dscloud.me/webman/sso/SSOAccessToken.cgi
-      OIDC_USERINFO_URI: https://sso.nuf.dscloud.me/webman/sso/SSOUserInfo.cgi
+      OIDC_AUTH_URI: https://sso.xxx.dscloud.me/webman/sso/SSOOauth.cgi
+      OIDC_TOKEN_URI: https://sso.xxx.dscloud.me/webman/sso/SSOAccessToken.cgi
+      OIDC_USERINFO_URI: https://sso.xxx.dscloud.me/webman/sso/SSOUserInfo.cgi
       OIDC_USERNAME_CLAIM: username
       OIDC_SCOPES: openid groups email  
       # Storage
@@ -229,7 +229,7 @@ services:
 ```
 {: file='docker-compose.yaml'}
 
-## Reverzní Proxy
+### Reverzní Proxy
 
 - Ovládací panel - Přihlašovací portál - Reverzní server proxy
     
