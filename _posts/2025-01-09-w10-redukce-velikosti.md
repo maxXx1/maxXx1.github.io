@@ -17,7 +17,7 @@ Tým NTDEV se postaral o odlehčenou variantu Windows 10, která staví na Windo
 Tato varianta si klade za cíl být odlehčenou verzí Windows 10 pro počítače nižší třídy, avšak v ní nechybí nic podstatného.
 
 - běží na procesoru x86
-- dporučená paměť je 2 GB
+- doporučená paměť je 2 GB
 - velikost disku 16 GB (po instalaci zabere asi 5 GB)
 - možnost aktualizací (Windows Update)
 - možnost doinstalovaní funkcí OS `Windows Component Store`

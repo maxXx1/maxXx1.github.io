@@ -118,6 +118,12 @@ setup /product server
 - Nastavte jeho hodnotu na `1`
 - Restartujte počítač a zkuste znovu provést upgrade
 
+nebo přes PowerShell:
+
+```powershell
+reg add HKLM\SYSTEM\Setup\MoSetup /f /v AllowUpgradesWithUnsupportedTPMorCPU /d 1 /t reg_dword
+```
+
 ## Návrat k Windows 10 
 
 Pokud jste Windows 11 nainstalovali na nepodporovaný počítač nebo vám po upgrade na Windows 11 něco důležitého nefunguje, máte **desetidenní lhůtu** na návrat k Windows 10 přes nabídku Obnovení. 
