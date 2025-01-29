@@ -133,9 +133,9 @@ Tato úprava registru se dá provést i přímo během instalačního procesu (v
 - nyní přejděte do `HKEY_LOCAL_MACHINE\SYSTEM\Setup`
 - zde klikněte druhým tlačítkmem na klíč `Setup` a vytvořte nový klíč `LabConfig`
 - uvnitř tohoto klíče vytvořte novou DWORD (32-bit) hodnotu: (dle potřeby)
-`BypassTPMCheck` a hodnotu nastavte na `1`
-`BypassSecureBootCheck` a hodnotu nastavte na `1`
-`BypassCPUCheck` a hodnotu nastavte na `1`
+  - `BypassTPMCheck` a hodnotu nastavte na `1`
+  - `BypassSecureBootCheck` a hodnotu nastavte na `1`
+  - `BypassCPUCheck` a hodnotu nastavte na `1`
 
 ## Návrat k Windows 10 
 
