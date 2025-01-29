@@ -76,7 +76,7 @@ sudo apt-get install unetbootin
 > U nekompatibilního HW, je velmi pravděpodobné, že nebude prospsána vaše licence OS na desku nebo nebude možné ověřit vaše HWID, takže bych doporučoval mít připraven svůj licenční klíč na Windows 10, kterým lze oaktivovat Windows 11.
 {: .prompt-info }
 
-> U starých procesorů bez instrukčního setu SSE4.2, to na verzi W11 24H2 a vzšší fakt nejde, zkoušel jsem to.
+> U starých procesorů bez instrukčního setu SSE4.2, to na verzi W11 24H2 a vyšší fakt nejde, zkoušel jsem to.
 {: .prompt-warning }
 
 ### Rufus
