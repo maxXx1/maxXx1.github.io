@@ -9,7 +9,7 @@ theme: jekyll-theme-chirpy
 lang: cs-CZ
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone: Europe/Prague  
+timezone: Europe/Prague
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -39,10 +39,10 @@ social:
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/maxxxicz # change to your Twitter homepage
-   - https://github.com/maxXx1 # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://github.com/maxXx1 # change to your GitHub homepage
+      # Uncomment below to add more social links
+      # - https://www.facebook.com/username
+      # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
 webmaster_verifications:
@@ -88,7 +88,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: # [light | dark]
+theme_mode: dark # [light | dark]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
