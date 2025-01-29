@@ -124,6 +124,19 @@ nebo přes PowerShell:
 reg add HKLM\SYSTEM\Setup\MoSetup /f /v AllowUpgradesWithUnsupportedTPMorCPU /d 1 /t reg_dword
 ```
 
+#### Během čisté instalce
+
+Tato úprava registru se dá provést i přímo během instalačního procesu (v instalačním průvodci)
+
+- stiskněte `SHIFT` + `F10` (otevře se příkazový řádek)
+- v měm spusťe `regedit` (Editor registru)
+- nyní přejděte do `HKEY_LOCAL_MACHINE\SYSTEM\Setup`
+- zde klikněte druhým tlačítkmem na klíč `Setup` a vytvořte nový klíč `LabConfig`
+- uvnitř tohoto klíče vytvořte novou DWORD (32-bit) hodnotu: (dle potřeby)
+`BypassTPMCheck` a hodnotu nastavte na `1`
+`BypassSecureBootCheck` a hodnotu nastavte na `1`
+`BypassCPUCheck` a hodnotu nastavte na `1`
+
 ## Návrat k Windows 10 
 
 Pokud jste Windows 11 nainstalovali na nepodporovaný počítač nebo vám po upgrade na Windows 11 něco důležitého nefunguje, máte **desetidenní lhůtu** na návrat k Windows 10 přes nabídku Obnovení. 
