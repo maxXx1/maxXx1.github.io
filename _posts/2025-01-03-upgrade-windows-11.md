@@ -21,7 +21,7 @@ image:
   - AMD: Radeon série HD 7730/7750/7770 a novější
   - Nvidia: Geforce série 400/500 a novější (s výjimkou Geforce 405)
 - **RAM:** Minimum je 4GB
-- **Pevný disk:** Minimum 64GB, oddíly musí být ve formátu GPT
+- **Pevný disk:** Minimum 64GB, oddíly musí být ve formátu GPT[^convert]
 - **Zákl. deska:** Bootování pouze v UEFI (s vypnutou emulací legacy BIOSu, tzv. CSM), povinný Secure Boot (Zabezpečené spuštění)
 - **Displej:** HD (720p) s úhlopříčkou větší než 9"
 - **OS:** Windows 10 verze 2004 nebo novější 
@@ -156,7 +156,7 @@ Pokud počítač nebo základní deska podporuje rozhraní UEFI, můžeš pomoc�
 > Pokud je disk operačního systému Windows 10 zašifrován nástrojem BitLocker, budeš muset disk operačního systému před převodem dešifrovat.
 {: .prompt-warning }
 
-Systém oddílů GPT je jedním z požadavků Windows 11.
+Systém oddílů GPT je jedním z požadavků Windows 11.[^convert]
 
 #### Offline převod 
 
