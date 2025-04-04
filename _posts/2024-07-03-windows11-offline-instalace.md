@@ -77,7 +77,8 @@ Windows 11 Home
 > Zde se již ujistěte, že váš počítač skutečně není připojen k internetu! Není aktivní wifi adaptér ani připojený síťový kabel.
 {: .prompt-warning }
 
-Edice Education/Enterprise/IoT Enterprise a LTSC mají stále možnost přeskočit připojení k internetu a založení lokálního účtu. 
+> Edice Education/Enterprise/IoT Enterprise a LTSC mají stále možnost přeskočit připojení k internetu a založení lokálního účtu.
+{: .prompt-info } 
 
 ![krok9](/img/2024-07-03-windows11-offline-instalace/HyperV_Windows%2011_09.png)
 - Na úvodní obrazovce instalátoru stiskneme kombinaci kláves `SHIFT` + `F10` čímž vyvoláme Terminál
