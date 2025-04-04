@@ -77,12 +77,21 @@ Windows 11 Home
 > Zde se již ujistěte, že váš počítač skutečně není připojen k internetu! Není aktivní wifi adaptér ani připojený síťový kabel.
 {: .prompt-warning }
 
+Edice Education/Enterprise/IoT Enterprise a LTSC mají stále možnost přeskočit připojení k internetu a založení lokálního účtu. 
+
 ![krok9](/img/2024-07-03-windows11-offline-instalace/HyperV_Windows%2011_09.png)
 - Na úvodní obrazovce instalátoru stiskneme kombinaci kláves `SHIFT` + `F10` čímž vyvoláme Terminál
 - Do terminálu vložíme příkaz:
 
-```powershell
+```bat
 OOBE\BYPASSNRO
+```
+
+Pokud není script[^footnote] již k dispozici, tak jej aktivujeme pomocí registru:
+
+```bat
+reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OOBE /v BypassNRO /t REG_DWORD /d 1 /f
+shutdown /r /t 0
 ```
 
 ![krok10](/img/2024-07-03-windows11-offline-instalace/HyperV_Windows%2011_10.png)
@@ -125,3 +134,27 @@ V tomto bodě:
 - zkontrolovat úspěšnou aktivaci systému
 - spustit instalaci aktualizací Windows Update a Microsoft Store (protože mnoho součástí se již aktualizuje skrze Windows Store)
 - nainstalovat ovladače vašeho HW __z oficiálních stránek výrobce__
+
+## Vytvoření lokálního uživatele
+
+- Přímo v instalátoru stiskneme kombinaci kláves `SHIFT` + `F10` čímž vyvoláme Terminál
+- Do terminálu vložíme příkaz:
+
+```bat
+start ms-cxh:localonly
+```
+
+- Což vyvolá přímo systémový dialog na tvorbu lokálního uživatele.
+
+![localonly](/img/2024-07-03-windows11-offline-instalace/ocalonly.png)
+
+- Po jeho založení instalátor přeskočí přímo do nově vytvořeného profilu.
+
+- Nebo přímo z příkazového řádku pomocí příkazů:
+
+```bat
+net user /add uzivatel heslo
+net localgroup /add administrators uzivatel
+```
+
+[^footnote]: Tento script (bypassnro.cmd) není od sestavení 26200.5516/26120.3653 k dispozici.
