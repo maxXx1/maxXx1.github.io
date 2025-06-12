@@ -110,6 +110,12 @@ Stačí spustit s parametrem:
 setup /product server 
 ```
 
+Z instalčního flash disku:
+
+```bat
+D:\sources\setupprep.exe /product server
+```
+
 ### Úprava registru
 
 - Otevřete Editor registru (Windows + R -> napište `regedit` a potvrďte)
