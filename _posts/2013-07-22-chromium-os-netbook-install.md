@@ -5,7 +5,7 @@ tags:
   - "Laptop"
 category: Linux
 image: 
-  path: "img/page/chromium-os.jpg"
+  path: "/img/page/chromium-os.jpg"
   alt: "Chromium OS"
 ---
 

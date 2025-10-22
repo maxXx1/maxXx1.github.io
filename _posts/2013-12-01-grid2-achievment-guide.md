@@ -5,7 +5,7 @@ tags:
   - "Grid2"
 category: "Hry"
 image: 
-  path: "img/2013-12-01-grid2-achievment-guide/grid2.jpg"
+  path: "/img/2013-12-01-grid2-achievment-guide/grid2.jpg"
   alt: "GRID 2"
 ---
 
@@ -30,7 +30,7 @@ Předešlý achiev. se dá spojit s tímto, odemkne se pokud vyhrajete "Touge ra
 
 ## Gone in 60 Seconds
 
-![screen](img/2013-12-01-grid2-achievment-guide/2013-12-01_00008.jpg)
+![screen](/img/2013-12-01-grid2-achievment-guide/2013-12-01_00008.jpg)
 
 Toto je můj favorit, dá se splnit v rámci online hry nebo v klasicky v módu kariéry. A to tak, že založíte "Custom Event" s následujícím nastavením:
 
@@ -49,13 +49,13 @@ Toto je můj favorit, dá se splnit v rámci online hry nebo v klasicky v módu 
 
 Cílem je získat čas kola 59,99 nebo nižší. Postup je sice primitivní, ale né až tak snadný jak se na první pohled může zdát. V prvním kole je vašim úkolem dostat se čistým způsobem na 1. místo a vybudovat si dostatečný náskok. Velmi důležitý je nájezd do dalšího kola (ve kterém zamýšlíte zajetí nejlepšího času). Pro zajetí nejrychlejšího kola si vyberete mezi 2.,3. a 4. kolem, protože na začátku pátého se vám do cesty už budou motat spolujezdci o kolo zpět. Rozhodující pro začátek i konec je poslední dvou-zatáčka, u které se nebojte stále dokola opakovat "flashback" dokud průjezd nebude úplně dokonalý. Krom této zatáčky se dá okruh projet bez brzd.
 
-![screen](img/2013-12-01-grid2-achievment-guide/2013-12-01_00004.jpg)
+![screen](/img/2013-12-01-grid2-achievment-guide/2013-12-01_00004.jpg)
 
 Achievment se dá splnit i online závodě s vylepšeným mustangem kategorie "Tier 2".
 
 ## California Dreaming
 
-![screen](img/2013-12-01-grid2-achievment-guide/2013-12-01_00017.jpg)
+![screen](/img/2013-12-01-grid2-achievment-guide/2013-12-01_00017.jpg)
 
 Stejně jako předešlý achiev. i tento lze splnit v obou módech. Na online mód ale potřebujete opravdu vysoký level a na kariérní mód potřebujete být v "WSR Season 5" na to, aby se Vám odemkly dobré "Tier 4" vozidla. Pokud tedy splňujete výše zmíněnou podmínku, tak založte "Custom Event" s následujícím nastavením:
 
@@ -71,6 +71,6 @@ Stejně jako předešlý achiev. i tento lze splnit v obou módech. Na online m�
 
 Cílem je zajet závod za 02:99 minuty či méně. Ze začátku závodu je samozřejmě velmi důležité dostat se na první místo čistě a bez poškození auta a výrazného zpomalení. Dále se snažit plynule projíždět zatáčky bez zbytečného driftování a brzd. V polovině závodu je průjezd podobný start-cíl, kterým musíte projet v čase 01:42 nebo rychleji, pokud se chcete vejít pod 3 minuty.Samozřejmě opět nezapomínejte, že máte neomezený počet "flashbacks" takže se nebojte držet plyn na podlaze.
 
-![screen](img/2013-12-01-grid2-achievment-guide/2013-12-01_00009.jpg)
+![screen](/img/2013-12-01-grid2-achievment-guide/2013-12-01_00009.jpg)
 
 Na popisu dalších achievmentů se usilovně pracuje, kdyby Vás zajímal některý konkrétní, tak zanechte zde v komentáři vzkaz. V současné chvíli mi chybí pouze achiev. "Keep Your Friends Close..." a achievy spojené s koupí DLC.

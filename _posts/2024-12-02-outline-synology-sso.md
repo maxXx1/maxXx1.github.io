@@ -7,7 +7,7 @@ tags:
   - "Homelab"
 category: "Docker"
 image: 
-  path: "img/2024-12-02-outline-synology-sso/outline.jpg"
+  path: "/img/2024-12-02-outline-synology-sso/outline.jpg"
   alt: "Zdroj: Blackvoid"
 ---
 

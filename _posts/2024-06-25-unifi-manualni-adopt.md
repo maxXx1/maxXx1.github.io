@@ -5,7 +5,7 @@ tags:
   - "Unifi"
 category: "Síť"
 image: 
-  path: "img/2024-06-25-unifi-manualni-adopt/ubnt-logo.jpg"
+  path: "/img/2024-06-25-unifi-manualni-adopt/ubnt-logo.jpg"
   alt: "UBNT"
 ---
 

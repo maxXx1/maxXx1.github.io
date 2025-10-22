@@ -6,7 +6,7 @@ tags:
   - "Windows-11"
 category: Windows
 image: 
-  path: "img/2024-06-13-chyba-aktualizace-kb5034441/ps.webp"
+  path: "/img/2024-06-13-chyba-aktualizace-kb5034441/ps.webp"
   alt: "Windows 10"
 ---
 

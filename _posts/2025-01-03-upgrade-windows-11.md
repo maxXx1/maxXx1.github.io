@@ -6,7 +6,7 @@ tags:
   - "Windows-10"
 category: "Windows"
 image: 
-  path: "img/2024-07-03-windows11-offline-instalace/w11.png"
+  path: "/img/2024-07-03-windows11-offline-instalace/w11.png"
   alt: "Windows 11"
 ---
 

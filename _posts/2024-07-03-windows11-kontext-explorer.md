@@ -5,7 +5,7 @@ tags:
   - "Widnows-11"
 category: "Windows"
 image: 
-  path: "img/2024-07-03-windows11-kontext-explorer/Windows-11-vs-Windows-10.jpg"
+  path: "/img/2024-07-03-windows11-kontext-explorer/Windows-11-vs-Windows-10.jpg"
   alt: "Windows 11 vs. Windows 10"
 ---
 

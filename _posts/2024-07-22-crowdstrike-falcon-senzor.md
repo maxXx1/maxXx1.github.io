@@ -6,7 +6,7 @@ tags:
   - "Widnows-10"
 category: "Windows"
 image: 
-  path: "img/2024-07-22-crowdstrike-falcon-senzor/crowdstrike.jpg"
+  path: "/img/2024-07-22-crowdstrike-falcon-senzor/crowdstrike.jpg"
   alt: "Crowdstrike"
 ---
 
