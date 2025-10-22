@@ -21,7 +21,7 @@ image:
   - AMD: Radeon série HD 7730/7750/7770 a novější
   - Nvidia: Geforce série 400/500 a novější (s výjimkou Geforce 405)
 - **RAM:** Minimum je 4GB
-- **Pevný disk:** Minimum 64GB, oddíly musí být ve formátu GPT
+- **Pevný disk:** Minimum 64GB, oddíly musí být ve formátu GPT[^footnote]
 - **Zákl. deska:** Bootování pouze v UEFI (s vypnutou emulací legacy BIOSu, tzv. CSM), povinný Secure Boot (Zabezpečené spuštění)
 - **Displej:** HD (720p) s úhlopříčkou větší než 9"
 - **OS:** Windows 10 verze 2004 nebo novější 
@@ -110,6 +110,12 @@ Stačí spustit s parametrem:
 setup /product server 
 ```
 
+Z instalčního flash disku:
+
+```bat
+D:\sources\setupprep.exe /product server
+```
+
 ### Úprava registru
 
 - Otevřete Editor registru (Windows + R -> napište `regedit` a potvrďte)
@@ -147,3 +153,54 @@ Po uplynutí této lhůty je možná pouze čistá instalace.
 
 ![rollback](/img/2025-01-03-upgrade-windows-11/rollback.png)
 
+## MBR na GPT
+
+Převod Windows 10 ze staršího systému BIOS na rozhraní UEFI bez ztráty dat
+
+Pokud počítač nebo základní deska podporuje rozhraní UEFI, můžeš pomocí nástroje `MBR2GPT` přepnout ze staršího systému BIOS na instalaci systému UEFI windows 10 bez ztráty dat.
+
+> Pokud je disk operačního systému Windows 10 zašifrován nástrojem BitLocker, budeš muset disk operačního systému před převodem dešifrovat.
+{: .prompt-warning }
+
+[^footnote]: Systém oddílů GPT je jedním z požadavků Windows 11.
+
+#### Offline převod 
+
+1. Otevřít Nastavení.
+2. Kliknout na Aktualizace a zabezpečení.
+3. Kliknout na Obnovení.
+4. Kliknout na tlačítko Restartovat hned, pod možností "Spuštění s upřesňeným nastavením".
+5. Kliknout na Odstranit potíže.
+6. Kliknout na další možnosti.
+7. Příkazový řádek (vybereme účet správce, pokud možno)
+   
+Zkontrolujeme, jestli je konverze možná, pomocí příkazu:
+
+```shell
+mbr2gpt /validate
+```
+
+Pokud program nevrátí žádnou chybu, tak můžeme přejít ke konverzi
+
+```shell
+mbr2gpt /convert
+```
+
+#### Online převod
+
+1. Klikněte na `Start`
+2. Vyhledejte `cmd` (spustit jako správce)
+   
+Zkontrolujeme, jestli je konverze možná, pomocí příkazu:
+
+```shell
+mbr2gpt /validate /allowFullOS
+```
+
+Pokud program nevrátí žádnou chybu, tak můžeme přejít ke konverzi
+
+```shell
+mbr2gpt /convert /allowFullOS
+```
+
+Nyní můžemě v BIOSu přepnout Legacy na UEFI, popř. vypnout CSM
