@@ -47,6 +47,15 @@ V této fázi se vám již bude:
 - uložiště v `Tento počítač`
 - na jeden klik půjde skrze ActiveSync přtáhnout veškerý zvolený obsah z telefonu/PDA/NDA
 
+## Řešení problémů
+
+Někdy se stává, že služba synchronizace se prostě nespustí, postup na opravu tohoto problému je jednoduchý.
+
+1. Klikněte pravým tlačítkem myši na tlačítko Start, poté klepněte na `Správa počítače`, potom na `Služby a aplikace` a následně na `Služby`.
+2. Najděte službu `Připojení zařízení se systémem Windows Mobile 2003`.
+3. Klepněte na tuto službu pravým tlačítkem myši a změňte nastavení na „spuštěno“, poté přejděte na záložku „přihlášení“ a zaškrtněte volbu „použít místní účet“ a okénko „povolit využití plochy“.
+4. Restartujte počítač.
+
 # Videonávod
 
 {% include embed/youtube.html id='BQG5plsVKkc' %}
