@@ -2,6 +2,7 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 6
+layout: home
 ---
 [![logo](/img/page/logo_v3_w.png)](/about/)
 
