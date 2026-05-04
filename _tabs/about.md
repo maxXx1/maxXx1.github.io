@@ -1,6 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
+<<<<<<< HEAD
 order: 6
 layout: home
 ---
@@ -13,3 +14,10 @@ layout: home
  - [ ] Blogger 2011 - 2015
  - [x] Wordpress 2016 - 2021
  - [x] Ghost 2022 - 2024
+=======
+order: 4
+---
+
+> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+{: .prompt-tip }
+>>>>>>> v7.5.0
