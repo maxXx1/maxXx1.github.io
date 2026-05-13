@@ -25,11 +25,3 @@ package-lock.json
 # Misc
 _sass/vendors
 assets/js/dist
-<<<<<<< HEAD
-
-# Obsidian vault
-.obsidian   
-.DS_Store
-Thumbs.db   
-=======
->>>>>>> v7.5.0
