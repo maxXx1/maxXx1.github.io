@@ -1,9 +1,5 @@
 ---
 layout: tags
 icon: fas fa-tags
-<<<<<<< HEAD
-order: 5
-=======
-order: 2
->>>>>>> v7.5.0
+order: 4
 ---
