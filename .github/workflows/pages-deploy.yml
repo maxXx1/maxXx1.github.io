@@ -28,11 +28,7 @@ jobs:
 
     steps:
       - name: Checkout
-<<<<<<< HEAD
-        uses: actions/checkout@v4
-=======
         uses: actions/checkout@v6
->>>>>>> v7.5.0
         with:
           fetch-depth: 0
           # submodules: true
@@ -41,20 +37,12 @@ jobs:
 
       - name: Setup Pages
         id: pages
-<<<<<<< HEAD
-        uses: actions/configure-pages@v4
-=======
         uses: actions/configure-pages@v5
->>>>>>> v7.5.0
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-<<<<<<< HEAD
-          ruby-version: 3.3
-=======
           ruby-version: 3.4
->>>>>>> v7.5.0
           bundler-cache: true
 
       - name: Build site
@@ -69,11 +57,7 @@ jobs:
             \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 
       - name: Upload site artifact
-<<<<<<< HEAD
-        uses: actions/upload-pages-artifact@v3
-=======
         uses: actions/upload-pages-artifact@v4
->>>>>>> v7.5.0
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
 
